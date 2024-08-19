@@ -69,33 +69,40 @@ with tab1:
         if search_clicked and from_city and to_city:
             route = normalize_city_pair(from_city, to_city)
             travel_details = trip_data[trip_data['route'] == route]
+            note = "<p style='font-family: monospace; font-size: small;'> Please take into account the travel time to/from airport and waiting time.</p>"
+            st.markdown(note, unsafe_allow_html=True)
             if not travel_details.empty:
                 travel_info = travel_details.iloc[0]
                 # st.write(f"Traveling from {from_city} to {to_city} will take {hours} h {minutes} min by train.")
                 # st.write(f"Train CO2 emissions: {travel_info['Train_CO2_kg']} kg")
                 # st.write(f"Plane CO2 emissions: {travel_info['Plane_CO2_kg']} kg")
-                # Convert duration to minutes
-                def duration_to_min(duration_str):
+
+                # Convert duration to "hours:minutes" string
+                def duration_to_str(duration_str):
                     hours, minutes = map(int, duration_str.split(':'))
-                    return hours * 60 + minutes
+                    return f"{hours:02}:{minutes:02}"
 
                 # Prepare the data for the duration bar chart
                 duration_data = pd.DataFrame({
                     'Mode': ['Train', 'Plane'],
                     'Duration': [
-                        duration_to_min(travel_info['Duration_train']),
-                        duration_to_min(travel_info['Duration_plane'])
+                        duration_to_str(travel_info['Duration_train']),
+                        duration_to_str(travel_info['Duration_plane'])
                     ],
-                    'Duration_str': [travel_info['Duration_train'], travel_info['Duration_plane']]
+                    'Duration_minutes': [
+                        int(travel_info['Duration_train'].split(':')[0]) * 60 + int(travel_info['Duration_train'].split(':')[1]),
+                        int(travel_info['Duration_plane'].split(':')[0]) * 60 + int(travel_info['Duration_plane'].split(':')[1])
+                    ]
                 })
 
                 # Create the duration bar chart
                 duration_chart = alt.Chart(duration_data).mark_bar().encode(
                     y=alt.Y('Mode', title=None),
-                    x=alt.X('Duration:Q', title='Duration (hours)',
-                        axis=alt.Axis(labelExpr='round(datum.value / 60)')),
+                    x=alt.X('Duration_minutes:Q', title='Duration (hours)',
+                            axis=alt.Axis(format='~s', tickCount=5,
+                                          labelExpr='datum.value >= 60 ? format(datum.value / 60, "d") + "h " + format(datum.value % 60, "02") + "m" : format(datum.value, "02") + "m"')),
                     color=alt.Color('Mode', legend=None).scale(scheme="redyellowgreen"),
-                    tooltip=[alt.Tooltip('Mode', title='Mode'), alt.Tooltip('Duration_str', title='Duration')]
+                    tooltip=[alt.Tooltip('Mode', title='Mode'), alt.Tooltip('Duration', title='Duration')]
                 ).properties(
                     title='Travel Duration'
                 )
@@ -182,24 +189,23 @@ with tab2:
         if search_clicked and from_city and to_city:
             route = normalize_city_pair(from_city, to_city)
             travel_details = trip_data[trip_data['route'] == route]
+            note = "<p style='font-family: monospace; font-size: small;'> Please note that duration time for a plane includes trip to/from airport and waiting time.</p>"
+            st.markdown(note, unsafe_allow_html=True)
             if not travel_details.empty:
                 travel_info = travel_details.iloc[0]
-                # st.write(f"Traveling from {from_city} to {to_city} will take {hours} h {minutes} min by train.")
-                # st.write(f"Train CO2 emissions: {travel_info['Train_CO2_kg']} kg")
-                # st.write(f"Plane CO2 emissions: {travel_info['Plane_CO2_kg']} kg")
                 # Convert duration to minutes
                 def duration_to_min(duration_str):
                     hours, minutes = map(int, duration_str.split(':'))
                     return hours * 60 + minutes
 
-                # Prepare the data for the duration bar chart
+                # Prepare the data for the duration bar chart (in this version plane duration includes trip to/from airport and waiting time)
                 duration_data = pd.DataFrame({
                     'Mode': ['Train', 'Plane'],
                     'Duration': [
                         duration_to_min(travel_info['Duration_train']),
-                        duration_to_min(travel_info['Duration_plane'])
+                        duration_to_min(travel_info['Duration_plane_total'])
                     ],
-                    'Duration_str': [travel_info['Duration_train'], travel_info['Duration_plane']]
+                    'Duration_str': [travel_info['Duration_train'], travel_info['Duration_plane_total']]
                 })
 
                 # Create the duration bar chart
@@ -213,6 +219,14 @@ with tab2:
                     title='Travel Duration'
                 )
                 st.altair_chart(duration_chart, use_container_width=True)
+
+                # # Add the text note below the chart
+                # note = """
+                # <p style='font-family: monospace; font-size: small; margin: 0; padding: 0;'>
+                #     Please note that duration time for a plane includes trip to/from airport and waiting time.
+                # </p>
+                # """
+                # st.markdown(note, unsafe_allow_html=True)
 
                 # Create emissions bar chart
                 emissions_data = pd.DataFrame({
