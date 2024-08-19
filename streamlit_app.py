@@ -3,8 +3,8 @@ import pandas as pd
 import altair as alt
 
 # Load the trip and coordinates data
-trip_data = pd.read_csv('trips_data.csv')
-coordinates_data = pd.read_csv('coordinates.csv')
+trip_data = pd.read_csv('data/trips_data.csv')
+coordinates_data = pd.read_csv('data/coordinates.csv')
 
 # Strip any leading or trailing spaces from column names
 coordinates_data.columns = coordinates_data.columns.str.strip()
@@ -14,7 +14,7 @@ trip_data.columns = trip_data.columns.str.strip()
 def normalize_city_pair(city1, city2):
     return '-'.join(sorted([city1, city2]))
 
-trip_data['route'] = trip_data.apply(lambda row: normalize_city_pair(row['city1'], row['city2']), axis=1)
+trip_data['route'] = trip_data.apply(lambda row: normalize_city_pair(row['City_1'], row['City_2']), axis=1)
 
 # Function to create the base map with all cities
 def create_base_map():
@@ -103,6 +103,12 @@ with col2:
         from_city_data = coordinates_data[coordinates_data['city'] == from_city].iloc[0]
         to_city_data = coordinates_data[coordinates_data['city'] == to_city].iloc[0]
 
+        # Add the Plane_CO2_kg and Train_CO2_kg to to_city_data for the tooltip
+        to_city_data = to_city_data.append(pd.Series({
+            'Plane_CO2_kg': travel_info['Plane_CO2_kg'],
+            'Train_CO2_kg': travel_info['Train_CO2_kg']
+        }))
+
         # Highlight the "From" and "To" cities
         from_point = alt.Chart(pd.DataFrame([from_city_data])).mark_circle(color='green', size=200).encode(
             longitude='longitude:Q',
@@ -110,14 +116,20 @@ with col2:
             tooltip=['city:N']
         )
 
-        to_point = alt.Chart(pd.DataFrame([to_city_data])).mark_circle(color='red', size=200).encode(
+        to_point_plane = alt.Chart(pd.DataFrame([to_city_data])).mark_circle(color='red', size=travel_info['Plane_CO2_kg']*10).encode(
             longitude='longitude:Q',
             latitude='latitude:Q',
-            tooltip=['city:N']
+            tooltip=['city:N', 'Plane_CO2_kg:Q']
+        )
+
+        to_point_train = alt.Chart(pd.DataFrame([to_city_data])).mark_circle(color='green', size=travel_info['Train_CO2_kg']*10).encode(
+            longitude='longitude:Q',
+            latitude='latitude:Q',
+            tooltip=['city:N', 'Train_CO2_kg:Q']
         )
 
         # Combine the map with highlighted cities
-        map_with_cities += from_point + to_point
+        map_with_cities += from_point + to_point_plane + to_point_train
 
     # Display the map
     st.altair_chart(map_with_cities, use_container_width=True)
