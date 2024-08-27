@@ -11,8 +11,7 @@ This project is a web application that helps users compare the CO2 emissions and
 
 ## Scope and Limitations
 
-- route planning is limited to 29 cities in mainland Europe within the Schengen area (plus London and Istanbul)
-- with an international airport and direct rail connection (without ferry crossing)
+- Route planning is limited to 29 cities in mainland Europe within the Schengen area (plus London and Istanbul), with an international airport and direct rail connection (without ferry crossing).
 
 ## Project Structure
 
