@@ -1,6 +1,6 @@
 # Sustainable Travel Planner
 
-This project is a web application that helps users compare the CO2 emissions and travel duration between train and plane for their trips. The application is built using [Streamlit]([url](https://streamlit.io/)), visualisation created on [Vega-Altair]([url](https://altair-viz.github.io/)).
+This project is a web application that helps users compare the CO2 emissions and travel duration between train and plane for their trips. The application is built using [Streamlit](https://streamlit.io/), visualisation created on [Vega-Altair](https://altair-viz.github.io/).
 
 ## Features
 
