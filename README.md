@@ -9,6 +9,11 @@ This project is a web application that helps users compare the CO2 emissions and
 - Support for round trips and multiple passengers.
 - Dynamic updates based on selected cities.
 
+## Scope and Limitations
+
+- route planning is limited to 29 cities in mainland Europe within the Schengen area (plus London and Istanbul)
+- with an international airport and direct rail connection (without ferry crossing)
+
 ## Project Structure
 
 - `streamlit_app.py`: Main application file.
