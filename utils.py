@@ -5,9 +5,9 @@ import json
 import os
 
 # Load the trip and coordinates data and clean up the column names
-trip_data = pd.read_csv('../py_notebook/data/trips_data.csv')
+trip_data = pd.read_csv('../data/trips_data.csv')
 trip_data.columns = trip_data.columns.str.strip()
-coordinates_data = pd.read_csv('../py_notebook/data/coordinates.csv')
+coordinates_data = pd.read_csv('../data/coordinates.csv')
 coordinates_data.columns = coordinates_data.columns.str.strip()
 
 # Normalize city pairs in trip data
@@ -46,7 +46,7 @@ def create_base_map():
 def load_geojson_route(from_city, to_city):
     sorted_cities = sorted([from_city, to_city])
     file_name = f"{sorted_cities[0]}_{sorted_cities[1]}.geojson"
-    file_path = os.path.join('../py_notebook/geojson_files', file_name)
+    file_path = os.path.join('../geojson_files', file_name)
 
     # Load GeoJSON file
     if os.path.exists(file_path):

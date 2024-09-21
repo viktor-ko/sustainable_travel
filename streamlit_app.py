@@ -1,3 +1,4 @@
+# Routing Page
 import streamlit as st
 # Set the app layout to "wide" mode
 st.set_page_config(layout="wide")
@@ -10,8 +11,5 @@ hide_sidebar_style = """
         }
     </style>
 """
-
 # Inject the CSS into the app
 st.markdown(hide_sidebar_style, unsafe_allow_html=True)
-
-# st.title("Routing Page")

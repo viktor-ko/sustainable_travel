@@ -20,4 +20,4 @@ hide_sidebar_style = """
 # Inject the CSS into the app
 st.markdown(hide_sidebar_style, unsafe_allow_html=True)
 
-st.title("Ver 2")
+st.title("Ver 3")
