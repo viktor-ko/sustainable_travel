@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.369402,
+                        52.5250839
+                    ],
+                    [
+                        11.554814,
+                        48.13993
+                    ],
+                    [
+                        13.0450707,
+                        47.8130704
+                    ],
+                    [
+                        15.97851,
+                        45.81491
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Zagreb"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Zagreb",
+                "stop_name": "Berlin",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.554814,
+                    48.13993
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Zagreb",
+                "stop_name": "M\u00fcnchen Hbf Gl.5-10",
+                "latitude": 48.13993,
+                "longitude": 11.554814
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.0450707,
+                    47.8130704
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Zagreb",
+                "stop_name": "Salzburg",
+                "latitude": 47.8130704,
+                "longitude": 13.0450707
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.97851,
+                    45.81491
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Zagreb",
+                "stop_name": "Zagreb",
+                "latitude": 45.81491,
+                "longitude": 15.97851
+            }
+        }
+    ]
+}

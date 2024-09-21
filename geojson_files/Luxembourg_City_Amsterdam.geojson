@@ -1,0 +1,143 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        6.1320023,
+                        49.6114429
+                    ],
+                    [
+                        6.1353394,
+                        49.6140303
+                    ],
+                    [
+                        6.1327722,
+                        49.6186089
+                    ],
+                    [
+                        5.566698,
+                        50.624551
+                    ],
+                    [
+                        4.33548,
+                        50.83522
+                    ],
+                    [
+                        4.89066,
+                        52.37317
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Amsterdam"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1320023,
+                    49.6114429
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Amsterdam",
+                "stop_name": "Luxembourg City",
+                "latitude": 49.6114429,
+                "longitude": 6.1320023
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1353394,
+                    49.6140303
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Amsterdam",
+                "stop_name": "Vauban Quai 1",
+                "latitude": 49.6140303,
+                "longitude": 6.1353394
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1327722,
+                    49.6186089
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Amsterdam",
+                "stop_name": "Pfaffenthal-Kirchberg",
+                "latitude": 49.6186089,
+                "longitude": 6.1327722
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.566698,
+                    50.624551
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Amsterdam",
+                "stop_name": "Liege-Guillemins",
+                "latitude": 50.624551,
+                "longitude": 5.566698
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.33548,
+                    50.83522
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Amsterdam",
+                "stop_name": "Brussels South/Midi Train Station",
+                "latitude": 50.83522,
+                "longitude": 4.33548
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.89066,
+                    52.37317
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Amsterdam",
+                "stop_name": "Amsterdam",
+                "latitude": 52.37317,
+                "longitude": 4.89066
+            }
+        }
+    ]
+}

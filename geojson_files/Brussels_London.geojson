@@ -1,0 +1,80 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        4.3570964,
+                        50.845504
+                    ],
+                    [
+                        4.3354547,
+                        50.8360867
+                    ],
+                    [
+                        -0.12624,
+                        51.50015
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "London"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3570964,
+                    50.845504
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "London",
+                "stop_name": "Brussels",
+                "latitude": 50.845504,
+                "longitude": 4.3570964
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3354547,
+                    50.8360867
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "London",
+                "stop_name": "Brussels South/Midi Train Station",
+                "latitude": 50.8360867,
+                "longitude": 4.3354547
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.12624,
+                    51.50015
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "London",
+                "stop_name": "London",
+                "latitude": 51.50015,
+                "longitude": -0.12624
+            }
+        }
+    ]
+}

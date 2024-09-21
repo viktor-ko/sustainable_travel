@@ -1,0 +1,122 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        7.4358441,
+                        46.9481634
+                    ],
+                    [
+                        7.5913435,
+                        47.5463242
+                    ],
+                    [
+                        7.5897064,
+                        47.5475873
+                    ],
+                    [
+                        7.73388,
+                        48.58511
+                    ],
+                    [
+                        2.35085,
+                        48.85689
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Paris"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4358441,
+                    46.9481634
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Paris",
+                "stop_name": "Bern",
+                "latitude": 46.9481634,
+                "longitude": 7.4358441
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.5913435,
+                    47.5463242
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Paris",
+                "stop_name": "Basel, Switzerland",
+                "latitude": 47.5463242,
+                "longitude": 7.5913435
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.5897064,
+                    47.5475873
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Paris",
+                "stop_name": "Basel SBB",
+                "latitude": 47.5475873,
+                "longitude": 7.5897064
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.73388,
+                    48.58511
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Paris",
+                "stop_name": "Strasbourg",
+                "latitude": 48.58511,
+                "longitude": 7.73388
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35085,
+                    48.85689
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Paris",
+                "stop_name": "Paris",
+                "latitude": 48.85689,
+                "longitude": 2.35085
+            }
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        12.564617,
+                        55.672722
+                    ],
+                    [
+                        10.0066369,
+                        53.552993
+                    ],
+                    [
+                        7.8827206,
+                        49.9689158
+                    ],
+                    [
+                        7.7686485,
+                        49.4362405
+                    ],
+                    [
+                        2.35085,
+                        48.85689
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Paris"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.564617,
+                    55.672722
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Paris",
+                "stop_name": "Copenhagen",
+                "latitude": 55.672722,
+                "longitude": 12.564617
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.0066369,
+                    53.552993
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Paris",
+                "stop_name": "Hamburg Central Station",
+                "latitude": 53.552993,
+                "longitude": 10.0066369
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.8827206,
+                    49.9689158
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Paris",
+                "stop_name": "Bingen am Rhein Hauptbahnhof",
+                "latitude": 49.9689158,
+                "longitude": 7.8827206
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.7686485,
+                    49.4362405
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Paris",
+                "stop_name": "Kaiserslautern Hbf",
+                "latitude": 49.4362405,
+                "longitude": 7.7686485
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35085,
+                    48.85689
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Paris",
+                "stop_name": "Paris",
+                "latitude": 48.85689,
+                "longitude": 2.35085
+            }
+        }
+    ]
+}

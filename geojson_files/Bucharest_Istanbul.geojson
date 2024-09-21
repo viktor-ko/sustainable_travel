@@ -1,0 +1,122 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        26.073892,
+                        44.446634
+                    ],
+                    [
+                        28.766726,
+                        41.018528
+                    ],
+                    [
+                        28.950554,
+                        41.005421
+                    ],
+                    [
+                        28.8893384,
+                        41.0372505
+                    ],
+                    [
+                        28.9748,
+                        41.013
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Istanbul"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Istanbul",
+                "stop_name": "Bucharest",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.766726,
+                    41.018528
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Istanbul",
+                "stop_name": "Halkal\u0131",
+                "latitude": 41.018528,
+                "longitude": 28.766726
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.950554,
+                    41.005421
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Istanbul",
+                "stop_name": "Yen\u0131kap\u0131",
+                "latitude": 41.005421,
+                "longitude": 28.950554
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.8893384,
+                    41.0372505
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Istanbul",
+                "stop_name": "Otogar Yolu",
+                "latitude": 41.0372505,
+                "longitude": 28.8893384
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.9748,
+                    41.013
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Istanbul",
+                "stop_name": "Istanbul",
+                "latitude": 41.013,
+                "longitude": 28.9748
+            }
+        }
+    ]
+}

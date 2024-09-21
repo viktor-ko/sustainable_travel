@@ -1,0 +1,164 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.12624,
+                        51.50015
+                    ],
+                    [
+                        4.3354547,
+                        50.8360867
+                    ],
+                    [
+                        4.900632,
+                        52.37908
+                    ],
+                    [
+                        13.49743,
+                        52.51028
+                    ],
+                    [
+                        14.6449248,
+                        52.5913563
+                    ],
+                    [
+                        20.9655106,
+                        52.2194795
+                    ],
+                    [
+                        25.27986,
+                        54.68946
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Vilnius"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.12624,
+                    51.50015
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Vilnius",
+                "stop_name": "London",
+                "latitude": 51.50015,
+                "longitude": -0.12624
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3354547,
+                    50.8360867
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Vilnius",
+                "stop_name": "Brussels South/Midi Train Station",
+                "latitude": 50.8360867,
+                "longitude": 4.3354547
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.900632,
+                    52.37908
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Vilnius",
+                "stop_name": "Amsterdam Centraal",
+                "latitude": 52.37908,
+                "longitude": 4.900632
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.49743,
+                    52.51028
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Vilnius",
+                "stop_name": "Berlin",
+                "latitude": 52.51028,
+                "longitude": 13.49743
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.6449248,
+                    52.5913563
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Vilnius",
+                "stop_name": "Kostrzy\u0144 nad Odr\u0105, Poland",
+                "latitude": 52.5913563,
+                "longitude": 14.6449248
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.9655106,
+                    52.2194795
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Vilnius",
+                "stop_name": "Warsaw West",
+                "latitude": 52.2194795,
+                "longitude": 20.9655106
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.27986,
+                    54.68946
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Vilnius",
+                "stop_name": "Vilnius",
+                "latitude": 54.68946,
+                "longitude": 25.27986
+            }
+        }
+    ]
+}

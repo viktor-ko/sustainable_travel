@@ -1,0 +1,311 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        12.5308661,
+                        41.9108193
+                    ],
+                    [
+                        11.2479159,
+                        43.7766715
+                    ],
+                    [
+                        10.9824979,
+                        45.4290202
+                    ],
+                    [
+                        11.558335,
+                        48.140232
+                    ],
+                    [
+                        10.0066369,
+                        53.552993
+                    ],
+                    [
+                        12.5648118,
+                        55.6727679
+                    ],
+                    [
+                        13.1869731,
+                        55.7067651
+                    ],
+                    [
+                        18.0582377,
+                        59.3301476
+                    ],
+                    [
+                        18.0596706,
+                        59.3310867
+                    ],
+                    [
+                        18.1021904,
+                        59.3479089
+                    ],
+                    [
+                        18.115221,
+                        59.351048
+                    ],
+                    [
+                        24.7692625,
+                        59.4437217
+                    ],
+                    [
+                        24.7799165,
+                        59.4435679
+                    ],
+                    [
+                        24.7532,
+                        59.44269
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Tallinn"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.5308661,
+                    41.9108193
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Tallinn",
+                "stop_name": "Rome",
+                "latitude": 41.9108193,
+                "longitude": 12.5308661
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.2479159,
+                    43.7766715
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Tallinn",
+                "stop_name": "Firenze Santa Maria Novella",
+                "latitude": 43.7766715,
+                "longitude": 11.2479159
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.9824979,
+                    45.4290202
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Tallinn",
+                "stop_name": "Verona Porta Nuova",
+                "latitude": 45.4290202,
+                "longitude": 10.9824979
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.558335,
+                    48.140232
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Tallinn",
+                "stop_name": "M\u00fcnchen Hbf Gl.5-10",
+                "latitude": 48.140232,
+                "longitude": 11.558335
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.0066369,
+                    53.552993
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Tallinn",
+                "stop_name": "Hamburg Central Station",
+                "latitude": 53.552993,
+                "longitude": 10.0066369
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.5648118,
+                    55.6727679
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Tallinn",
+                "stop_name": "K\u00f6benhavn H",
+                "latitude": 55.6727679,
+                "longitude": 12.5648118
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.1869731,
+                    55.7067651
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Tallinn",
+                "stop_name": "Lund C",
+                "latitude": 55.7067651,
+                "longitude": 13.1869731
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.0582377,
+                    59.3301476
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Tallinn",
+                "stop_name": "Stockholm Metropolitan Area, Sweden",
+                "latitude": 59.3301476,
+                "longitude": 18.0582377
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.0596706,
+                    59.3310867
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Tallinn",
+                "stop_name": "T-Centralen",
+                "latitude": 59.3310867,
+                "longitude": 18.0596706
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.1021904,
+                    59.3479089
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Tallinn",
+                "stop_name": "Stockholm Metropolitan Area, Sweden",
+                "latitude": 59.3479089,
+                "longitude": 18.1021904
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.115221,
+                    59.351048
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Tallinn",
+                "stop_name": "Stockholm",
+                "latitude": 59.351048,
+                "longitude": 18.115221
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7692625,
+                    59.4437217
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Tallinn",
+                "stop_name": "Tallinn, Estonia",
+                "latitude": 59.4437217,
+                "longitude": 24.7692625
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7799165,
+                    59.4435679
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Tallinn",
+                "stop_name": "Pikksilma",
+                "latitude": 59.4435679,
+                "longitude": 24.7799165
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7532,
+                    59.44269
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Tallinn",
+                "stop_name": "Tallinn",
+                "latitude": 59.44269,
+                "longitude": 24.7532
+            }
+        }
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.5122127,
+                        46.05823
+                    ],
+                    [
+                        15.658011,
+                        46.562065
+                    ],
+                    [
+                        16.3765973,
+                        48.1851873
+                    ],
+                    [
+                        21.0512789,
+                        52.2522815
+                    ],
+                    [
+                        23.1351217,
+                        53.1341886
+                    ],
+                    [
+                        23.135389,
+                        53.132833
+                    ],
+                    [
+                        25.2484794,
+                        54.6739261
+                    ],
+                    [
+                        25.2771654,
+                        54.683721
+                    ],
+                    [
+                        25.27986,
+                        54.68946
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Vilnius"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.5122127,
+                    46.05823
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Vilnius",
+                "stop_name": "Ljubljana",
+                "latitude": 46.05823,
+                "longitude": 14.5122127
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.658011,
+                    46.562065
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Vilnius",
+                "stop_name": "\u017delezni\u0161ka postaja Maribor",
+                "latitude": 46.562065,
+                "longitude": 15.658011
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3765973,
+                    48.1851873
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Vilnius",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.1851873,
+                "longitude": 16.3765973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.0512789,
+                    52.2522815
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Vilnius",
+                "stop_name": "Warsaw East Station",
+                "latitude": 52.2522815,
+                "longitude": 21.0512789
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.1351217,
+                    53.1341886
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Vilnius",
+                "stop_name": "Bialystok, Poland",
+                "latitude": 53.1341886,
+                "longitude": 23.1351217
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.135389,
+                    53.132833
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Vilnius",
+                "stop_name": "Bialystok, Bus Station",
+                "latitude": 53.132833,
+                "longitude": 23.135389
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.2484794,
+                    54.6739261
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Vilnius",
+                "stop_name": "Savanori\u0173 prospektas 176",
+                "latitude": 54.6739261,
+                "longitude": 25.2484794
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.2771654,
+                    54.683721
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Vilnius",
+                "stop_name": "Vilnius, Lithuania",
+                "latitude": 54.683721,
+                "longitude": 25.2771654
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.27986,
+                    54.68946
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Vilnius",
+                "stop_name": "Vilnius",
+                "latitude": 54.68946,
+                "longitude": 25.27986
+            }
+        }
+    ]
+}

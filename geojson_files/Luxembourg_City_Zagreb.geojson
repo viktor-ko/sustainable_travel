@@ -1,0 +1,164 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        6.134396,
+                        49.599714
+                    ],
+                    [
+                        6.652453,
+                        49.756846
+                    ],
+                    [
+                        6.991021,
+                        49.241065
+                    ],
+                    [
+                        8.468921,
+                        49.479354
+                    ],
+                    [
+                        11.461872,
+                        48.149852
+                    ],
+                    [
+                        11.604971,
+                        48.12744
+                    ],
+                    [
+                        15.97851,
+                        45.81491
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Zagreb"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.134396,
+                    49.599714
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Zagreb",
+                "stop_name": "Luxembourg City",
+                "latitude": 49.599714,
+                "longitude": 6.134396
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.652453,
+                    49.756846
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Zagreb",
+                "stop_name": "Trier",
+                "latitude": 49.756846,
+                "longitude": 6.652453
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.991021,
+                    49.241065
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Zagreb",
+                "stop_name": "Saarbr\u00fccken Hbf",
+                "latitude": 49.241065,
+                "longitude": 6.991021
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.468921,
+                    49.479354
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Zagreb",
+                "stop_name": "Mannheim",
+                "latitude": 49.479354,
+                "longitude": 8.468921
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.461872,
+                    48.149852
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Zagreb",
+                "stop_name": "Munich-Pasing",
+                "latitude": 48.149852,
+                "longitude": 11.461872
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.604971,
+                    48.12744
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Zagreb",
+                "stop_name": "Munich east",
+                "latitude": 48.12744,
+                "longitude": 11.604971
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.97851,
+                    45.81491
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Zagreb",
+                "stop_name": "Zagreb",
+                "latitude": 45.81491,
+                "longitude": 15.97851
+            }
+        }
+    ]
+}

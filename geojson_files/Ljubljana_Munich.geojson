@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.5122127,
+                        46.05823
+                    ],
+                    [
+                        14.0548417,
+                        46.4363972
+                    ],
+                    [
+                        13.8486717,
+                        46.6182386
+                    ],
+                    [
+                        11.58022,
+                        48.13913
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Munich"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.5122127,
+                    46.05823
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Munich",
+                "stop_name": "Ljubljana",
+                "latitude": 46.05823,
+                "longitude": 14.5122127
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.0548417,
+                    46.4363972
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Munich",
+                "stop_name": "Jesenice",
+                "latitude": 46.4363972,
+                "longitude": 14.0548417
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.8486717,
+                    46.6182386
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Munich",
+                "stop_name": "Villach Hbf",
+                "latitude": 46.6182386,
+                "longitude": 13.8486717
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.58022,
+                    48.13913
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Munich",
+                "stop_name": "Munich",
+                "latitude": 48.13913,
+                "longitude": 11.58022
+            }
+        }
+    ]
+}

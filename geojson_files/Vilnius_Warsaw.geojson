@@ -1,0 +1,143 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        25.2842932,
+                        54.6703567
+                    ],
+                    [
+                        23.932767,
+                        54.8859184
+                    ],
+                    [
+                        23.928025,
+                        54.889395
+                    ],
+                    [
+                        22.9224132,
+                        54.0991957
+                    ],
+                    [
+                        22.9454595,
+                        54.1060009
+                    ],
+                    [
+                        21.00849,
+                        52.23498
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Vilnius",
+                "End": "Warsaw"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.2842932,
+                    54.6703567
+                ]
+            },
+            "properties": {
+                "Start": "Vilnius",
+                "End": "Warsaw",
+                "stop_name": "Vilnius",
+                "latitude": 54.6703567,
+                "longitude": 25.2842932
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.932767,
+                    54.8859184
+                ]
+            },
+            "properties": {
+                "Start": "Vilnius",
+                "End": "Warsaw",
+                "stop_name": "Kaunas, Lithuania",
+                "latitude": 54.8859184,
+                "longitude": 23.932767
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.928025,
+                    54.889395
+                ]
+            },
+            "properties": {
+                "Start": "Vilnius",
+                "End": "Warsaw",
+                "stop_name": "Kaunas, Bus Station",
+                "latitude": 54.889395,
+                "longitude": 23.928025
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.9224132,
+                    54.0991957
+                ]
+            },
+            "properties": {
+                "Start": "Vilnius",
+                "End": "Warsaw",
+                "stop_name": "Suwalki, Poland",
+                "latitude": 54.0991957,
+                "longitude": 22.9224132
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.9454595,
+                    54.1060009
+                ]
+            },
+            "properties": {
+                "Start": "Vilnius",
+                "End": "Warsaw",
+                "stop_name": "Suwalki",
+                "latitude": 54.1060009,
+                "longitude": 22.9454595
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.00849,
+                    52.23498
+                ]
+            },
+            "properties": {
+                "Start": "Vilnius",
+                "End": "Warsaw",
+                "stop_name": "Warsaw",
+                "latitude": 52.23498,
+                "longitude": 21.00849
+            }
+        }
+    ]
+}

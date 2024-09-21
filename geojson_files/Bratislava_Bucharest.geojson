@@ -1,0 +1,122 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        17.1062057,
+                        48.1586781
+                    ],
+                    [
+                        19.0577611,
+                        47.510468
+                    ],
+                    [
+                        19.1492484,
+                        47.4634574
+                    ],
+                    [
+                        20.175698,
+                        47.179558
+                    ],
+                    [
+                        26.10222,
+                        44.43558
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Bucharest"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1062057,
+                    48.1586781
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Bucharest",
+                "stop_name": "Bratislava",
+                "latitude": 48.1586781,
+                "longitude": 17.1062057
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0577611,
+                    47.510468
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Bucharest",
+                "stop_name": "Nyugati pu",
+                "latitude": 47.510468,
+                "longitude": 19.0577611
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.1492484,
+                    47.4634574
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Bucharest",
+                "stop_name": "K\u0151b\u00e1nya-Kispest",
+                "latitude": 47.4634574,
+                "longitude": 19.1492484
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.175698,
+                    47.179558
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Bucharest",
+                "stop_name": "Szolnok",
+                "latitude": 47.179558,
+                "longitude": 20.175698
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.10222,
+                    44.43558
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Bucharest",
+                "stop_name": "Bucharest",
+                "latitude": 44.43558,
+                "longitude": 26.10222
+            }
+        }
+    ]
+}

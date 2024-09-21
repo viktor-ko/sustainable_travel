@@ -1,0 +1,143 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        7.43913,
+                        46.948832
+                    ],
+                    [
+                        8.5366672,
+                        47.3785405
+                    ],
+                    [
+                        8.9464209,
+                        46.0057891
+                    ],
+                    [
+                        8.946899,
+                        46.0048807
+                    ],
+                    [
+                        9.204822,
+                        45.487137
+                    ],
+                    [
+                        12.49427,
+                        41.89056
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Rome"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.43913,
+                    46.948832
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Rome",
+                "stop_name": "Bern",
+                "latitude": 46.948832,
+                "longitude": 7.43913
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5366672,
+                    47.3785405
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Rome",
+                "stop_name": "Zurich HB",
+                "latitude": 47.3785405,
+                "longitude": 8.5366672
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.9464209,
+                    46.0057891
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Rome",
+                "stop_name": "Lugano, Switzerland",
+                "latitude": 46.0057891,
+                "longitude": 8.9464209
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.946899,
+                    46.0048807
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Rome",
+                "stop_name": "Lugano",
+                "latitude": 46.0048807,
+                "longitude": 8.946899
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.204822,
+                    45.487137
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Rome",
+                "stop_name": "Milano Centrale Railway Station",
+                "latitude": 45.487137,
+                "longitude": 9.204822
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.49427,
+                    41.89056
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Rome",
+                "stop_name": "Rome",
+                "latitude": 41.89056,
+                "longitude": 12.49427
+            }
+        }
+    ]
+}

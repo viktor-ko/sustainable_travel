@@ -1,0 +1,59 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        19.0216485,
+                        47.4651712
+                    ],
+                    [
+                        16.37278,
+                        48.20921
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Vienna"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0216485,
+                    47.4651712
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Vienna",
+                "stop_name": "Budapest",
+                "latitude": 47.4651712,
+                "longitude": 19.0216485
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.37278,
+                    48.20921
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Vienna",
+                "stop_name": "Vienna",
+                "latitude": 48.20921,
+                "longitude": 16.37278
+            }
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        26.073892,
+                        44.446634
+                    ],
+                    [
+                        21.2376825,
+                        46.4320143
+                    ],
+                    [
+                        19.0839882,
+                        47.5004423
+                    ],
+                    [
+                        16.37278,
+                        48.20921
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Vienna"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Vienna",
+                "stop_name": "Bucharest",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.2376825,
+                    46.4320143
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Vienna",
+                "stop_name": "L\u0151k\u00f6sh\u00e1za",
+                "latitude": 46.4320143,
+                "longitude": 21.2376825
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Vienna",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.37278,
+                    48.20921
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Vienna",
+                "stop_name": "Vienna",
+                "latitude": 48.20921,
+                "longitude": 16.37278
+            }
+        }
+    ]
+}

@@ -1,0 +1,143 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        17.1062057,
+                        48.1586781
+                    ],
+                    [
+                        16.918833,
+                        48.2494275
+                    ],
+                    [
+                        16.3765973,
+                        48.1851873
+                    ],
+                    [
+                        15.4162709,
+                        47.0727515
+                    ],
+                    [
+                        15.658011,
+                        46.562065
+                    ],
+                    [
+                        14.50597,
+                        46.05143
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Ljubljana"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1062057,
+                    48.1586781
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Ljubljana",
+                "stop_name": "Bratislava",
+                "latitude": 48.1586781,
+                "longitude": 17.1062057
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.918833,
+                    48.2494275
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Ljubljana",
+                "stop_name": "Marchegg",
+                "latitude": 48.2494275,
+                "longitude": 16.918833
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3765973,
+                    48.1851873
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Ljubljana",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.1851873,
+                "longitude": 16.3765973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4162709,
+                    47.0727515
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Ljubljana",
+                "stop_name": "Graz Main Station",
+                "latitude": 47.0727515,
+                "longitude": 15.4162709
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.658011,
+                    46.562065
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Ljubljana",
+                "stop_name": "\u017delezni\u0161ka postaja Maribor",
+                "latitude": 46.562065,
+                "longitude": 15.658011
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.50597,
+                    46.05143
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Ljubljana",
+                "stop_name": "Ljubljana",
+                "latitude": 46.05143,
+                "longitude": 14.50597
+            }
+        }
+    ]
+}

@@ -1,0 +1,185 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.369402,
+                        52.5250839
+                    ],
+                    [
+                        11.08194,
+                        49.44639
+                    ],
+                    [
+                        14.0265202,
+                        48.166036
+                    ],
+                    [
+                        14.2911898,
+                        48.2905327
+                    ],
+                    [
+                        16.3765973,
+                        48.1851873
+                    ],
+                    [
+                        16.58673,
+                        47.677904
+                    ],
+                    [
+                        17.6344396,
+                        47.6822129
+                    ],
+                    [
+                        19.04055,
+                        47.49814
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Budapest"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Budapest",
+                "stop_name": "Berlin",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.08194,
+                    49.44639
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Budapest",
+                "stop_name": "N\u00fcrnberg Hbf",
+                "latitude": 49.44639,
+                "longitude": 11.08194
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.0265202,
+                    48.166036
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Budapest",
+                "stop_name": "Wels",
+                "latitude": 48.166036,
+                "longitude": 14.0265202
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.2911898,
+                    48.2905327
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Budapest",
+                "stop_name": "Linz Hbf",
+                "latitude": 48.2905327,
+                "longitude": 14.2911898
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3765973,
+                    48.1851873
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Budapest",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.1851873,
+                "longitude": 16.3765973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.58673,
+                    47.677904
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Budapest",
+                "stop_name": "Sopron",
+                "latitude": 47.677904,
+                "longitude": 16.58673
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.6344396,
+                    47.6822129
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Budapest",
+                "stop_name": "Gy\u00f6r",
+                "latitude": 47.6822129,
+                "longitude": 17.6344396
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.04055,
+                    47.49814
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Budapest",
+                "stop_name": "Budapest",
+                "latitude": 47.49814,
+                "longitude": 19.04055
+            }
+        }
+    ]
+}

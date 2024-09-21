@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        12.564617,
+                        55.672722
+                    ],
+                    [
+                        10.0066369,
+                        53.552993
+                    ],
+                    [
+                        13.369402,
+                        52.5250839
+                    ],
+                    [
+                        13.73363,
+                        51.05099
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Dresden"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.564617,
+                    55.672722
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Dresden",
+                "stop_name": "Copenhagen",
+                "latitude": 55.672722,
+                "longitude": 12.564617
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.0066369,
+                    53.552993
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Dresden",
+                "stop_name": "Hamburg Central Station",
+                "latitude": 53.552993,
+                "longitude": 10.0066369
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Dresden",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.73363,
+                    51.05099
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Dresden",
+                "stop_name": "Dresden",
+                "latitude": 51.05099,
+                "longitude": 13.73363
+            }
+        }
+    ]
+}

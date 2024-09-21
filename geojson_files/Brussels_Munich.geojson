@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        4.3570964,
+                        50.845504
+                    ],
+                    [
+                        4.3608795,
+                        50.8603166
+                    ],
+                    [
+                        8.5698462,
+                        50.0528675
+                    ],
+                    [
+                        11.58022,
+                        48.13913
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Munich"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3570964,
+                    50.845504
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Munich",
+                "stop_name": "Brussels",
+                "latitude": 50.845504,
+                "longitude": 4.3570964
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3608795,
+                    50.8603166
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Munich",
+                "stop_name": "Bruxelles-Nord",
+                "latitude": 50.8603166,
+                "longitude": 4.3608795
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5698462,
+                    50.0528675
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Munich",
+                "stop_name": "Frankfurt (Main) Airport Fernbahnhof",
+                "latitude": 50.0528675,
+                "longitude": 8.5698462
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.58022,
+                    48.13913
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Munich",
+                "stop_name": "Munich",
+                "latitude": 48.13913,
+                "longitude": 11.58022
+            }
+        }
+    ]
+}

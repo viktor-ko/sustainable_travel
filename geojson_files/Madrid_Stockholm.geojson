@@ -1,0 +1,227 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.68247,
+                        40.4721
+                    ],
+                    [
+                        -1.8012755,
+                        43.3394826
+                    ],
+                    [
+                        -1.79604,
+                        43.34121
+                    ],
+                    [
+                        -1.7818973,
+                        43.3531913
+                    ],
+                    [
+                        2.32439,
+                        48.84392
+                    ],
+                    [
+                        2.3591978,
+                        48.8768146
+                    ],
+                    [
+                        8.46982,
+                        49.4797015
+                    ],
+                    [
+                        10.0066369,
+                        53.552993
+                    ],
+                    [
+                        12.9999228,
+                        55.6090669
+                    ],
+                    [
+                        18.06449,
+                        59.33279
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Stockholm"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.68247,
+                    40.4721
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Stockholm",
+                "stop_name": "Madrid",
+                "latitude": 40.4721,
+                "longitude": -3.68247
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.8012755,
+                    43.3394826
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Stockholm",
+                "stop_name": "Irun, Spain",
+                "latitude": 43.3394826,
+                "longitude": -1.8012755
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.79604,
+                    43.34121
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Stockholm",
+                "stop_name": "Irun",
+                "latitude": 43.34121,
+                "longitude": -1.79604
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7818973,
+                    43.3531913
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Stockholm",
+                "stop_name": "Hendaye",
+                "latitude": 43.3531913,
+                "longitude": -1.7818973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.32439,
+                    48.84392
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Stockholm",
+                "stop_name": "Montparnasse - Bienven\u00fce",
+                "latitude": 48.84392,
+                "longitude": 2.32439
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3591978,
+                    48.8768146
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Stockholm",
+                "stop_name": "Gare de l'Est",
+                "latitude": 48.8768146,
+                "longitude": 2.3591978
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.46982,
+                    49.4797015
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Stockholm",
+                "stop_name": "Mannheim",
+                "latitude": 49.4797015,
+                "longitude": 8.46982
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.0066369,
+                    53.552993
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Stockholm",
+                "stop_name": "Hamburg Central Station",
+                "latitude": 53.552993,
+                "longitude": 10.0066369
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.9999228,
+                    55.6090669
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Stockholm",
+                "stop_name": "Malm\u00f6 Centralstation",
+                "latitude": 55.6090669,
+                "longitude": 12.9999228
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.06449,
+                    59.33279
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Stockholm",
+                "stop_name": "Stockholm",
+                "latitude": 59.33279,
+                "longitude": 18.06449
+            }
+        }
+    ]
+}

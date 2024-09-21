@@ -1,0 +1,143 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        17.1465422,
+                        48.1716107
+                    ],
+                    [
+                        17.0988066,
+                        48.1216472
+                    ],
+                    [
+                        16.3765973,
+                        48.1851873
+                    ],
+                    [
+                        11.08194,
+                        49.44639
+                    ],
+                    [
+                        10.0066369,
+                        53.552993
+                    ],
+                    [
+                        12.56902,
+                        55.67576
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Copenhagen"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1465422,
+                    48.1716107
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Copenhagen",
+                "stop_name": "Bratislava",
+                "latitude": 48.1716107,
+                "longitude": 17.1465422
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0988066,
+                    48.1216472
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Copenhagen",
+                "stop_name": "\u017delezni\u010dn\u00e1 stanica Bratislava-Petr\u017ealka",
+                "latitude": 48.1216472,
+                "longitude": 17.0988066
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3765973,
+                    48.1851873
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Copenhagen",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.1851873,
+                "longitude": 16.3765973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.08194,
+                    49.44639
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Copenhagen",
+                "stop_name": "N\u00fcrnberg Hbf",
+                "latitude": 49.44639,
+                "longitude": 11.08194
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.0066369,
+                    53.552993
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Copenhagen",
+                "stop_name": "Hamburg Central Station",
+                "latitude": 53.552993,
+                "longitude": 10.0066369
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.56902,
+                    55.67576
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Copenhagen",
+                "stop_name": "Copenhagen",
+                "latitude": 55.67576,
+                "longitude": 12.56902
+            }
+        }
+    ]
+}

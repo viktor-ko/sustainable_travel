@@ -1,0 +1,164 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        4.9016565,
+                        52.3788903
+                    ],
+                    [
+                        2.3549322,
+                        48.8800585
+                    ],
+                    [
+                        2.3591978,
+                        48.8768146
+                    ],
+                    [
+                        7.73388,
+                        48.58511
+                    ],
+                    [
+                        7.5896409,
+                        47.5478489
+                    ],
+                    [
+                        7.5922351,
+                        47.5463975
+                    ],
+                    [
+                        7.44813,
+                        46.948
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Bern"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.9016565,
+                    52.3788903
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Bern",
+                "stop_name": "Amsterdam",
+                "latitude": 52.3788903,
+                "longitude": 4.9016565
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3549322,
+                    48.8800585
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Bern",
+                "stop_name": "Paris, France",
+                "latitude": 48.8800585,
+                "longitude": 2.3549322
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3591978,
+                    48.8768146
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Bern",
+                "stop_name": "Gare de l'Est",
+                "latitude": 48.8768146,
+                "longitude": 2.3591978
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.73388,
+                    48.58511
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Bern",
+                "stop_name": "Strasbourg",
+                "latitude": 48.58511,
+                "longitude": 7.73388
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.5896409,
+                    47.5478489
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Bern",
+                "stop_name": "Basel, Switzerland",
+                "latitude": 47.5478489,
+                "longitude": 7.5896409
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.5922351,
+                    47.5463975
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Bern",
+                "stop_name": "Basel SBB",
+                "latitude": 47.5463975,
+                "longitude": 7.5922351
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.44813,
+                    46.948
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Bern",
+                "stop_name": "Bern",
+                "latitude": 46.948,
+                "longitude": 7.44813
+            }
+        }
+    ]
+}

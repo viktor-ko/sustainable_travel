@@ -1,0 +1,122 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.3591978,
+                        48.8768146
+                    ],
+                    [
+                        8.46982,
+                        49.4797015
+                    ],
+                    [
+                        11.461872,
+                        48.149852
+                    ],
+                    [
+                        11.604971,
+                        48.12744
+                    ],
+                    [
+                        15.97851,
+                        45.81491
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Zagreb"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3591978,
+                    48.8768146
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Zagreb",
+                "stop_name": "Paris",
+                "latitude": 48.8768146,
+                "longitude": 2.3591978
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.46982,
+                    49.4797015
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Zagreb",
+                "stop_name": "Mannheim",
+                "latitude": 49.4797015,
+                "longitude": 8.46982
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.461872,
+                    48.149852
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Zagreb",
+                "stop_name": "Munich-Pasing",
+                "latitude": 48.149852,
+                "longitude": 11.461872
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.604971,
+                    48.12744
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Zagreb",
+                "stop_name": "Munich east",
+                "latitude": 48.12744,
+                "longitude": 11.604971
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.97851,
+                    45.81491
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Zagreb",
+                "stop_name": "Zagreb",
+                "latitude": 45.81491,
+                "longitude": 15.97851
+            }
+        }
+    ]
+}

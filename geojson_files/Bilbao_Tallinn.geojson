@@ -1,0 +1,374 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -2.90573,
+                        43.247
+                    ],
+                    [
+                        -2.92182,
+                        43.26012
+                    ],
+                    [
+                        -2.00686,
+                        43.27896
+                    ],
+                    [
+                        -1.7818973,
+                        43.3531913
+                    ],
+                    [
+                        -0.5564074,
+                        44.8254453
+                    ],
+                    [
+                        2.32439,
+                        48.84392
+                    ],
+                    [
+                        2.3591978,
+                        48.8768146
+                    ],
+                    [
+                        8.46982,
+                        49.4797015
+                    ],
+                    [
+                        8.663789,
+                        50.107145
+                    ],
+                    [
+                        13.369402,
+                        52.5250839
+                    ],
+                    [
+                        13.469105,
+                        52.503037
+                    ],
+                    [
+                        14.6449248,
+                        52.5913563
+                    ],
+                    [
+                        20.9655106,
+                        52.2194795
+                    ],
+                    [
+                        25.27986,
+                        54.68946
+                    ],
+                    [
+                        24.1203279,
+                        56.9467445
+                    ],
+                    [
+                        24.6304679,
+                        59.3552078
+                    ],
+                    [
+                        24.7371066,
+                        59.4399864
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.90573,
+                    43.247
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn",
+                "stop_name": "Bilbao",
+                "latitude": 43.247,
+                "longitude": -2.90573
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.92182,
+                    43.26012
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn",
+                "stop_name": "Zazpikaleak Casco Viejo",
+                "latitude": 43.26012,
+                "longitude": -2.92182
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.00686,
+                    43.27896
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn",
+                "stop_name": "Errekalde Donostia",
+                "latitude": 43.27896,
+                "longitude": -2.00686
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7818973,
+                    43.3531913
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn",
+                "stop_name": "Hendaye",
+                "latitude": 43.3531913,
+                "longitude": -1.7818973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.5564074,
+                    44.8254453
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn",
+                "stop_name": "Saint-Jean",
+                "latitude": 44.8254453,
+                "longitude": -0.5564074
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.32439,
+                    48.84392
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn",
+                "stop_name": "Montparnasse - Bienven\u00fce",
+                "latitude": 48.84392,
+                "longitude": 2.32439
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3591978,
+                    48.8768146
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn",
+                "stop_name": "Gare de l'Est",
+                "latitude": 48.8768146,
+                "longitude": 2.3591978
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.46982,
+                    49.4797015
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn",
+                "stop_name": "Mannheim",
+                "latitude": 49.4797015,
+                "longitude": 8.46982
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.663789,
+                    50.107145
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn",
+                "stop_name": "Frankfurt Central Station",
+                "latitude": 50.107145,
+                "longitude": 8.663789
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.469105,
+                    52.503037
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn",
+                "stop_name": "Ostkreuz",
+                "latitude": 52.503037,
+                "longitude": 13.469105
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.6449248,
+                    52.5913563
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn",
+                "stop_name": "Kostrzy\u0144 nad Odr\u0105, Poland",
+                "latitude": 52.5913563,
+                "longitude": 14.6449248
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.9655106,
+                    52.2194795
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn",
+                "stop_name": "Warsaw West",
+                "latitude": 52.2194795,
+                "longitude": 20.9655106
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.27986,
+                    54.68946
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn",
+                "stop_name": "Vilnius",
+                "latitude": 54.68946,
+                "longitude": 25.27986
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.1203279,
+                    56.9467445
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn",
+                "stop_name": "R\u012bga-Pasa\u017eieru",
+                "latitude": 56.9467445,
+                "longitude": 24.1203279
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.6304679,
+                    59.3552078
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn",
+                "stop_name": "Tallinn, Vana-P\u00e4\u00e4sk\u00fcla",
+                "latitude": 59.3552078,
+                "longitude": 24.6304679
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7371066,
+                    59.4399864
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Tallinn",
+                "stop_name": "Tallinn",
+                "latitude": 59.4399864,
+                "longitude": 24.7371066
+            }
+        }
+    ]
+}

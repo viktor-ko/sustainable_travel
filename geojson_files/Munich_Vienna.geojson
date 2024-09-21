@@ -1,0 +1,80 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        11.5599976,
+                        48.1402903
+                    ],
+                    [
+                        13.0450707,
+                        47.8130704
+                    ],
+                    [
+                        16.37278,
+                        48.20921
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Vienna"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5599976,
+                    48.1402903
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Vienna",
+                "stop_name": "Munich",
+                "latitude": 48.1402903,
+                "longitude": 11.5599976
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.0450707,
+                    47.8130704
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Vienna",
+                "stop_name": "Salzburg",
+                "latitude": 47.8130704,
+                "longitude": 13.0450707
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.37278,
+                    48.20921
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Vienna",
+                "stop_name": "Vienna",
+                "latitude": 48.20921,
+                "longitude": 16.37278
+            }
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        19.0577611,
+                        47.510468
+                    ],
+                    [
+                        16.8927703,
+                        48.7539316
+                    ],
+                    [
+                        18.6769,
+                        50.30104
+                    ],
+                    [
+                        20.2316667,
+                        51.3586667
+                    ],
+                    [
+                        25.27986,
+                        54.68946
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Vilnius"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0577611,
+                    47.510468
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Vilnius",
+                "stop_name": "Budapest",
+                "latitude": 47.510468,
+                "longitude": 19.0577611
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.8927703,
+                    48.7539316
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Vilnius",
+                "stop_name": "Breclav",
+                "latitude": 48.7539316,
+                "longitude": 16.8927703
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.6769,
+                    50.30104
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Vilnius",
+                "stop_name": "Gliwice",
+                "latitude": 50.30104,
+                "longitude": 18.6769
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.2316667,
+                    51.3586667
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Vilnius",
+                "stop_name": "Opoczno Poludnie",
+                "latitude": 51.3586667,
+                "longitude": 20.2316667
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.27986,
+                    54.68946
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Vilnius",
+                "stop_name": "Vilnius",
+                "latitude": 54.68946,
+                "longitude": 25.27986
+            }
+        }
+    ]
+}

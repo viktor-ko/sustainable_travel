@@ -1,0 +1,59 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        4.8998648,
+                        52.3795354
+                    ],
+                    [
+                        2.35085,
+                        48.85689
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Paris"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.8998648,
+                    52.3795354
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Paris",
+                "stop_name": "Amsterdam",
+                "latitude": 52.3795354,
+                "longitude": 4.8998648
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35085,
+                    48.85689
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Paris",
+                "stop_name": "Paris",
+                "latitude": 48.85689,
+                "longitude": 2.35085
+            }
+        }
+    ]
+}

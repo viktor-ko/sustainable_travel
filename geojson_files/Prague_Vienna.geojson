@@ -1,0 +1,59 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.4353058,
+                        50.0832088
+                    ],
+                    [
+                        16.37278,
+                        48.20921
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Vienna"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.4353058,
+                    50.0832088
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Vienna",
+                "stop_name": "Prague",
+                "latitude": 50.0832088,
+                "longitude": 14.4353058
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.37278,
+                    48.20921
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Vienna",
+                "stop_name": "Vienna",
+                "latitude": 48.20921,
+                "longitude": 16.37278
+            }
+        }
+    ]
+}

@@ -1,0 +1,269 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.1258659,
+                        51.5311162
+                    ],
+                    [
+                        4.8997897,
+                        52.3794699
+                    ],
+                    [
+                        13.197884,
+                        52.534559
+                    ],
+                    [
+                        13.369402,
+                        52.5250839
+                    ],
+                    [
+                        21.00327,
+                        52.22884
+                    ],
+                    [
+                        23.1358237,
+                        53.134335
+                    ],
+                    [
+                        22.9453599,
+                        54.1059177
+                    ],
+                    [
+                        22.922454,
+                        54.099203
+                    ],
+                    [
+                        23.9275747,
+                        54.8896417
+                    ],
+                    [
+                        23.93227,
+                        54.88623
+                    ],
+                    [
+                        24.4621771,
+                        54.8632468
+                    ],
+                    [
+                        24.10425,
+                        56.94625
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Riga"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1258659,
+                    51.5311162
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Riga",
+                "stop_name": "London",
+                "latitude": 51.5311162,
+                "longitude": -0.1258659
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.8997897,
+                    52.3794699
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Riga",
+                "stop_name": "Amsterdam Centraal",
+                "latitude": 52.3794699,
+                "longitude": 4.8997897
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.197884,
+                    52.534559
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Riga",
+                "stop_name": "Berlin-Spandau",
+                "latitude": 52.534559,
+                "longitude": 13.197884
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Riga",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.00327,
+                    52.22884
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Riga",
+                "stop_name": "Warsaw Central",
+                "latitude": 52.22884,
+                "longitude": 21.00327
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.1358237,
+                    53.134335
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Riga",
+                "stop_name": "Bialystok",
+                "latitude": 53.134335,
+                "longitude": 23.1358237
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.9453599,
+                    54.1059177
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Riga",
+                "stop_name": "Suwalki, Poland",
+                "latitude": 54.1059177,
+                "longitude": 22.9453599
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.922454,
+                    54.099203
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Riga",
+                "stop_name": "Suwalki, MOP INEES, Mickiewicza Street",
+                "latitude": 54.099203,
+                "longitude": 22.922454
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.9275747,
+                    54.8896417
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Riga",
+                "stop_name": "Kaunas, Lithuania",
+                "latitude": 54.8896417,
+                "longitude": 23.9275747
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.93227,
+                    54.88623
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Riga",
+                "stop_name": "Kaunas Central Train Station",
+                "latitude": 54.88623,
+                "longitude": 23.93227
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.4621771,
+                    54.8632468
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Riga",
+                "stop_name": "Kaisiadorys Train Station",
+                "latitude": 54.8632468,
+                "longitude": 24.4621771
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.10425,
+                    56.94625
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Riga",
+                "stop_name": "Riga",
+                "latitude": 56.94625,
+                "longitude": 24.10425
+            }
+        }
+    ]
+}

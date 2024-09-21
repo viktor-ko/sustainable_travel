@@ -1,0 +1,332 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        7.4358671,
+                        46.9481334
+                    ],
+                    [
+                        8.5368921,
+                        47.3785973
+                    ],
+                    [
+                        8.5403226,
+                        47.3778579
+                    ],
+                    [
+                        8.723821,
+                        47.500334
+                    ],
+                    [
+                        11.558335,
+                        48.140232
+                    ],
+                    [
+                        13.369402,
+                        52.5250839
+                    ],
+                    [
+                        21.00327,
+                        52.22884
+                    ],
+                    [
+                        23.1351217,
+                        53.1341886
+                    ],
+                    [
+                        23.135389,
+                        53.132833
+                    ],
+                    [
+                        25.2484794,
+                        54.6739261
+                    ],
+                    [
+                        25.2771654,
+                        54.683721
+                    ],
+                    [
+                        25.27986,
+                        54.68946
+                    ],
+                    [
+                        24.1203279,
+                        56.9467445
+                    ],
+                    [
+                        24.6304679,
+                        59.3552078
+                    ],
+                    [
+                        24.7371066,
+                        59.4399864
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Tallinn"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4358671,
+                    46.9481334
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Tallinn",
+                "stop_name": "Bern",
+                "latitude": 46.9481334,
+                "longitude": 7.4358671
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5368921,
+                    47.3785973
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Tallinn",
+                "stop_name": "Zurich, Switzerland",
+                "latitude": 47.3785973,
+                "longitude": 8.5368921
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5403226,
+                    47.3778579
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Tallinn",
+                "stop_name": "Zurich HB",
+                "latitude": 47.3778579,
+                "longitude": 8.5403226
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.723821,
+                    47.500334
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Tallinn",
+                "stop_name": "Winterthur",
+                "latitude": 47.500334,
+                "longitude": 8.723821
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.558335,
+                    48.140232
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Tallinn",
+                "stop_name": "M\u00fcnchen Hbf Gl.5-10",
+                "latitude": 48.140232,
+                "longitude": 11.558335
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Tallinn",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.00327,
+                    52.22884
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Tallinn",
+                "stop_name": "Warsaw Central",
+                "latitude": 52.22884,
+                "longitude": 21.00327
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.1351217,
+                    53.1341886
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Tallinn",
+                "stop_name": "Bialystok, Poland",
+                "latitude": 53.1341886,
+                "longitude": 23.1351217
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.135389,
+                    53.132833
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Tallinn",
+                "stop_name": "Bialystok, Bus Station",
+                "latitude": 53.132833,
+                "longitude": 23.135389
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.2484794,
+                    54.6739261
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Tallinn",
+                "stop_name": "Savanori\u0173 prospektas 176",
+                "latitude": 54.6739261,
+                "longitude": 25.2484794
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.2771654,
+                    54.683721
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Tallinn",
+                "stop_name": "Vilnius, Lithuania",
+                "latitude": 54.683721,
+                "longitude": 25.2771654
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.27986,
+                    54.68946
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Tallinn",
+                "stop_name": "Vilnius",
+                "latitude": 54.68946,
+                "longitude": 25.27986
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.1203279,
+                    56.9467445
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Tallinn",
+                "stop_name": "R\u012bga-Pasa\u017eieru",
+                "latitude": 56.9467445,
+                "longitude": 24.1203279
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.6304679,
+                    59.3552078
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Tallinn",
+                "stop_name": "Tallinn, Vana-P\u00e4\u00e4sk\u00fcla",
+                "latitude": 59.3552078,
+                "longitude": 24.6304679
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7371066,
+                    59.4399864
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Tallinn",
+                "stop_name": "Tallinn",
+                "latitude": 59.4399864,
+                "longitude": 24.7371066
+            }
+        }
+    ]
+}

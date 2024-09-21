@@ -1,0 +1,164 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.369545,
+                        52.525592
+                    ],
+                    [
+                        8.663789,
+                        50.107145
+                    ],
+                    [
+                        4.3355978,
+                        50.8373008
+                    ],
+                    [
+                        4.333064,
+                        50.834966
+                    ],
+                    [
+                        2.3803514,
+                        48.8352077
+                    ],
+                    [
+                        -1.976704,
+                        43.317669
+                    ],
+                    [
+                        -3.70035,
+                        40.41669
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Madrid"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369545,
+                    52.525592
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Madrid",
+                "stop_name": "Berlin",
+                "latitude": 52.525592,
+                "longitude": 13.369545
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.663789,
+                    50.107145
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Madrid",
+                "stop_name": "Frankfurt Central Station",
+                "latitude": 50.107145,
+                "longitude": 8.663789
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3355978,
+                    50.8373008
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Madrid",
+                "stop_name": "Brussels, Belgium",
+                "latitude": 50.8373008,
+                "longitude": 4.3355978
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.333064,
+                    50.834966
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Madrid",
+                "stop_name": "Brussels City Center - Midi Train station",
+                "latitude": 50.834966,
+                "longitude": 4.333064
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3803514,
+                    48.8352077
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Madrid",
+                "stop_name": "Bercy",
+                "latitude": 48.8352077,
+                "longitude": 2.3803514
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.976704,
+                    43.317669
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Madrid",
+                "stop_name": "San Sebasti\u00e1n",
+                "latitude": 43.317669,
+                "longitude": -1.976704
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.70035,
+                    40.41669
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Madrid",
+                "stop_name": "Madrid",
+                "latitude": 40.41669,
+                "longitude": -3.70035
+            }
+        }
+    ]
+}

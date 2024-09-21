@@ -1,0 +1,185 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -3.6883126,
+                        40.4050269
+                    ],
+                    [
+                        2.141704,
+                        41.38092
+                    ],
+                    [
+                        2.175664,
+                        41.376637
+                    ],
+                    [
+                        2.1780627,
+                        41.373572
+                    ],
+                    [
+                        11.7838485,
+                        42.0991926
+                    ],
+                    [
+                        11.7900018,
+                        42.094565
+                    ],
+                    [
+                        11.7979784,
+                        42.0882281
+                    ],
+                    [
+                        12.49427,
+                        41.89056
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Rome"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.6883126,
+                    40.4050269
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Rome",
+                "stop_name": "Madrid",
+                "latitude": 40.4050269,
+                "longitude": -3.6883126
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.141704,
+                    41.38092
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Rome",
+                "stop_name": "Sants Estaci\u00f3",
+                "latitude": 41.38092,
+                "longitude": 2.141704
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.175664,
+                    41.376637
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Rome",
+                "stop_name": "Barcelona, Spain",
+                "latitude": 41.376637,
+                "longitude": 2.175664
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.1780627,
+                    41.373572
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Rome",
+                "stop_name": "Barcelona Port",
+                "latitude": 41.373572,
+                "longitude": 2.1780627
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.7838485,
+                    42.0991926
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Rome",
+                "stop_name": "Civitavecchia, Italy",
+                "latitude": 42.0991926,
+                "longitude": 11.7838485
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.7900018,
+                    42.094565
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Rome",
+                "stop_name": "Piazza Calamatta",
+                "latitude": 42.094565,
+                "longitude": 11.7900018
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.7979784,
+                    42.0882281
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Rome",
+                "stop_name": "Civitavecchia",
+                "latitude": 42.0882281,
+                "longitude": 11.7979784
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.49427,
+                    41.89056
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Rome",
+                "stop_name": "Rome",
+                "latitude": 41.89056,
+                "longitude": 12.49427
+            }
+        }
+    ]
+}

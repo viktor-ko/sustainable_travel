@@ -1,0 +1,542 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -9.12235,
+                        38.71436
+                    ],
+                    [
+                        -8.6408935,
+                        40.64424
+                    ],
+                    [
+                        -8.638109,
+                        40.6440854
+                    ],
+                    [
+                        -8.583159,
+                        41.152889
+                    ],
+                    [
+                        -8.7137622,
+                        42.2341258
+                    ],
+                    [
+                        -8.7109451,
+                        42.2352918
+                    ],
+                    [
+                        -8.5447196,
+                        42.8707911
+                    ],
+                    [
+                        -7.8728186,
+                        42.3503961
+                    ],
+                    [
+                        -3.68247,
+                        40.4721
+                    ],
+                    [
+                        -1.977384,
+                        43.3161464
+                    ],
+                    [
+                        -1.4791963,
+                        43.4977151
+                    ],
+                    [
+                        -1.4704408,
+                        43.4967821
+                    ],
+                    [
+                        -0.5564074,
+                        44.8254453
+                    ],
+                    [
+                        2.32439,
+                        48.84392
+                    ],
+                    [
+                        2.3591978,
+                        48.8768146
+                    ],
+                    [
+                        8.46982,
+                        49.4797015
+                    ],
+                    [
+                        8.663789,
+                        50.107145
+                    ],
+                    [
+                        13.369402,
+                        52.5250839
+                    ],
+                    [
+                        13.469105,
+                        52.503037
+                    ],
+                    [
+                        14.6449248,
+                        52.5913563
+                    ],
+                    [
+                        20.9655106,
+                        52.2194795
+                    ],
+                    [
+                        25.2842932,
+                        54.6703567
+                    ],
+                    [
+                        23.315468,
+                        55.9228685
+                    ],
+                    [
+                        23.307688,
+                        55.927813
+                    ],
+                    [
+                        24.111648,
+                        56.9437543
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.12235,
+                    38.71436
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Lisbon",
+                "latitude": 38.71436,
+                "longitude": -9.12235
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.6408935,
+                    40.64424
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Aveiro, Portugal",
+                "latitude": 40.64424,
+                "longitude": -8.6408935
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.638109,
+                    40.6440854
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Aveiro Bus Station",
+                "latitude": 40.6440854,
+                "longitude": -8.638109
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.583159,
+                    41.152889
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Oporto Campanha",
+                "latitude": 41.152889,
+                "longitude": -8.583159
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.7137622,
+                    42.2341258
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Vigo, Spain",
+                "latitude": 42.2341258,
+                "longitude": -8.7137622
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.7109451,
+                    42.2352918
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Vigo Urz\u00e1iz",
+                "latitude": 42.2352918,
+                "longitude": -8.7109451
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.5447196,
+                    42.8707911
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Santiago de Compostela",
+                "latitude": 42.8707911,
+                "longitude": -8.5447196
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.8728186,
+                    42.3503961
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Ourense",
+                "latitude": 42.3503961,
+                "longitude": -7.8728186
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.68247,
+                    40.4721
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Madrid Chamartin Train Station",
+                "latitude": 40.4721,
+                "longitude": -3.68247
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.977384,
+                    43.3161464
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "San Sebasti\u00e1n",
+                "latitude": 43.3161464,
+                "longitude": -1.977384
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.4791963,
+                    43.4977151
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Bayonne, France",
+                "latitude": 43.4977151,
+                "longitude": -1.4791963
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.4704408,
+                    43.4967821
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Bayonne",
+                "latitude": 43.4967821,
+                "longitude": -1.4704408
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.5564074,
+                    44.8254453
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Saint-Jean",
+                "latitude": 44.8254453,
+                "longitude": -0.5564074
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.32439,
+                    48.84392
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Montparnasse - Bienven\u00fce",
+                "latitude": 48.84392,
+                "longitude": 2.32439
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3591978,
+                    48.8768146
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Gare de l'Est",
+                "latitude": 48.8768146,
+                "longitude": 2.3591978
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.46982,
+                    49.4797015
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Mannheim",
+                "latitude": 49.4797015,
+                "longitude": 8.46982
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.663789,
+                    50.107145
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Frankfurt Central Station",
+                "latitude": 50.107145,
+                "longitude": 8.663789
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.469105,
+                    52.503037
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Ostkreuz",
+                "latitude": 52.503037,
+                "longitude": 13.469105
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.6449248,
+                    52.5913563
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Kostrzy\u0144 nad Odr\u0105, Poland",
+                "latitude": 52.5913563,
+                "longitude": 14.6449248
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.9655106,
+                    52.2194795
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Warsaw West",
+                "latitude": 52.2194795,
+                "longitude": 20.9655106
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.2842932,
+                    54.6703567
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Vilnius Central Train Station",
+                "latitude": 54.6703567,
+                "longitude": 25.2842932
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.315468,
+                    55.9228685
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Siauliai, Lithuania",
+                "latitude": 55.9228685,
+                "longitude": 23.315468
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.307688,
+                    55.927813
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Siauliai, Bus Station",
+                "latitude": 55.927813,
+                "longitude": 23.307688
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.111648,
+                    56.9437543
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Riga",
+                "stop_name": "Riga, Latvia",
+                "latitude": 56.9437543,
+                "longitude": 24.111648
+            }
+        }
+    ]
+}

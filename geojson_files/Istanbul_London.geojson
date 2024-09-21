@@ -1,0 +1,353 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        28.894896,
+                        41.039273
+                    ],
+                    [
+                        28.8911635,
+                        41.0365642
+                    ],
+                    [
+                        28.8945399,
+                        41.0401364
+                    ],
+                    [
+                        25.561454,
+                        41.933051
+                    ],
+                    [
+                        25.632584,
+                        42.4200775
+                    ],
+                    [
+                        25.6294132,
+                        42.4162367
+                    ],
+                    [
+                        26.073892,
+                        44.446634
+                    ],
+                    [
+                        19.0839882,
+                        47.5004423
+                    ],
+                    [
+                        16.3765973,
+                        48.1851873
+                    ],
+                    [
+                        11.08194,
+                        49.44639
+                    ],
+                    [
+                        8.663789,
+                        50.107145
+                    ],
+                    [
+                        6.9586017,
+                        50.9432141
+                    ],
+                    [
+                        6.0907987,
+                        50.7681629
+                    ],
+                    [
+                        5.566483,
+                        50.624358
+                    ],
+                    [
+                        4.3354547,
+                        50.8360867
+                    ],
+                    [
+                        -0.12624,
+                        51.50015
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "London"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.894896,
+                    41.039273
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "London",
+                "stop_name": "Istanbul",
+                "latitude": 41.039273,
+                "longitude": 28.894896
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.8911635,
+                    41.0365642
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "London",
+                "stop_name": "Istanbul, T\u00fcrkiye",
+                "latitude": 41.0365642,
+                "longitude": 28.8911635
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.8945399,
+                    41.0401364
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "London",
+                "stop_name": "Istanbul Bus Station",
+                "latitude": 41.0401364,
+                "longitude": 28.8945399
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.561454,
+                    41.933051
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "London",
+                "stop_name": "Haskovo",
+                "latitude": 41.933051,
+                "longitude": 25.561454
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.632584,
+                    42.4200775
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "London",
+                "stop_name": "Stara Zagora, Bulgaria",
+                "latitude": 42.4200775,
+                "longitude": 25.632584
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.6294132,
+                    42.4162367
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "London",
+                "stop_name": "Stara Zagora",
+                "latitude": 42.4162367,
+                "longitude": 25.6294132
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "London",
+                "stop_name": "B\u00fckre\u015fti Nord",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "London",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3765973,
+                    48.1851873
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "London",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.1851873,
+                "longitude": 16.3765973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.08194,
+                    49.44639
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "London",
+                "stop_name": "N\u00fcrnberg Hbf",
+                "latitude": 49.44639,
+                "longitude": 11.08194
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.663789,
+                    50.107145
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "London",
+                "stop_name": "Frankfurt Central Station",
+                "latitude": 50.107145,
+                "longitude": 8.663789
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9586017,
+                    50.9432141
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "London",
+                "stop_name": "Cologne Central Station",
+                "latitude": 50.9432141,
+                "longitude": 6.9586017
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.0907987,
+                    50.7681629
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "London",
+                "stop_name": "Aachen Hbf",
+                "latitude": 50.7681629,
+                "longitude": 6.0907987
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.566483,
+                    50.624358
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "London",
+                "stop_name": "Liege-Guillemins",
+                "latitude": 50.624358,
+                "longitude": 5.566483
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3354547,
+                    50.8360867
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "London",
+                "stop_name": "Brussels South/Midi Train Station",
+                "latitude": 50.8360867,
+                "longitude": 4.3354547
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.12624,
+                    51.50015
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "London",
+                "stop_name": "London",
+                "latitude": 51.50015,
+                "longitude": -0.12624
+            }
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        7.4358671,
+                        46.9481334
+                    ],
+                    [
+                        8.5368921,
+                        47.3785973
+                    ],
+                    [
+                        8.5403226,
+                        47.3778579
+                    ],
+                    [
+                        8.723821,
+                        47.500334
+                    ],
+                    [
+                        11.58022,
+                        48.13913
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Munich"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4358671,
+                    46.9481334
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Munich",
+                "stop_name": "Bern",
+                "latitude": 46.9481334,
+                "longitude": 7.4358671
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5368921,
+                    47.3785973
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Munich",
+                "stop_name": "Zurich, Switzerland",
+                "latitude": 47.3785973,
+                "longitude": 8.5368921
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5403226,
+                    47.3778579
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Munich",
+                "stop_name": "Zurich HB",
+                "latitude": 47.3778579,
+                "longitude": 8.5403226
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.723821,
+                    47.500334
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Munich",
+                "stop_name": "Winterthur",
+                "latitude": 47.500334,
+                "longitude": 8.723821
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.58022,
+                    48.13913
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Munich",
+                "stop_name": "Munich",
+                "latitude": 48.13913,
+                "longitude": 11.58022
+            }
+        }
+    ]
+}

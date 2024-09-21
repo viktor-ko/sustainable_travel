@@ -1,0 +1,269 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        23.359688,
+                        42.703184
+                    ],
+                    [
+                        23.3526124,
+                        42.7026158
+                    ],
+                    [
+                        23.3166862,
+                        42.6891527
+                    ],
+                    [
+                        23.3189735,
+                        42.6878815
+                    ],
+                    [
+                        23.3211214,
+                        42.7121314
+                    ],
+                    [
+                        26.073892,
+                        44.446634
+                    ],
+                    [
+                        19.0839882,
+                        47.5004423
+                    ],
+                    [
+                        16.3765973,
+                        48.1851873
+                    ],
+                    [
+                        21.001427,
+                        52.229094
+                    ],
+                    [
+                        24.630569,
+                        59.3551964
+                    ],
+                    [
+                        24.6275847,
+                        59.3544174
+                    ],
+                    [
+                        24.7532,
+                        59.44269
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Tallinn"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.359688,
+                    42.703184
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Tallinn",
+                "stop_name": "Sofia",
+                "latitude": 42.703184,
+                "longitude": 23.359688
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.3526124,
+                    42.7026158
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Tallinn",
+                "stop_name": "Hadzhi Dimitar",
+                "latitude": 42.7026158,
+                "longitude": 23.3526124
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.3166862,
+                    42.6891527
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Tallinn",
+                "stop_name": "Sofia, Bulgaria",
+                "latitude": 42.6891527,
+                "longitude": 23.3166862
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.3189735,
+                    42.6878815
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Tallinn",
+                "stop_name": "NDK",
+                "latitude": 42.6878815,
+                "longitude": 23.3189735
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.3211214,
+                    42.7121314
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Tallinn",
+                "stop_name": "Sofia",
+                "latitude": 42.7121314,
+                "longitude": 23.3211214
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Tallinn",
+                "stop_name": "B\u00fckre\u015fti Nord",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Tallinn",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3765973,
+                    48.1851873
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Tallinn",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.1851873,
+                "longitude": 16.3765973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.001427,
+                    52.229094
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Tallinn",
+                "stop_name": "Warsaw, Central station 04",
+                "latitude": 52.229094,
+                "longitude": 21.001427
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.630569,
+                    59.3551964
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Tallinn",
+                "stop_name": "Tallinn, Estonia",
+                "latitude": 59.3551964,
+                "longitude": 24.630569
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.6275847,
+                    59.3544174
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Tallinn",
+                "stop_name": "Laagri",
+                "latitude": 59.3544174,
+                "longitude": 24.6275847
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7532,
+                    59.44269
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Tallinn",
+                "stop_name": "Tallinn",
+                "latitude": 59.44269,
+                "longitude": 24.7532
+            }
+        }
+    ]
+}

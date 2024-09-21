@@ -1,0 +1,227 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.369402,
+                        52.5250839
+                    ],
+                    [
+                        14.4353058,
+                        50.0832088
+                    ],
+                    [
+                        16.3765973,
+                        48.1851873
+                    ],
+                    [
+                        19.0839882,
+                        47.5004423
+                    ],
+                    [
+                        26.073892,
+                        44.446634
+                    ],
+                    [
+                        23.3201447,
+                        42.7108787
+                    ],
+                    [
+                        23.3220045,
+                        42.6975653
+                    ],
+                    [
+                        23.3237583,
+                        42.6999582
+                    ],
+                    [
+                        23.36495,
+                        42.699358
+                    ],
+                    [
+                        23.32601,
+                        42.69649
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Sofia"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Sofia",
+                "stop_name": "Berlin",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.4353058,
+                    50.0832088
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Sofia",
+                "stop_name": "Prague Main Station",
+                "latitude": 50.0832088,
+                "longitude": 14.4353058
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3765973,
+                    48.1851873
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Sofia",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.1851873,
+                "longitude": 16.3765973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Sofia",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Sofia",
+                "stop_name": "B\u00fckre\u015fti Nord",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.3201447,
+                    42.7108787
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Sofia",
+                "stop_name": "Central Railway Station",
+                "latitude": 42.7108787,
+                "longitude": 23.3201447
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.3220045,
+                    42.6975653
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Sofia",
+                "stop_name": "Sofia, Bulgaria",
+                "latitude": 42.6975653,
+                "longitude": 23.3220045
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.3237583,
+                    42.6999582
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Sofia",
+                "stop_name": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u043d\u0438 \u0445\u0430\u043b\u0438",
+                "latitude": 42.6999582,
+                "longitude": 23.3237583
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.36495,
+                    42.699358
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Sofia",
+                "stop_name": "Bl.4 ZH.K. Suhata Reka",
+                "latitude": 42.699358,
+                "longitude": 23.36495
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.32601,
+                    42.69649
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Sofia",
+                "stop_name": "Sofia",
+                "latitude": 42.69649,
+                "longitude": 23.32601
+            }
+        }
+    ]
+}

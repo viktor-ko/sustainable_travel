@@ -1,0 +1,227 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        12.5308661,
+                        41.9108193
+                    ],
+                    [
+                        11.2479159,
+                        43.7766715
+                    ],
+                    [
+                        10.9824979,
+                        45.4290202
+                    ],
+                    [
+                        11.558335,
+                        48.140232
+                    ],
+                    [
+                        13.369402,
+                        52.5250839
+                    ],
+                    [
+                        13.469105,
+                        52.503037
+                    ],
+                    [
+                        14.6449248,
+                        52.5913563
+                    ],
+                    [
+                        14.647225,
+                        52.5912426
+                    ],
+                    [
+                        20.9655106,
+                        52.2194795
+                    ],
+                    [
+                        25.27986,
+                        54.68946
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Vilnius"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.5308661,
+                    41.9108193
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Vilnius",
+                "stop_name": "Rome",
+                "latitude": 41.9108193,
+                "longitude": 12.5308661
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.2479159,
+                    43.7766715
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Vilnius",
+                "stop_name": "Firenze Santa Maria Novella",
+                "latitude": 43.7766715,
+                "longitude": 11.2479159
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.9824979,
+                    45.4290202
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Vilnius",
+                "stop_name": "Verona Porta Nuova",
+                "latitude": 45.4290202,
+                "longitude": 10.9824979
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.558335,
+                    48.140232
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Vilnius",
+                "stop_name": "M\u00fcnchen Hbf Gl.5-10",
+                "latitude": 48.140232,
+                "longitude": 11.558335
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Vilnius",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.469105,
+                    52.503037
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Vilnius",
+                "stop_name": "Ostkreuz",
+                "latitude": 52.503037,
+                "longitude": 13.469105
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.6449248,
+                    52.5913563
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Vilnius",
+                "stop_name": "Kostrzy\u0144 nad Odr\u0105, Poland",
+                "latitude": 52.5913563,
+                "longitude": 14.6449248
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.647225,
+                    52.5912426
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Vilnius",
+                "stop_name": "K\u00fcstrin",
+                "latitude": 52.5912426,
+                "longitude": 14.647225
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.9655106,
+                    52.2194795
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Vilnius",
+                "stop_name": "Warsaw West",
+                "latitude": 52.2194795,
+                "longitude": 20.9655106
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.27986,
+                    54.68946
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Vilnius",
+                "stop_name": "Vilnius",
+                "latitude": 54.68946,
+                "longitude": 25.27986
+            }
+        }
+    ]
+}

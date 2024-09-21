@@ -1,0 +1,80 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.35592,
+                        48.88174
+                    ],
+                    [
+                        4.9004138,
+                        52.3789888
+                    ],
+                    [
+                        14.42046,
+                        50.08781
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Prague"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35592,
+                    48.88174
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Prague",
+                "stop_name": "Paris",
+                "latitude": 48.88174,
+                "longitude": 2.35592
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.9004138,
+                    52.3789888
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Prague",
+                "stop_name": "Amsterdam Central",
+                "latitude": 52.3789888,
+                "longitude": 4.9004138
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.42046,
+                    50.08781
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Prague",
+                "stop_name": "Prague",
+                "latitude": 50.08781,
+                "longitude": 14.42046
+            }
+        }
+    ]
+}

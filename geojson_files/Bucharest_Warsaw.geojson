@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        26.073892,
+                        44.446634
+                    ],
+                    [
+                        19.0839882,
+                        47.5004423
+                    ],
+                    [
+                        16.3765973,
+                        48.1851873
+                    ],
+                    [
+                        21.00849,
+                        52.23498
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Warsaw"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Warsaw",
+                "stop_name": "Bucharest",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Warsaw",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3765973,
+                    48.1851873
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Warsaw",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.1851873,
+                "longitude": 16.3765973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.00849,
+                    52.23498
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Warsaw",
+                "stop_name": "Warsaw",
+                "latitude": 52.23498,
+                "longitude": 21.00849
+            }
+        }
+    ]
+}

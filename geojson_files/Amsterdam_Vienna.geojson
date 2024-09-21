@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        4.900272,
+                        52.3791283
+                    ],
+                    [
+                        6.7769247,
+                        51.429657
+                    ],
+                    [
+                        11.558335,
+                        48.140232
+                    ],
+                    [
+                        16.37278,
+                        48.20921
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Vienna"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.900272,
+                    52.3791283
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Vienna",
+                "stop_name": "Amsterdam",
+                "latitude": 52.3791283,
+                "longitude": 4.900272
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.7769247,
+                    51.429657
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Vienna",
+                "stop_name": "Duisburg Hbf",
+                "latitude": 51.429657,
+                "longitude": 6.7769247
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.558335,
+                    48.140232
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Vienna",
+                "stop_name": "M\u00fcnchen Hbf Gl.5-10",
+                "latitude": 48.140232,
+                "longitude": 11.558335
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.37278,
+                    48.20921
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Vienna",
+                "stop_name": "Vienna",
+                "latitude": 48.20921,
+                "longitude": 16.37278
+            }
+        }
+    ]
+}

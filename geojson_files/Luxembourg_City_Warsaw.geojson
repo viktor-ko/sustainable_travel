@@ -1,0 +1,122 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        6.134396,
+                        49.599714
+                    ],
+                    [
+                        7.5892709,
+                        50.3507762
+                    ],
+                    [
+                        8.570185,
+                        50.053167
+                    ],
+                    [
+                        13.369545,
+                        52.525592
+                    ],
+                    [
+                        21.00849,
+                        52.23498
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Warsaw"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.134396,
+                    49.599714
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Warsaw",
+                "stop_name": "Luxembourg City",
+                "latitude": 49.599714,
+                "longitude": 6.134396
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.5892709,
+                    50.3507762
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Warsaw",
+                "stop_name": "Koblenz Hbf",
+                "latitude": 50.3507762,
+                "longitude": 7.5892709
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.570185,
+                    50.053167
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Warsaw",
+                "stop_name": "Frankfurt (Main) Airport Fernbahnhof",
+                "latitude": 50.053167,
+                "longitude": 8.570185
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369545,
+                    52.525592
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Warsaw",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.525592,
+                "longitude": 13.369545
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.00849,
+                    52.23498
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Warsaw",
+                "stop_name": "Warsaw",
+                "latitude": 52.23498,
+                "longitude": 21.00849
+            }
+        }
+    ]
+}

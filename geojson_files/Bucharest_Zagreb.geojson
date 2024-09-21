@@ -1,0 +1,143 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        26.073892,
+                        44.446634
+                    ],
+                    [
+                        19.0839882,
+                        47.5004423
+                    ],
+                    [
+                        16.58673,
+                        47.677904
+                    ],
+                    [
+                        16.2344131,
+                        47.8116027
+                    ],
+                    [
+                        13.8486717,
+                        46.6182386
+                    ],
+                    [
+                        15.97851,
+                        45.81491
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Zagreb"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Zagreb",
+                "stop_name": "Bucharest",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Zagreb",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.58673,
+                    47.677904
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Zagreb",
+                "stop_name": "Sopron",
+                "latitude": 47.677904,
+                "longitude": 16.58673
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.2344131,
+                    47.8116027
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Zagreb",
+                "stop_name": "Wiener Neustadt",
+                "latitude": 47.8116027,
+                "longitude": 16.2344131
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.8486717,
+                    46.6182386
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Zagreb",
+                "stop_name": "Villach Hbf",
+                "latitude": 46.6182386,
+                "longitude": 13.8486717
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.97851,
+                    45.81491
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Zagreb",
+                "stop_name": "Zagreb",
+                "latitude": 45.81491,
+                "longitude": 15.97851
+            }
+        }
+    ]
+}

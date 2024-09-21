@@ -1,0 +1,164 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.7314191,
+                        51.0405029
+                    ],
+                    [
+                        13.369402,
+                        52.5250839
+                    ],
+                    [
+                        13.469105,
+                        52.503037
+                    ],
+                    [
+                        14.6449248,
+                        52.5913563
+                    ],
+                    [
+                        14.647225,
+                        52.5912426
+                    ],
+                    [
+                        20.9655106,
+                        52.2194795
+                    ],
+                    [
+                        25.27986,
+                        54.68946
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Vilnius"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.7314191,
+                    51.0405029
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Vilnius",
+                "stop_name": "Dresden",
+                "latitude": 51.0405029,
+                "longitude": 13.7314191
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Vilnius",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.469105,
+                    52.503037
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Vilnius",
+                "stop_name": "Ostkreuz",
+                "latitude": 52.503037,
+                "longitude": 13.469105
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.6449248,
+                    52.5913563
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Vilnius",
+                "stop_name": "Kostrzy\u0144 nad Odr\u0105, Poland",
+                "latitude": 52.5913563,
+                "longitude": 14.6449248
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.647225,
+                    52.5912426
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Vilnius",
+                "stop_name": "K\u00fcstrin",
+                "latitude": 52.5912426,
+                "longitude": 14.647225
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.9655106,
+                    52.2194795
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Vilnius",
+                "stop_name": "Warsaw West",
+                "latitude": 52.2194795,
+                "longitude": 20.9655106
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.27986,
+                    54.68946
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Vilnius",
+                "stop_name": "Vilnius",
+                "latitude": 54.68946,
+                "longitude": 25.27986
+            }
+        }
+    ]
+}

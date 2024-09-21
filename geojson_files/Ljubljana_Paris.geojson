@@ -1,0 +1,164 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.5122127,
+                        46.05823
+                    ],
+                    [
+                        14.0548417,
+                        46.4363972
+                    ],
+                    [
+                        13.8486717,
+                        46.6182386
+                    ],
+                    [
+                        13.0450707,
+                        47.8130704
+                    ],
+                    [
+                        11.558335,
+                        48.140232
+                    ],
+                    [
+                        8.46982,
+                        49.4797015
+                    ],
+                    [
+                        2.35085,
+                        48.85689
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Paris"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.5122127,
+                    46.05823
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Paris",
+                "stop_name": "Ljubljana",
+                "latitude": 46.05823,
+                "longitude": 14.5122127
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.0548417,
+                    46.4363972
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Paris",
+                "stop_name": "Jesenice",
+                "latitude": 46.4363972,
+                "longitude": 14.0548417
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.8486717,
+                    46.6182386
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Paris",
+                "stop_name": "Villach Hbf",
+                "latitude": 46.6182386,
+                "longitude": 13.8486717
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.0450707,
+                    47.8130704
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Paris",
+                "stop_name": "Salzburg",
+                "latitude": 47.8130704,
+                "longitude": 13.0450707
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.558335,
+                    48.140232
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Paris",
+                "stop_name": "M\u00fcnchen Hbf Gl.5-10",
+                "latitude": 48.140232,
+                "longitude": 11.558335
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.46982,
+                    49.4797015
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Paris",
+                "stop_name": "Mannheim",
+                "latitude": 49.4797015,
+                "longitude": 8.46982
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35085,
+                    48.85689
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Paris",
+                "stop_name": "Paris",
+                "latitude": 48.85689,
+                "longitude": 2.35085
+            }
+        }
+    ]
+}

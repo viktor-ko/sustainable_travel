@@ -1,0 +1,143 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -2.90573,
+                        43.247
+                    ],
+                    [
+                        -2.92182,
+                        43.26012
+                    ],
+                    [
+                        -2.00686,
+                        43.27896
+                    ],
+                    [
+                        -1.7818973,
+                        43.3531913
+                    ],
+                    [
+                        -1.4704408,
+                        43.4967821
+                    ],
+                    [
+                        2.35085,
+                        48.85689
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Paris"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.90573,
+                    43.247
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Paris",
+                "stop_name": "Bilbao",
+                "latitude": 43.247,
+                "longitude": -2.90573
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.92182,
+                    43.26012
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Paris",
+                "stop_name": "Zazpikaleak Casco Viejo",
+                "latitude": 43.26012,
+                "longitude": -2.92182
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.00686,
+                    43.27896
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Paris",
+                "stop_name": "Errekalde Donostia",
+                "latitude": 43.27896,
+                "longitude": -2.00686
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7818973,
+                    43.3531913
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Paris",
+                "stop_name": "Hendaye",
+                "latitude": 43.3531913,
+                "longitude": -1.7818973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.4704408,
+                    43.4967821
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Paris",
+                "stop_name": "Bayonne",
+                "latitude": 43.4967821,
+                "longitude": -1.4704408
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35085,
+                    48.85689
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Paris",
+                "stop_name": "Paris",
+                "latitude": 48.85689,
+                "longitude": 2.35085
+            }
+        }
+    ]
+}

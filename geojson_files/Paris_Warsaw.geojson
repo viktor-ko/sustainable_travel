@@ -1,0 +1,122 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.3591978,
+                        48.8768146
+                    ],
+                    [
+                        8.46982,
+                        49.4797015
+                    ],
+                    [
+                        9.44712,
+                        51.31311
+                    ],
+                    [
+                        13.369402,
+                        52.5250839
+                    ],
+                    [
+                        21.00849,
+                        52.23498
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Warsaw"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3591978,
+                    48.8768146
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Warsaw",
+                "stop_name": "Paris",
+                "latitude": 48.8768146,
+                "longitude": 2.3591978
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.46982,
+                    49.4797015
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Warsaw",
+                "stop_name": "Mannheim",
+                "latitude": 49.4797015,
+                "longitude": 8.46982
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.44712,
+                    51.31311
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Warsaw",
+                "stop_name": "Wilhelmsh\u00f6he",
+                "latitude": 51.31311,
+                "longitude": 9.44712
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Warsaw",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.00849,
+                    52.23498
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Warsaw",
+                "stop_name": "Warsaw",
+                "latitude": 52.23498,
+                "longitude": 21.00849
+            }
+        }
+    ]
+}

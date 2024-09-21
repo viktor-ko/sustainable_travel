@@ -1,0 +1,248 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        12.5648118,
+                        55.6727679
+                    ],
+                    [
+                        13.1869731,
+                        55.7067651
+                    ],
+                    [
+                        18.0582377,
+                        59.3301476
+                    ],
+                    [
+                        18.0595,
+                        59.33114
+                    ],
+                    [
+                        17.95088,
+                        58.90102
+                    ],
+                    [
+                        17.955631,
+                        58.904694
+                    ],
+                    [
+                        21.5693043,
+                        57.3983415
+                    ],
+                    [
+                        21.5696897,
+                        57.3947764
+                    ],
+                    [
+                        24.1113764,
+                        56.9437221
+                    ],
+                    [
+                        24.1203279,
+                        56.9467445
+                    ],
+                    [
+                        25.27986,
+                        54.68946
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Vilnius"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.5648118,
+                    55.6727679
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Vilnius",
+                "stop_name": "Copenhagen",
+                "latitude": 55.6727679,
+                "longitude": 12.5648118
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.1869731,
+                    55.7067651
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Vilnius",
+                "stop_name": "Lund C",
+                "latitude": 55.7067651,
+                "longitude": 13.1869731
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.0582377,
+                    59.3301476
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Vilnius",
+                "stop_name": "Stockholm Metropolitan Area, Sweden",
+                "latitude": 59.3301476,
+                "longitude": 18.0582377
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.0595,
+                    59.33114
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Vilnius",
+                "stop_name": "Stockholm City",
+                "latitude": 59.33114,
+                "longitude": 18.0595
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.95088,
+                    58.90102
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Vilnius",
+                "stop_name": "Stockholm Metropolitan Area, Sweden",
+                "latitude": 58.90102,
+                "longitude": 17.95088
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.955631,
+                    58.904694
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Vilnius",
+                "stop_name": "Port of Nynashamn",
+                "latitude": 58.904694,
+                "longitude": 17.955631
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.5693043,
+                    57.3983415
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Vilnius",
+                "stop_name": "Ventspils, Latvia",
+                "latitude": 57.3983415,
+                "longitude": 21.5693043
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.5696897,
+                    57.3947764
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Vilnius",
+                "stop_name": "Ventspils Autoosta",
+                "latitude": 57.3947764,
+                "longitude": 21.5696897
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.1113764,
+                    56.9437221
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Vilnius",
+                "stop_name": "Riga, Latvia",
+                "latitude": 56.9437221,
+                "longitude": 24.1113764
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.1203279,
+                    56.9467445
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Vilnius",
+                "stop_name": "R\u012bga-Pasa\u017eieru",
+                "latitude": 56.9467445,
+                "longitude": 24.1203279
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.27986,
+                    54.68946
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Vilnius",
+                "stop_name": "Vilnius",
+                "latitude": 54.68946,
+                "longitude": 25.27986
+            }
+        }
+    ]
+}

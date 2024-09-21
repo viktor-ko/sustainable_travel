@@ -1,0 +1,311 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        23.359688,
+                        42.703184
+                    ],
+                    [
+                        23.3526124,
+                        42.7026158
+                    ],
+                    [
+                        23.3166964,
+                        42.6892152
+                    ],
+                    [
+                        23.314273,
+                        42.689192
+                    ],
+                    [
+                        23.312581,
+                        42.726912
+                    ],
+                    [
+                        23.316502,
+                        42.72677
+                    ],
+                    [
+                        25.6819476,
+                        43.139744
+                    ],
+                    [
+                        25.997413,
+                        43.855608
+                    ],
+                    [
+                        26.0071281,
+                        44.433568
+                    ],
+                    [
+                        26.070776,
+                        44.438815
+                    ],
+                    [
+                        26.073892,
+                        44.446634
+                    ],
+                    [
+                        19.0839882,
+                        47.5004423
+                    ],
+                    [
+                        16.58673,
+                        47.677904
+                    ],
+                    [
+                        16.37278,
+                        48.20921
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Vienna"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.359688,
+                    42.703184
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Vienna",
+                "stop_name": "Sofia",
+                "latitude": 42.703184,
+                "longitude": 23.359688
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.3526124,
+                    42.7026158
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Vienna",
+                "stop_name": "Hadzhi Dimitar",
+                "latitude": 42.7026158,
+                "longitude": 23.3526124
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.3166964,
+                    42.6892152
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Vienna",
+                "stop_name": "Sofia, Bulgaria",
+                "latitude": 42.6892152,
+                "longitude": 23.3166964
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.314273,
+                    42.689192
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Vienna",
+                "stop_name": "Bul. Praga",
+                "latitude": 42.689192,
+                "longitude": 23.314273
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.312581,
+                    42.726912
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Vienna",
+                "stop_name": "Sofia, Bulgaria",
+                "latitude": 42.726912,
+                "longitude": 23.312581
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.316502,
+                    42.72677
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Vienna",
+                "stop_name": "Sofia Sever",
+                "latitude": 42.72677,
+                "longitude": 23.316502
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.6819476,
+                    43.139744
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Vienna",
+                "stop_name": "Gorna Orjahovica",
+                "latitude": 43.139744,
+                "longitude": 25.6819476
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.997413,
+                    43.855608
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Vienna",
+                "stop_name": "Ruse East",
+                "latitude": 43.855608,
+                "longitude": 25.997413
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.0071281,
+                    44.433568
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Vienna",
+                "stop_name": "Autogara Militari",
+                "latitude": 44.433568,
+                "longitude": 26.0071281
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.070776,
+                    44.438815
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Vienna",
+                "stop_name": "Pod Cotroceni",
+                "latitude": 44.438815,
+                "longitude": 26.070776
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Vienna",
+                "stop_name": "B\u00fckre\u015fti Nord",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Vienna",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.58673,
+                    47.677904
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Vienna",
+                "stop_name": "Sopron",
+                "latitude": 47.677904,
+                "longitude": 16.58673
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.37278,
+                    48.20921
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Vienna",
+                "stop_name": "Vienna",
+                "latitude": 48.20921,
+                "longitude": 16.37278
+            }
+        }
+    ]
+}

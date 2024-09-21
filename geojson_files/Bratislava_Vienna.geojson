@@ -1,0 +1,80 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        17.1062057,
+                        48.1586781
+                    ],
+                    [
+                        16.918833,
+                        48.2494275
+                    ],
+                    [
+                        16.37278,
+                        48.20921
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Vienna"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1062057,
+                    48.1586781
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Vienna",
+                "stop_name": "Bratislava",
+                "latitude": 48.1586781,
+                "longitude": 17.1062057
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.918833,
+                    48.2494275
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Vienna",
+                "stop_name": "Marchegg",
+                "latitude": 48.2494275,
+                "longitude": 16.918833
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.37278,
+                    48.20921
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Vienna",
+                "stop_name": "Vienna",
+                "latitude": 48.20921,
+                "longitude": 16.37278
+            }
+        }
+    ]
+}

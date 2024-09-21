@@ -1,0 +1,332 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        4.3570964,
+                        50.845504
+                    ],
+                    [
+                        4.3354547,
+                        50.8360867
+                    ],
+                    [
+                        2.35677,
+                        48.87951
+                    ],
+                    [
+                        2.32003,
+                        48.84087
+                    ],
+                    [
+                        -1.7818973,
+                        43.3531913
+                    ],
+                    [
+                        -1.7833426,
+                        43.351099
+                    ],
+                    [
+                        -1.976704,
+                        43.317669
+                    ],
+                    [
+                        -3.68247,
+                        40.4721
+                    ],
+                    [
+                        -7.8728186,
+                        42.3503961
+                    ],
+                    [
+                        -8.5447196,
+                        42.8707911
+                    ],
+                    [
+                        -8.5432255,
+                        42.8701783
+                    ],
+                    [
+                        -8.642622,
+                        42.0227346
+                    ],
+                    [
+                        -8.6394229,
+                        42.0249294
+                    ],
+                    [
+                        -8.547626,
+                        41.337411
+                    ],
+                    [
+                        -9.13564,
+                        38.70701
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Lisbon"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3570964,
+                    50.845504
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Lisbon",
+                "stop_name": "Brussels",
+                "latitude": 50.845504,
+                "longitude": 4.3570964
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3354547,
+                    50.8360867
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Lisbon",
+                "stop_name": "Brussels South/Midi Train Station",
+                "latitude": 50.8360867,
+                "longitude": 4.3354547
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35677,
+                    48.87951
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Lisbon",
+                "stop_name": "Gare du Nord",
+                "latitude": 48.87951,
+                "longitude": 2.35677
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.32003,
+                    48.84087
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Lisbon",
+                "stop_name": "Gare Montparnasse",
+                "latitude": 48.84087,
+                "longitude": 2.32003
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7818973,
+                    43.3531913
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Lisbon",
+                "stop_name": "Hendaye, France",
+                "latitude": 43.3531913,
+                "longitude": -1.7818973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7833426,
+                    43.351099
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Lisbon",
+                "stop_name": "Hendaye",
+                "latitude": 43.351099,
+                "longitude": -1.7833426
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.976704,
+                    43.317669
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Lisbon",
+                "stop_name": "San Sebasti\u00e1n",
+                "latitude": 43.317669,
+                "longitude": -1.976704
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.68247,
+                    40.4721
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Lisbon",
+                "stop_name": "Madrid Chamartin Train Station",
+                "latitude": 40.4721,
+                "longitude": -3.68247
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.8728186,
+                    42.3503961
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Lisbon",
+                "stop_name": "Ourense",
+                "latitude": 42.3503961,
+                "longitude": -7.8728186
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.5447196,
+                    42.8707911
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Lisbon",
+                "stop_name": "Santiago de Compostela, Spain",
+                "latitude": 42.8707911,
+                "longitude": -8.5447196
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.5432255,
+                    42.8701783
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Lisbon",
+                "stop_name": "Santiago de Compostela",
+                "latitude": 42.8701783,
+                "longitude": -8.5432255
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.642622,
+                    42.0227346
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Lisbon",
+                "stop_name": "Valen\u00e7a, Portugal",
+                "latitude": 42.0227346,
+                "longitude": -8.642622
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.6394229,
+                    42.0249294
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Lisbon",
+                "stop_name": "Valenca",
+                "latitude": 42.0249294,
+                "longitude": -8.6394229
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.547626,
+                    41.337411
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Lisbon",
+                "stop_name": "Trofa",
+                "latitude": 41.337411,
+                "longitude": -8.547626
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13564,
+                    38.70701
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Lisbon",
+                "stop_name": "Lisbon",
+                "latitude": 38.70701,
+                "longitude": -9.13564
+            }
+        }
+    ]
+}

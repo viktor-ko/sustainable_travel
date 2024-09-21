@@ -1,0 +1,164 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        4.9016565,
+                        52.3788903
+                    ],
+                    [
+                        2.35677,
+                        48.87951
+                    ],
+                    [
+                        2.32003,
+                        48.84087
+                    ],
+                    [
+                        -1.7818973,
+                        43.3531913
+                    ],
+                    [
+                        -1.7833426,
+                        43.351099
+                    ],
+                    [
+                        -1.977385,
+                        43.3161447
+                    ],
+                    [
+                        -2.92346,
+                        43.25696
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Bilbao"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.9016565,
+                    52.3788903
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Bilbao",
+                "stop_name": "Amsterdam",
+                "latitude": 52.3788903,
+                "longitude": 4.9016565
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35677,
+                    48.87951
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Bilbao",
+                "stop_name": "Gare du Nord",
+                "latitude": 48.87951,
+                "longitude": 2.35677
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.32003,
+                    48.84087
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Bilbao",
+                "stop_name": "Gare Montparnasse",
+                "latitude": 48.84087,
+                "longitude": 2.32003
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7818973,
+                    43.3531913
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Bilbao",
+                "stop_name": "Hendaye, France",
+                "latitude": 43.3531913,
+                "longitude": -1.7818973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7833426,
+                    43.351099
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Bilbao",
+                "stop_name": "Hendaye",
+                "latitude": 43.351099,
+                "longitude": -1.7833426
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.977385,
+                    43.3161447
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Bilbao",
+                "stop_name": "Estaci\u00f3n de Autobuses de San Sebastian",
+                "latitude": 43.3161447,
+                "longitude": -1.977385
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.92346,
+                    43.25696
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Bilbao",
+                "stop_name": "Bilbao",
+                "latitude": 43.25696,
+                "longitude": -2.92346
+            }
+        }
+    ]
+}

@@ -1,0 +1,227 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        28.894896,
+                        41.039273
+                    ],
+                    [
+                        28.8911635,
+                        41.0365642
+                    ],
+                    [
+                        28.88839,
+                        41.037609
+                    ],
+                    [
+                        28.951576,
+                        41.005213
+                    ],
+                    [
+                        28.7679118,
+                        41.0188916
+                    ],
+                    [
+                        26.073892,
+                        44.446634
+                    ],
+                    [
+                        21.2376825,
+                        46.4320143
+                    ],
+                    [
+                        19.0839882,
+                        47.5004423
+                    ],
+                    [
+                        16.3765973,
+                        48.1851873
+                    ],
+                    [
+                        11.58022,
+                        48.13913
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Munich"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.894896,
+                    41.039273
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Munich",
+                "stop_name": "Istanbul",
+                "latitude": 41.039273,
+                "longitude": 28.894896
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.8911635,
+                    41.0365642
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Munich",
+                "stop_name": "Istanbul, T\u00fcrkiye",
+                "latitude": 41.0365642,
+                "longitude": 28.8911635
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.88839,
+                    41.037609
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Munich",
+                "stop_name": "Esenler",
+                "latitude": 41.037609,
+                "longitude": 28.88839
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.951576,
+                    41.005213
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Munich",
+                "stop_name": "Yen\u0131kap\u0131",
+                "latitude": 41.005213,
+                "longitude": 28.951576
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.7679118,
+                    41.0188916
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Munich",
+                "stop_name": "Halkal\u0131",
+                "latitude": 41.0188916,
+                "longitude": 28.7679118
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Munich",
+                "stop_name": "B\u00fckre\u015fti Nord",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.2376825,
+                    46.4320143
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Munich",
+                "stop_name": "L\u0151k\u00f6sh\u00e1za",
+                "latitude": 46.4320143,
+                "longitude": 21.2376825
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Munich",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3765973,
+                    48.1851873
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Munich",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.1851873,
+                "longitude": 16.3765973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.58022,
+                    48.13913
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Munich",
+                "stop_name": "Munich",
+                "latitude": 48.13913,
+                "longitude": 11.58022
+            }
+        }
+    ]
+}

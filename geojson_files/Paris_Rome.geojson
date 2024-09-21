@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.3743773,
+                        48.8443038
+                    ],
+                    [
+                        7.6658989,
+                        45.0716193
+                    ],
+                    [
+                        9.204822,
+                        45.487137
+                    ],
+                    [
+                        12.49427,
+                        41.89056
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Rome"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3743773,
+                    48.8443038
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Rome",
+                "stop_name": "Paris",
+                "latitude": 48.8443038,
+                "longitude": 2.3743773
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.6658989,
+                    45.0716193
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Rome",
+                "stop_name": "Torino Porta Susa",
+                "latitude": 45.0716193,
+                "longitude": 7.6658989
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.204822,
+                    45.487137
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Rome",
+                "stop_name": "Milano Centrale Railway Station",
+                "latitude": 45.487137,
+                "longitude": 9.204822
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.49427,
+                    41.89056
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Rome",
+                "stop_name": "Rome",
+                "latitude": 41.89056,
+                "longitude": 12.49427
+            }
+        }
+    ]
+}

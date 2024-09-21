@@ -1,0 +1,122 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        6.1316732,
+                        49.6116301
+                    ],
+                    [
+                        6.1305908,
+                        49.6041245
+                    ],
+                    [
+                        6.13306,
+                        49.59861
+                    ],
+                    [
+                        6.10111,
+                        49.51611
+                    ],
+                    [
+                        2.35085,
+                        48.85689
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Paris"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1316732,
+                    49.6116301
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Paris",
+                "stop_name": "Luxembourg City",
+                "latitude": 49.6116301,
+                "longitude": 6.1316732
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1305908,
+                    49.6041245
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Paris",
+                "stop_name": "Par\u00e4isser Plaz-Place de Paris",
+                "latitude": 49.6041245,
+                "longitude": 6.1305908
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.13306,
+                    49.59861
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Paris",
+                "stop_name": "Lux BG Gare",
+                "latitude": 49.59861,
+                "longitude": 6.13306
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.10111,
+                    49.51611
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Paris",
+                "stop_name": "Bettembourg",
+                "latitude": 49.51611,
+                "longitude": 6.10111
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35085,
+                    48.85689
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Paris",
+                "stop_name": "Paris",
+                "latitude": 48.85689,
+                "longitude": 2.35085
+            }
+        }
+    ]
+}

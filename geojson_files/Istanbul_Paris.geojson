@@ -1,0 +1,311 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        28.894896,
+                        41.039273
+                    ],
+                    [
+                        28.8911635,
+                        41.0365642
+                    ],
+                    [
+                        28.88839,
+                        41.037609
+                    ],
+                    [
+                        28.951576,
+                        41.005213
+                    ],
+                    [
+                        28.7679118,
+                        41.0188916
+                    ],
+                    [
+                        26.073892,
+                        44.446634
+                    ],
+                    [
+                        19.0839882,
+                        47.5004423
+                    ],
+                    [
+                        16.3765973,
+                        48.1851873
+                    ],
+                    [
+                        11.558335,
+                        48.140232
+                    ],
+                    [
+                        8.46982,
+                        49.4797015
+                    ],
+                    [
+                        6.991,
+                        49.241
+                    ],
+                    [
+                        6.90132,
+                        49.18923
+                    ],
+                    [
+                        6.177211,
+                        49.1098282
+                    ],
+                    [
+                        2.35085,
+                        48.85689
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Paris"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.894896,
+                    41.039273
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Paris",
+                "stop_name": "Istanbul",
+                "latitude": 41.039273,
+                "longitude": 28.894896
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.8911635,
+                    41.0365642
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Paris",
+                "stop_name": "Istanbul, T\u00fcrkiye",
+                "latitude": 41.0365642,
+                "longitude": 28.8911635
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.88839,
+                    41.037609
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Paris",
+                "stop_name": "Esenler",
+                "latitude": 41.037609,
+                "longitude": 28.88839
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.951576,
+                    41.005213
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Paris",
+                "stop_name": "Yen\u0131kap\u0131",
+                "latitude": 41.005213,
+                "longitude": 28.951576
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.7679118,
+                    41.0188916
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Paris",
+                "stop_name": "Halkal\u0131",
+                "latitude": 41.0188916,
+                "longitude": 28.7679118
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Paris",
+                "stop_name": "B\u00fckre\u015fti Nord",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Paris",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3765973,
+                    48.1851873
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Paris",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.1851873,
+                "longitude": 16.3765973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.558335,
+                    48.140232
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Paris",
+                "stop_name": "M\u00fcnchen Hbf Gl.5-10",
+                "latitude": 48.140232,
+                "longitude": 11.558335
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.46982,
+                    49.4797015
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Paris",
+                "stop_name": "Mannheim",
+                "latitude": 49.4797015,
+                "longitude": 8.46982
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.991,
+                    49.241
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Paris",
+                "stop_name": "Europabahnhof Saarbr\u00fccken",
+                "latitude": 49.241,
+                "longitude": 6.991
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.90132,
+                    49.18923
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Paris",
+                "stop_name": "Forbach",
+                "latitude": 49.18923,
+                "longitude": 6.90132
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.177211,
+                    49.1098282
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Paris",
+                "stop_name": "Gare de Metz",
+                "latitude": 49.1098282,
+                "longitude": 6.177211
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35085,
+                    48.85689
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Paris",
+                "stop_name": "Paris",
+                "latitude": 48.85689,
+                "longitude": 2.35085
+            }
+        }
+    ]
+}

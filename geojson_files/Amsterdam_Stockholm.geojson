@@ -1,0 +1,122 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        4.900272,
+                        52.3791283
+                    ],
+                    [
+                        8.060916,
+                        52.272761
+                    ],
+                    [
+                        10.0066369,
+                        53.552993
+                    ],
+                    [
+                        12.9999228,
+                        55.6090669
+                    ],
+                    [
+                        18.06449,
+                        59.33279
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Stockholm"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.900272,
+                    52.3791283
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Stockholm",
+                "stop_name": "Amsterdam",
+                "latitude": 52.3791283,
+                "longitude": 4.900272
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.060916,
+                    52.272761
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Stockholm",
+                "stop_name": "Osnabr\u00fcck",
+                "latitude": 52.272761,
+                "longitude": 8.060916
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.0066369,
+                    53.552993
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Stockholm",
+                "stop_name": "Hamburg Central Station",
+                "latitude": 53.552993,
+                "longitude": 10.0066369
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.9999228,
+                    55.6090669
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Stockholm",
+                "stop_name": "Malm\u00f6 Centralstation",
+                "latitude": 55.6090669,
+                "longitude": 12.9999228
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.06449,
+                    59.33279
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Stockholm",
+                "stop_name": "Stockholm",
+                "latitude": 59.33279,
+                "longitude": 18.06449
+            }
+        }
+    ]
+}

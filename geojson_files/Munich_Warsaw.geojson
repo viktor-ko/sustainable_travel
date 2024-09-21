@@ -1,0 +1,143 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        11.558335,
+                        48.140232
+                    ],
+                    [
+                        13.369402,
+                        52.5250839
+                    ],
+                    [
+                        13.469105,
+                        52.503037
+                    ],
+                    [
+                        14.6449248,
+                        52.5913563
+                    ],
+                    [
+                        14.647225,
+                        52.5912426
+                    ],
+                    [
+                        21.00849,
+                        52.23498
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Warsaw"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.558335,
+                    48.140232
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Warsaw",
+                "stop_name": "Munich",
+                "latitude": 48.140232,
+                "longitude": 11.558335
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Warsaw",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.469105,
+                    52.503037
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Warsaw",
+                "stop_name": "Ostkreuz",
+                "latitude": 52.503037,
+                "longitude": 13.469105
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.6449248,
+                    52.5913563
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Warsaw",
+                "stop_name": "Kostrzy\u0144 nad Odr\u0105, Poland",
+                "latitude": 52.5913563,
+                "longitude": 14.6449248
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.647225,
+                    52.5912426
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Warsaw",
+                "stop_name": "K\u00fcstrin",
+                "latitude": 52.5912426,
+                "longitude": 14.647225
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.00849,
+                    52.23498
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Warsaw",
+                "stop_name": "Warsaw",
+                "latitude": 52.23498,
+                "longitude": 21.00849
+            }
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        7.4358671,
+                        46.9481334
+                    ],
+                    [
+                        8.5368921,
+                        47.3785973
+                    ],
+                    [
+                        8.5403226,
+                        47.3778579
+                    ],
+                    [
+                        8.723821,
+                        47.500334
+                    ],
+                    [
+                        11.558335,
+                        48.140232
+                    ],
+                    [
+                        13.369402,
+                        52.5250839
+                    ],
+                    [
+                        21.00849,
+                        52.23498
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Warsaw"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4358671,
+                    46.9481334
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Warsaw",
+                "stop_name": "Bern",
+                "latitude": 46.9481334,
+                "longitude": 7.4358671
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5368921,
+                    47.3785973
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Warsaw",
+                "stop_name": "Zurich, Switzerland",
+                "latitude": 47.3785973,
+                "longitude": 8.5368921
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5403226,
+                    47.3778579
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Warsaw",
+                "stop_name": "Zurich HB",
+                "latitude": 47.3778579,
+                "longitude": 8.5403226
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.723821,
+                    47.500334
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Warsaw",
+                "stop_name": "Winterthur",
+                "latitude": 47.500334,
+                "longitude": 8.723821
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.558335,
+                    48.140232
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Warsaw",
+                "stop_name": "M\u00fcnchen Hbf Gl.5-10",
+                "latitude": 48.140232,
+                "longitude": 11.558335
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Warsaw",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.00849,
+                    52.23498
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Warsaw",
+                "stop_name": "Warsaw",
+                "latitude": 52.23498,
+                "longitude": 21.00849
+            }
+        }
+    ]
+}

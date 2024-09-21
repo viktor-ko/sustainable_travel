@@ -1,0 +1,122 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.369402,
+                        52.5250839
+                    ],
+                    [
+                        11.08194,
+                        49.44639
+                    ],
+                    [
+                        11.556708,
+                        48.141529
+                    ],
+                    [
+                        8.5635871,
+                        47.4501322
+                    ],
+                    [
+                        7.44813,
+                        46.948
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Bern"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Bern",
+                "stop_name": "Berlin",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.08194,
+                    49.44639
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Bern",
+                "stop_name": "N\u00fcrnberg Hbf",
+                "latitude": 49.44639,
+                "longitude": 11.08194
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.556708,
+                    48.141529
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Bern",
+                "stop_name": "M\u00fcnchen Hbf Gl.5-10",
+                "latitude": 48.141529,
+                "longitude": 11.556708
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5635871,
+                    47.4501322
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Bern",
+                "stop_name": "Flughafen Z\u00fcrich",
+                "latitude": 47.4501322,
+                "longitude": 8.5635871
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.44813,
+                    46.948
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Bern",
+                "stop_name": "Bern",
+                "latitude": 46.948,
+                "longitude": 7.44813
+            }
+        }
+    ]
+}

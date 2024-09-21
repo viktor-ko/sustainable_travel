@@ -1,0 +1,311 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        7.4354662,
+                        46.9483506
+                    ],
+                    [
+                        9.3684992,
+                        47.4230453
+                    ],
+                    [
+                        9.6390472,
+                        47.4532548
+                    ],
+                    [
+                        9.6038151,
+                        47.2410906
+                    ],
+                    [
+                        16.3354,
+                        48.1752143
+                    ],
+                    [
+                        19.9474928,
+                        50.0683947
+                    ],
+                    [
+                        21.00327,
+                        52.22884
+                    ],
+                    [
+                        23.1358237,
+                        53.134335
+                    ],
+                    [
+                        22.9453599,
+                        54.1059177
+                    ],
+                    [
+                        22.922454,
+                        54.099203
+                    ],
+                    [
+                        23.9275747,
+                        54.8896417
+                    ],
+                    [
+                        23.93227,
+                        54.88623
+                    ],
+                    [
+                        24.4621771,
+                        54.8632468
+                    ],
+                    [
+                        24.10425,
+                        56.94625
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Riga"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4354662,
+                    46.9483506
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Riga",
+                "stop_name": "Bern",
+                "latitude": 46.9483506,
+                "longitude": 7.4354662
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.3684992,
+                    47.4230453
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Riga",
+                "stop_name": "St. Gallen",
+                "latitude": 47.4230453,
+                "longitude": 9.3684992
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.6390472,
+                    47.4532548
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Riga",
+                "stop_name": "St. Margrethen",
+                "latitude": 47.4532548,
+                "longitude": 9.6390472
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.6038151,
+                    47.2410906
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Riga",
+                "stop_name": "Feldkirch",
+                "latitude": 47.2410906,
+                "longitude": 9.6038151
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3354,
+                    48.1752143
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Riga",
+                "stop_name": "Vienna Meidling",
+                "latitude": 48.1752143,
+                "longitude": 16.3354
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.9474928,
+                    50.0683947
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Riga",
+                "stop_name": "Krak\u00f3w Main Station",
+                "latitude": 50.0683947,
+                "longitude": 19.9474928
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.00327,
+                    52.22884
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Riga",
+                "stop_name": "Warsaw Central",
+                "latitude": 52.22884,
+                "longitude": 21.00327
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.1358237,
+                    53.134335
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Riga",
+                "stop_name": "Bialystok",
+                "latitude": 53.134335,
+                "longitude": 23.1358237
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.9453599,
+                    54.1059177
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Riga",
+                "stop_name": "Suwalki, Poland",
+                "latitude": 54.1059177,
+                "longitude": 22.9453599
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.922454,
+                    54.099203
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Riga",
+                "stop_name": "Suwalki, MOP INEES, Mickiewicza Street",
+                "latitude": 54.099203,
+                "longitude": 22.922454
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.9275747,
+                    54.8896417
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Riga",
+                "stop_name": "Kaunas, Lithuania",
+                "latitude": 54.8896417,
+                "longitude": 23.9275747
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.93227,
+                    54.88623
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Riga",
+                "stop_name": "Kaunas Central Train Station",
+                "latitude": 54.88623,
+                "longitude": 23.93227
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.4621771,
+                    54.8632468
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Riga",
+                "stop_name": "Kaisiadorys Train Station",
+                "latitude": 54.8632468,
+                "longitude": 24.4621771
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.10425,
+                    56.94625
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Riga",
+                "stop_name": "Riga",
+                "latitude": 56.94625,
+                "longitude": 24.10425
+            }
+        }
+    ]
+}

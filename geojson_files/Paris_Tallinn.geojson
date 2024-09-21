@@ -1,0 +1,248 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.3591978,
+                        48.8768146
+                    ],
+                    [
+                        8.46982,
+                        49.4797015
+                    ],
+                    [
+                        9.44712,
+                        51.31311
+                    ],
+                    [
+                        13.369402,
+                        52.5250839
+                    ],
+                    [
+                        21.00327,
+                        52.22884
+                    ],
+                    [
+                        23.1026,
+                        53.1153
+                    ],
+                    [
+                        22.360769,
+                        53.825298
+                    ],
+                    [
+                        24.5055122,
+                        58.3860617
+                    ],
+                    [
+                        24.6309467,
+                        59.356031
+                    ],
+                    [
+                        24.6275847,
+                        59.3544174
+                    ],
+                    [
+                        24.7532,
+                        59.44269
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Tallinn"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3591978,
+                    48.8768146
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Tallinn",
+                "stop_name": "Paris",
+                "latitude": 48.8768146,
+                "longitude": 2.3591978
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.46982,
+                    49.4797015
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Tallinn",
+                "stop_name": "Mannheim",
+                "latitude": 49.4797015,
+                "longitude": 8.46982
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.44712,
+                    51.31311
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Tallinn",
+                "stop_name": "Wilhelmsh\u00f6he",
+                "latitude": 51.31311,
+                "longitude": 9.44712
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Tallinn",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.00327,
+                    52.22884
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Tallinn",
+                "stop_name": "Warsaw Central",
+                "latitude": 52.22884,
+                "longitude": 21.00327
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.1026,
+                    53.1153
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Tallinn",
+                "stop_name": "Zielone Wzg\u00f3rza",
+                "latitude": 53.1153,
+                "longitude": 23.1026
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.360769,
+                    53.825298
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Tallinn",
+                "stop_name": "Elk, Dabrowskiego - Bus station 01 and Railway station 02",
+                "latitude": 53.825298,
+                "longitude": 22.360769
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.5055122,
+                    58.3860617
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Tallinn",
+                "stop_name": "P\u00e4rnu bussijaam",
+                "latitude": 58.3860617,
+                "longitude": 24.5055122
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.6309467,
+                    59.356031
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Tallinn",
+                "stop_name": "Tallinn, Estonia",
+                "latitude": 59.356031,
+                "longitude": 24.6309467
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.6275847,
+                    59.3544174
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Tallinn",
+                "stop_name": "Laagri",
+                "latitude": 59.3544174,
+                "longitude": 24.6275847
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7532,
+                    59.44269
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Tallinn",
+                "stop_name": "Tallinn",
+                "latitude": 59.44269,
+                "longitude": 24.7532
+            }
+        }
+    ]
+}

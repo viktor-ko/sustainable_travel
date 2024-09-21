@@ -1,0 +1,185 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        7.4358441,
+                        46.9481634
+                    ],
+                    [
+                        7.58753,
+                        47.5470241
+                    ],
+                    [
+                        7.5897064,
+                        47.5475873
+                    ],
+                    [
+                        7.34683,
+                        48.07234
+                    ],
+                    [
+                        2.3595604,
+                        48.8763216
+                    ],
+                    [
+                        2.35503,
+                        48.88051
+                    ],
+                    [
+                        4.33653,
+                        50.83571
+                    ],
+                    [
+                        4.3557,
+                        50.84553
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Brussels"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4358441,
+                    46.9481634
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Brussels",
+                "stop_name": "Bern",
+                "latitude": 46.9481634,
+                "longitude": 7.4358441
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.58753,
+                    47.5470241
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Brussels",
+                "stop_name": "Basel, Switzerland",
+                "latitude": 47.5470241,
+                "longitude": 7.58753
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.5897064,
+                    47.5475873
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Brussels",
+                "stop_name": "Basel SBB",
+                "latitude": 47.5475873,
+                "longitude": 7.5897064
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.34683,
+                    48.07234
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Brussels",
+                "stop_name": "Colmar",
+                "latitude": 48.07234,
+                "longitude": 7.34683
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3595604,
+                    48.8763216
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Brussels",
+                "stop_name": "Paris, France",
+                "latitude": 48.8763216,
+                "longitude": 2.3595604
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35503,
+                    48.88051
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Brussels",
+                "stop_name": "Gare du Nord",
+                "latitude": 48.88051,
+                "longitude": 2.35503
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.33653,
+                    50.83571
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Brussels",
+                "stop_name": "Brussels South/Midi Train Station",
+                "latitude": 50.83571,
+                "longitude": 4.33653
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3557,
+                    50.84553
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Brussels",
+                "stop_name": "Brussels",
+                "latitude": 50.84553,
+                "longitude": 4.3557
+            }
+        }
+    ]
+}

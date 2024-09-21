@@ -1,0 +1,143 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        24.7371066,
+                        59.4399864
+                    ],
+                    [
+                        24.627093,
+                        59.3548747
+                    ],
+                    [
+                        24.6304679,
+                        59.3552078
+                    ],
+                    [
+                        24.1139837,
+                        56.9449043
+                    ],
+                    [
+                        24.1203279,
+                        56.9467445
+                    ],
+                    [
+                        25.27986,
+                        54.68946
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Tallinn",
+                "End": "Vilnius"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7371066,
+                    59.4399864
+                ]
+            },
+            "properties": {
+                "Start": "Tallinn",
+                "End": "Vilnius",
+                "stop_name": "Tallinn",
+                "latitude": 59.4399864,
+                "longitude": 24.7371066
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.627093,
+                    59.3548747
+                ]
+            },
+            "properties": {
+                "Start": "Tallinn",
+                "End": "Vilnius",
+                "stop_name": "Tallinn, Estonia",
+                "latitude": 59.3548747,
+                "longitude": 24.627093
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.6304679,
+                    59.3552078
+                ]
+            },
+            "properties": {
+                "Start": "Tallinn",
+                "End": "Vilnius",
+                "stop_name": "Tallinn, Vana-P\u00e4\u00e4sk\u00fcla",
+                "latitude": 59.3552078,
+                "longitude": 24.6304679
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.1139837,
+                    56.9449043
+                ]
+            },
+            "properties": {
+                "Start": "Tallinn",
+                "End": "Vilnius",
+                "stop_name": "Riga, Latvia",
+                "latitude": 56.9449043,
+                "longitude": 24.1139837
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.1203279,
+                    56.9467445
+                ]
+            },
+            "properties": {
+                "Start": "Tallinn",
+                "End": "Vilnius",
+                "stop_name": "R\u012bga-Pasa\u017eieru",
+                "latitude": 56.9467445,
+                "longitude": 24.1203279
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.27986,
+                    54.68946
+                ]
+            },
+            "properties": {
+                "Start": "Tallinn",
+                "End": "Vilnius",
+                "stop_name": "Vilnius",
+                "latitude": 54.68946,
+                "longitude": 25.27986
+            }
+        }
+    ]
+}

@@ -1,0 +1,248 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        28.894896,
+                        41.039273
+                    ],
+                    [
+                        28.8911635,
+                        41.0365642
+                    ],
+                    [
+                        28.88839,
+                        41.037609
+                    ],
+                    [
+                        28.951576,
+                        41.005213
+                    ],
+                    [
+                        28.7679118,
+                        41.0188916
+                    ],
+                    [
+                        26.073892,
+                        44.446634
+                    ],
+                    [
+                        19.0839882,
+                        47.5004423
+                    ],
+                    [
+                        16.58673,
+                        47.677904
+                    ],
+                    [
+                        16.2344131,
+                        47.8116027
+                    ],
+                    [
+                        13.8486717,
+                        46.6182386
+                    ],
+                    [
+                        15.97851,
+                        45.81491
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Zagreb"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.894896,
+                    41.039273
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Zagreb",
+                "stop_name": "Istanbul",
+                "latitude": 41.039273,
+                "longitude": 28.894896
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.8911635,
+                    41.0365642
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Zagreb",
+                "stop_name": "Istanbul, T\u00fcrkiye",
+                "latitude": 41.0365642,
+                "longitude": 28.8911635
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.88839,
+                    41.037609
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Zagreb",
+                "stop_name": "Esenler",
+                "latitude": 41.037609,
+                "longitude": 28.88839
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.951576,
+                    41.005213
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Zagreb",
+                "stop_name": "Yen\u0131kap\u0131",
+                "latitude": 41.005213,
+                "longitude": 28.951576
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.7679118,
+                    41.0188916
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Zagreb",
+                "stop_name": "Halkal\u0131",
+                "latitude": 41.0188916,
+                "longitude": 28.7679118
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Zagreb",
+                "stop_name": "B\u00fckre\u015fti Nord",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Zagreb",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.58673,
+                    47.677904
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Zagreb",
+                "stop_name": "Sopron",
+                "latitude": 47.677904,
+                "longitude": 16.58673
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.2344131,
+                    47.8116027
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Zagreb",
+                "stop_name": "Wiener Neustadt",
+                "latitude": 47.8116027,
+                "longitude": 16.2344131
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.8486717,
+                    46.6182386
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Zagreb",
+                "stop_name": "Villach Hbf",
+                "latitude": 46.6182386,
+                "longitude": 13.8486717
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.97851,
+                    45.81491
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Zagreb",
+                "stop_name": "Zagreb",
+                "latitude": 45.81491,
+                "longitude": 15.97851
+            }
+        }
+    ]
+}

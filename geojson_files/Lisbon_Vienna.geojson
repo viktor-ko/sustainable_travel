@@ -1,0 +1,332 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -9.12235,
+                        38.71436
+                    ],
+                    [
+                        -9.0993449,
+                        38.7678423
+                    ],
+                    [
+                        -8.5856627,
+                        41.1488511
+                    ],
+                    [
+                        -8.583159,
+                        41.152889
+                    ],
+                    [
+                        -8.7137622,
+                        42.2341258
+                    ],
+                    [
+                        -8.7109451,
+                        42.2352918
+                    ],
+                    [
+                        -4.909923,
+                        41.317617
+                    ],
+                    [
+                        -1.91784,
+                        43.31818
+                    ],
+                    [
+                        -1.7818973,
+                        43.3531913
+                    ],
+                    [
+                        2.32439,
+                        48.84392
+                    ],
+                    [
+                        2.3591978,
+                        48.8768146
+                    ],
+                    [
+                        8.46982,
+                        49.4797015
+                    ],
+                    [
+                        11.5599976,
+                        48.1402903
+                    ],
+                    [
+                        13.0450707,
+                        47.8130704
+                    ],
+                    [
+                        16.37278,
+                        48.20921
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Vienna"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.12235,
+                    38.71436
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Vienna",
+                "stop_name": "Lisbon",
+                "latitude": 38.71436,
+                "longitude": -9.12235
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.0993449,
+                    38.7678423
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Vienna",
+                "stop_name": "Lisboa Oriente",
+                "latitude": 38.7678423,
+                "longitude": -9.0993449
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.5856627,
+                    41.1488511
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Vienna",
+                "stop_name": "Porto, Portugal",
+                "latitude": 41.1488511,
+                "longitude": -8.5856627
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.583159,
+                    41.152889
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Vienna",
+                "stop_name": "Oporto Campanha",
+                "latitude": 41.152889,
+                "longitude": -8.583159
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.7137622,
+                    42.2341258
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Vienna",
+                "stop_name": "Vigo, Spain",
+                "latitude": 42.2341258,
+                "longitude": -8.7137622
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.7109451,
+                    42.2352918
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Vienna",
+                "stop_name": "Vigo Urz\u00e1iz",
+                "latitude": 42.2352918,
+                "longitude": -8.7109451
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.909923,
+                    41.317617
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Vienna",
+                "stop_name": "Estaci\u00f3n de tren Medina del Campo",
+                "latitude": 41.317617,
+                "longitude": -4.909923
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.91784,
+                    43.31818
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Vienna",
+                "stop_name": "Pasaia",
+                "latitude": 43.31818,
+                "longitude": -1.91784
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7818973,
+                    43.3531913
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Vienna",
+                "stop_name": "Hendaye",
+                "latitude": 43.3531913,
+                "longitude": -1.7818973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.32439,
+                    48.84392
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Vienna",
+                "stop_name": "Montparnasse - Bienven\u00fce",
+                "latitude": 48.84392,
+                "longitude": 2.32439
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3591978,
+                    48.8768146
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Vienna",
+                "stop_name": "Gare de l'Est",
+                "latitude": 48.8768146,
+                "longitude": 2.3591978
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.46982,
+                    49.4797015
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Vienna",
+                "stop_name": "Mannheim",
+                "latitude": 49.4797015,
+                "longitude": 8.46982
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5599976,
+                    48.1402903
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Vienna",
+                "stop_name": "M\u00fcnchen Hbf Gl.5-10",
+                "latitude": 48.1402903,
+                "longitude": 11.5599976
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.0450707,
+                    47.8130704
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Vienna",
+                "stop_name": "Salzburg",
+                "latitude": 47.8130704,
+                "longitude": 13.0450707
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.37278,
+                    48.20921
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Vienna",
+                "stop_name": "Vienna",
+                "latitude": 48.20921,
+                "longitude": 16.37278
+            }
+        }
+    ]
+}

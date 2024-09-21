@@ -1,0 +1,143 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        18.10236,
+                        59.3574
+                    ],
+                    [
+                        18.1021904,
+                        59.3479089
+                    ],
+                    [
+                        18.115221,
+                        59.351048
+                    ],
+                    [
+                        24.7692625,
+                        59.4437217
+                    ],
+                    [
+                        24.7600937,
+                        59.4394514
+                    ],
+                    [
+                        24.7532,
+                        59.44269
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Stockholm",
+                "End": "Tallinn"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.10236,
+                    59.3574
+                ]
+            },
+            "properties": {
+                "Start": "Stockholm",
+                "End": "Tallinn",
+                "stop_name": "Stockholm",
+                "latitude": 59.3574,
+                "longitude": 18.10236
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.1021904,
+                    59.3479089
+                ]
+            },
+            "properties": {
+                "Start": "Stockholm",
+                "End": "Tallinn",
+                "stop_name": "Stockholm Metropolitan Area, Sweden",
+                "latitude": 59.3479089,
+                "longitude": 18.1021904
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.115221,
+                    59.351048
+                ]
+            },
+            "properties": {
+                "Start": "Stockholm",
+                "End": "Tallinn",
+                "stop_name": "Stockholm",
+                "latitude": 59.351048,
+                "longitude": 18.115221
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7692625,
+                    59.4437217
+                ]
+            },
+            "properties": {
+                "Start": "Stockholm",
+                "End": "Tallinn",
+                "stop_name": "Tallinn, Estonia",
+                "latitude": 59.4437217,
+                "longitude": 24.7692625
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7600937,
+                    59.4394514
+                ]
+            },
+            "properties": {
+                "Start": "Stockholm",
+                "End": "Tallinn",
+                "stop_name": "Siimeoni (ajutine)",
+                "latitude": 59.4394514,
+                "longitude": 24.7600937
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7532,
+                    59.44269
+                ]
+            },
+            "properties": {
+                "Start": "Stockholm",
+                "End": "Tallinn",
+                "stop_name": "Tallinn",
+                "latitude": 59.44269,
+                "longitude": 24.7532
+            }
+        }
+    ]
+}

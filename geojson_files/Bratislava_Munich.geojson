@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        17.1062057,
+                        48.1586781
+                    ],
+                    [
+                        16.918833,
+                        48.2494275
+                    ],
+                    [
+                        16.3765973,
+                        48.1851873
+                    ],
+                    [
+                        11.58022,
+                        48.13913
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Munich"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1062057,
+                    48.1586781
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Munich",
+                "stop_name": "Bratislava",
+                "latitude": 48.1586781,
+                "longitude": 17.1062057
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.918833,
+                    48.2494275
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Munich",
+                "stop_name": "Marchegg",
+                "latitude": 48.2494275,
+                "longitude": 16.918833
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3765973,
+                    48.1851873
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Munich",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.1851873,
+                "longitude": 16.3765973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.58022,
+                    48.13913
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Munich",
+                "stop_name": "Munich",
+                "latitude": 48.13913,
+                "longitude": 11.58022
+            }
+        }
+    ]
+}

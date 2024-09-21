@@ -1,0 +1,80 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        4.3570964,
+                        50.845504
+                    ],
+                    [
+                        4.33548,
+                        50.83522
+                    ],
+                    [
+                        2.35085,
+                        48.85689
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Paris"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3570964,
+                    50.845504
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Paris",
+                "stop_name": "Brussels",
+                "latitude": 50.845504,
+                "longitude": 4.3570964
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.33548,
+                    50.83522
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Paris",
+                "stop_name": "Brussels South/Midi Train Station",
+                "latitude": 50.83522,
+                "longitude": 4.33548
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35085,
+                    48.85689
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Paris",
+                "stop_name": "Paris",
+                "latitude": 48.85689,
+                "longitude": 2.35085
+            }
+        }
+    ]
+}

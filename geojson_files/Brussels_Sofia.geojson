@@ -1,0 +1,290 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        4.3570964,
+                        50.845504
+                    ],
+                    [
+                        4.3354547,
+                        50.8360867
+                    ],
+                    [
+                        6.9586017,
+                        50.9432141
+                    ],
+                    [
+                        14.0265202,
+                        48.166036
+                    ],
+                    [
+                        19.0839882,
+                        47.5004423
+                    ],
+                    [
+                        26.073892,
+                        44.446634
+                    ],
+                    [
+                        23.316502,
+                        42.72677
+                    ],
+                    [
+                        23.313824,
+                        42.71394
+                    ],
+                    [
+                        23.3189735,
+                        42.6878815
+                    ],
+                    [
+                        23.3166845,
+                        42.6891427
+                    ],
+                    [
+                        23.3526353,
+                        42.7027222
+                    ],
+                    [
+                        23.361373,
+                        42.699124
+                    ],
+                    [
+                        23.32601,
+                        42.69649
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Sofia"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3570964,
+                    50.845504
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Sofia",
+                "stop_name": "Brussels",
+                "latitude": 50.845504,
+                "longitude": 4.3570964
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3354547,
+                    50.8360867
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Sofia",
+                "stop_name": "Brussels South/Midi Train Station",
+                "latitude": 50.8360867,
+                "longitude": 4.3354547
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9586017,
+                    50.9432141
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Sofia",
+                "stop_name": "Cologne Central Station",
+                "latitude": 50.9432141,
+                "longitude": 6.9586017
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.0265202,
+                    48.166036
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Sofia",
+                "stop_name": "Wels",
+                "latitude": 48.166036,
+                "longitude": 14.0265202
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Sofia",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Sofia",
+                "stop_name": "B\u00fckre\u015fti Nord",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.316502,
+                    42.72677
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Sofia",
+                "stop_name": "Sofia Sever",
+                "latitude": 42.72677,
+                "longitude": 23.316502
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.313824,
+                    42.71394
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Sofia",
+                "stop_name": "Mariya Luiza",
+                "latitude": 42.71394,
+                "longitude": 23.313824
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.3189735,
+                    42.6878815
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Sofia",
+                "stop_name": "Sofia, Bulgaria",
+                "latitude": 42.6878815,
+                "longitude": 23.3189735
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.3166845,
+                    42.6891427
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Sofia",
+                "stop_name": "NDK 2",
+                "latitude": 42.6891427,
+                "longitude": 23.3166845
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.3526353,
+                    42.7027222
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Sofia",
+                "stop_name": "Sofia, Bulgaria",
+                "latitude": 42.7027222,
+                "longitude": 23.3526353
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.361373,
+                    42.699124
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Sofia",
+                "stop_name": "Pl. Pirdop",
+                "latitude": 42.699124,
+                "longitude": 23.361373
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.32601,
+                    42.69649
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Sofia",
+                "stop_name": "Sofia",
+                "latitude": 42.69649,
+                "longitude": 23.32601
+            }
+        }
+    ]
+}

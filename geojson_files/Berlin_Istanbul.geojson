@@ -1,0 +1,206 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.369402,
+                        52.5250839
+                    ],
+                    [
+                        14.4353058,
+                        50.0832088
+                    ],
+                    [
+                        16.3765973,
+                        48.1851873
+                    ],
+                    [
+                        19.0839882,
+                        47.5004423
+                    ],
+                    [
+                        26.073892,
+                        44.446634
+                    ],
+                    [
+                        28.766726,
+                        41.018528
+                    ],
+                    [
+                        28.950554,
+                        41.005421
+                    ],
+                    [
+                        28.8893384,
+                        41.0372505
+                    ],
+                    [
+                        28.9748,
+                        41.013
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Istanbul"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Istanbul",
+                "stop_name": "Berlin",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.4353058,
+                    50.0832088
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Istanbul",
+                "stop_name": "Prague Main Station",
+                "latitude": 50.0832088,
+                "longitude": 14.4353058
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3765973,
+                    48.1851873
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Istanbul",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.1851873,
+                "longitude": 16.3765973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Istanbul",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Istanbul",
+                "stop_name": "B\u00fckre\u015fti Nord",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.766726,
+                    41.018528
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Istanbul",
+                "stop_name": "Halkal\u0131",
+                "latitude": 41.018528,
+                "longitude": 28.766726
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.950554,
+                    41.005421
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Istanbul",
+                "stop_name": "Yen\u0131kap\u0131",
+                "latitude": 41.005421,
+                "longitude": 28.950554
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.8893384,
+                    41.0372505
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Istanbul",
+                "stop_name": "Otogar Yolu",
+                "latitude": 41.0372505,
+                "longitude": 28.8893384
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.9748,
+                    41.013
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Istanbul",
+                "stop_name": "Istanbul",
+                "latitude": 41.013,
+                "longitude": 28.9748
+            }
+        }
+    ]
+}
