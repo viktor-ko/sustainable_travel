@@ -35,12 +35,6 @@ with col_right:
 #     to_city_options = [city for city in cities if city != from_city]
 #     to_city = st.selectbox('To', to_city_options, index=None, placeholder="Select a destination city")
 
-
-# # Create tabs
-# tab1, tab2 = st.tabs(["Ver. 1", "Ver. 2"])
-
-# with tab1:
-    # Create two columns for layout
 col1, col2 = st.columns([1, 2])
 
 with col1:

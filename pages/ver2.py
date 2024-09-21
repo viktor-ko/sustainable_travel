@@ -188,10 +188,10 @@ with col2:
         to_city_data = coordinates_data[coordinates_data['city'] == to_city].iloc[0]
 
         # Add the Plane_CO2_kg and Train_CO2_kg to to_city_data for the tooltip
-        to_city_data = to_city_data.append(pd.Series({
+        to_city_data = pd.concat([to_city_data, pd.Series({
             'Plane_CO2_kg': travel_info['Plane_CO2_kg'],
             'Train_CO2_kg': travel_info['Train_CO2_kg']
-        }))
+        })])
 
         # Highlight the "From" and "To" cities
         from_point = alt.Chart(pd.DataFrame([from_city_data])).mark_circle(color='green', size=200).encode(
