@@ -116,7 +116,7 @@ with col2:
                 x=alt.X('Duration_minutes:Q', title='Duration (hours)',
                         axis=alt.Axis(values=tick_values, labelExpr=labelExpr)),
                 color=alt.Color('Mode', legend=None).scale(scheme="redyellowgreen"),
-                tooltip=[alt.Tooltip('Mode', title='Mode'), alt.Tooltip('Duration', title='Duration')]
+                tooltip=[alt.Tooltip('Duration', title='Duration'), alt.Tooltip('Mode', title='Mode')]
             ).properties(
                 title='Travel Duration'
             )
