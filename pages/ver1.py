@@ -11,11 +11,22 @@ st.set_page_config(layout="wide")
 # Inject the CSS into the app
 st.markdown(hide_page_links_style, unsafe_allow_html=True)
 
+# custom padding
 st.markdown("""
     <style>
     .block-container {padding-top: 0 !important;}
     </style>
     """, unsafe_allow_html=True
+)
+
+#default sidebar width (narrow)
+st.markdown("""
+    <style>
+        section[data-testid="stSidebar"] {
+            width: 244px !important;
+        }
+    </style>
+    """, unsafe_allow_html=True,
 )
 
 col_left, col_right = st.columns([0.9, 0.1], vertical_alignment="bottom")
@@ -120,7 +131,23 @@ with col2:
             ).properties(
                 title='Travel Duration'
             )
-            st.altair_chart(duration_chart, use_container_width=True)
+
+            # Add data labels to the duration chart
+            duration_labels = alt.Chart(duration_data).mark_text(
+                align='right',
+                baseline='middle',
+                color='black',
+                dx= -5
+            ).encode(
+                y=alt.Y('Mode', title=None),
+                x=alt.X('Duration_minutes:Q'),
+                text=alt.Text('Duration'),
+                tooltip = alt.value('')
+            )
+
+            # Combine bar chart with labels
+            duration_combined_chart = duration_chart + duration_labels
+            st.altair_chart(duration_combined_chart, use_container_width=True)
 
             # Create emissions bar chart
             emissions_data = pd.DataFrame({
@@ -135,7 +162,23 @@ with col2:
             ).properties(
                 title='CO2 Emissions'
             )
-            st.altair_chart(emissions_chart, use_container_width=True)
+
+            # Add data labels to the emissions chart
+            emissions_labels = alt.Chart(emissions_data).mark_text(
+                align='right',
+                baseline='middle',
+                color='black',
+                dx= -5
+            ).encode(
+                y=alt.Y('Mode', title=None),
+                x=alt.X('CO2_kg'),
+                text=alt.Text('CO2_kg:Q', format='.1f'),
+                tooltip = alt.value('')
+            )
+
+            # Combine bar chart with labels
+            emissions_combined_chart = emissions_chart + emissions_labels
+            st.altair_chart(emissions_combined_chart, use_container_width=True)
 
         else:
             st.write(f"No travel data available for the route from {from_city} to {to_city}.")
