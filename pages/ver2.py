@@ -51,6 +51,10 @@ with col1:
     # Button to trigger search
     search_clicked = st.button('Search', key='tab2_search')
 
+    # st.write(f"Traveling from {from_city} to {to_city} will take {hours} h {minutes} min by train.")
+    # st.write(f"Train CO2 emissions: {travel_info['Train_CO2_kg']} kg")
+    # st.write(f"Plane CO2 emissions: {travel_info['Plane_CO2_kg']} kg")
+
     # Travel Data
     st.subheader('Travel Plan Details')
     if search_clicked and from_city and to_city:
@@ -77,7 +81,6 @@ with col1:
             def duration_to_min(duration_str):
                 hours, minutes = map(int, duration_str.split(':'))
                 return hours * 60 + minutes
-
 
             # Prepare the data for the duration bar chart (in this version plane duration includes trip to/from airport and waiting time)
             duration_data = pd.DataFrame({

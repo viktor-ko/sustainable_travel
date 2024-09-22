@@ -1,22 +1,22 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-import numpy as np
-from utils import cities, trip_data, coordinates_data, normalize_city_pair, double_duration, create_base_map,  \
-    load_geojson_route
+from utils import hide_page_links_style, cities, trip_data, coordinates_data, normalize_city_pair, double_duration, \
+    create_base_map, load_geojson_route, duration_to_str, duration_to_minutes, calculate_tick_values, \
+    get_projection_params
 
 # Set Streamlit page configuration to wide mode
 st.set_page_config(layout="wide")
 
-# Custom CSS to hide the sidebar
-hide_sidebar_style = """
+# Inject the CSS into the app
+st.markdown(hide_page_links_style, unsafe_allow_html=True)
+
+st.markdown("""
     <style>
-        [data-testid="stSidebar"] {
-            display: none;
-        }
+    .block-container {padding-top: 0 !important;}
     </style>
-"""
-st.markdown(hide_sidebar_style, unsafe_allow_html=True)
+    """, unsafe_allow_html=True
+)
 
 col_left, col_right = st.columns([0.9, 0.1], vertical_alignment="bottom")
 with col_left:
@@ -24,63 +24,52 @@ with col_left:
 with col_right:
     with st.popover("❔", help="This app helps you compare the CO2 emissions and travel duration between train and plane for your trip."):
         st.markdown(
- '''The data is for demonstration purposes only and may not be accurate for real-world travel planning.  
- The CO2 emissions are based on average values and may vary depending on the specific circumstances of the trip.  
+ '''The data is for demonstration purposes only and may not be accurate for real-world travel planning.
+ The CO2 emissions are based on average values and may vary depending on the specific circumstances of the trip.
  Please use this app as a reference and other sources for accurate travel information.  ''')
 
-# with st.sidebar:
-#     from_city = st.selectbox('From', cities, index=None, placeholder="Select a departure city")
-#
-#     # Dynamically update the 'To' options based on the selected 'From' city
-#     to_city_options = [city for city in cities if city != from_city]
-#     to_city = st.selectbox('To', to_city_options, index=None, placeholder="Select a destination city")
-
-col1, col2 = st.columns([1, 2])
-
-with col1:
-    # Input fields for "From" and "To" with selectbox and placeholder
-    from_city = st.selectbox('From', cities, index=None, placeholder="Select a departure city")
+with st.sidebar:
+    from_city = st.selectbox('From', cities, index=None, placeholder="Departure city")
 
     # Dynamically update the 'To' options based on the selected 'From' city
     to_city_options = [city for city in cities if city != from_city]
-    to_city = st.selectbox('To', to_city_options, index=None, placeholder="Select a destination city")
+    to_city = st.selectbox('To', to_city_options, index=None, placeholder="Destination city")
+    num_people = st.number_input('People:', min_value=1, max_value=10, value=1)
+    round_trip = st.toggle('Round Trip')
 
-    col_left, col_right = st.columns([0.4, 0.5], gap = 'medium', vertical_alignment="bottom")
-    #Number of people selectbox
-    with col_left:
-        num_people = st.number_input('People:', min_value=1, max_value=10, value=1)
-    #Round Trip toggle
-    with col_right:
-        round_trip = st.toggle('Round Trip')
-
-    #Button to trigger search
+    # Button to trigger search
     search_clicked = st.button('Search')
 
+    # Display note below the button if clicked
+    if search_clicked:
+        note = "<p style='font-family: monospace; font-size: small;'>3h added to plane travel time for getting to/from the airport and waiting times</p>"
+        st.markdown(note, unsafe_allow_html=True)
+
+#Columns width based on search button state
+if not search_clicked:
+    col1, col2 = st.columns([0.95, 0.05])  # Map takes most of the screen before search
+else:
+    col1, col2 = st.columns([2, 1])  # Map takes 2/3 after search is clicked
+
+with col2:
+
     #Travel Data
-    st.subheader('Travel Plan Details')
     if search_clicked and from_city and to_city:
         route = normalize_city_pair(from_city, to_city)
         travel_details = trip_data[trip_data['route'] == route]
-        # note = "<p style='font-family: monospace; font-size: small;'> Please take into account the travel time to/from airport and waiting time.</p>"
-        # st.markdown(note, unsafe_allow_html=True)
         if not travel_details.empty:
             travel_info = travel_details.iloc[0]
-            # st.write(f"Traveling from {from_city} to {to_city} will take {hours} h {minutes} min by train.")
-            # st.write(f"Train CO2 emissions: {travel_info['Train_CO2_kg']} kg")
-            # st.write(f"Plane CO2 emissions: {travel_info['Plane_CO2_kg']} kg")
 
             # Check if plane duration is available
-            if pd.isna(travel_info['Duration_plane']) or pd.isna(travel_info['Plane_CO2_kg']):
+            if pd.isna(travel_info['Duration_plane_total']) or pd.isna(travel_info['Plane_CO2_kg']):
                 # Show a warning message
                 st.write("Cities are too close, no flights available.")
                 # Set default values for the chart if plane data is not available
                 plane_duration = "N/A"
                 plane_co2 = 0
             else:
-                plane_duration = travel_info['Duration_plane']
+                plane_duration = travel_info['Duration_plane_total']
                 plane_co2 = travel_info['Plane_CO2_kg']
-                note = "<p style='font-family: monospace; font-size: small;'> Please take into account the travel time to/from airport and waiting time.</p>"
-                st.markdown(note, unsafe_allow_html=True)
 
             train_duration = travel_info['Duration_train']
             train_co2 = travel_info['Train_CO2_kg']
@@ -97,39 +86,9 @@ with col1:
                     plane_duration = double_duration(plane_duration)
                 plane_co2 *= 2
 
-            # Convert duration to "hours:minutes" string
-            def duration_to_str(duration_str):
-                # if duration_str == "N/A":
-                #     return 0
-                hours, minutes = map(int, duration_str.split(':'))
-                return f"{hours:02}:{minutes:02}"
-
-            def duration_to_minutes(duration_str):
-                # if duration_str == "N/A":
-                #     return 0
-                hours, minutes = map(int, duration_str.split(':'))
-                return hours * 60 + minutes
-
-            # Determine dynamic tick intervals
-            def calculate_tick_values(min_value, max_value):
-                range_span = max_value - min_value
-                # if range_span <= 60:
-                #     step = 15  # 15-minute intervals for short durations
-                # elif range_span <= 180:
-                #     step = 15  # 15-minute intervals for short durations
-                if range_span <= 360:
-                    step = 30  # 30-minute intervals for medium durations
-                elif range_span <= 720:
-                    step = 60  # 1-hour intervals for long durations
-                elif range_span <= 1440:
-                    step = 120  # 2-hour intervals for longer durations
-                else:
-                    step = 240  # 4-hour intervals for very long durations
-                return [0] + np.arange(step, max_value + step, step).tolist() # Include 0 as the starting point
-
             # Prepare the data for the duration bar chart
             duration_data = pd.DataFrame({
-                'Mode': ['Train', 'Plane'],
+                'Mode': ['🚂', '✈️'],
                 'Duration': [
                     duration_to_str(train_duration),
                     plane_duration
@@ -153,7 +112,7 @@ with col1:
 
             # Create the duration bar chart
             duration_chart = alt.Chart(duration_data).mark_bar().encode(
-                y=alt.Y('Mode', title=None),
+                y=alt.Y('Mode', title=None, axis=alt.Axis(labelFontSize=13)),
                 x=alt.X('Duration_minutes:Q', title='Duration (hours)',
                         axis=alt.Axis(values=tick_values, labelExpr=labelExpr)),
                 color=alt.Color('Mode', legend=None).scale(scheme="redyellowgreen"),
@@ -165,13 +124,13 @@ with col1:
 
             # Create emissions bar chart
             emissions_data = pd.DataFrame({
-                'Mode': ['Train', 'Plane'],
+                'Mode': ['🚂', '✈️'],
                 'CO2_kg': [train_co2, plane_co2]
             })
             # alt.ColorScheme('basic', ['#f00', '#0f0', '#00f', '#ff0', '#f0f', '#0ff'])
             emissions_chart = alt.Chart(emissions_data).mark_bar().encode(
                 x=alt.X('CO2_kg', title='CO2 (kg)'),
-                y=alt.Y('Mode', title=None),
+                y=alt.Y('Mode', title=None, axis=alt.Axis(labelFontSize=13)),
                 color=alt.Color('Mode', legend=None).scale(scheme="redyellowgreen")
             ).properties(
                 title='CO2 Emissions'
@@ -183,9 +142,11 @@ with col1:
     elif search_clicked:
         st.write('Please select both "From" and "To" cities.')
 
-with col2:
-    # Display the base map with all cities
-    map_with_cities = create_base_map()
+with col1:
+    # If search button is not clicked, display the base map with all cities
+    if not search_clicked:
+        map_with_all_cities = create_base_map()
+        st.altair_chart(map_with_all_cities, use_container_width=True)
 
     # If search button is clicked and both cities are selected, highlight the "From" and "To" cities
     if search_clicked and from_city and to_city:
@@ -203,15 +164,53 @@ with col2:
         from_city_df = pd.DataFrame([from_city_data])
         to_city_df = pd.DataFrame([to_city_data])
 
-        # Highlight the "From" and "To" cities
-        from_point = alt.Chart(from_city_df).mark_circle(color='#fc9272', size=200).encode(
+        # Get dynamic projection parameters based on the selected cities
+        cities = [{'city': from_city, 'lon': from_city_data['longitude'], 'lat': from_city_data['latitude']},
+                  {'city': to_city, 'lon': to_city_data['longitude'], 'lat': to_city_data['latitude']}]
+
+        projection_params = get_projection_params(cities)
+
+        # create the route map with 2 cities
+        europe = alt.topo_feature('https://dmws.hkvservices.nl/dataportal/data.asmx/read?database=vega&key=europe', 'europe')
+        base = alt.Chart(europe).mark_geoshape(
+            fill='lightgray',
+            stroke='white',
+            strokeWidth=0.5
+        ).project(
+            'mercator',
+            scale=projection_params['scale'],
+            center=projection_params['center'],
+            rotate=[5, 0, 0]
+        ).properties(
+            height=500
+        ).encode(
+            tooltip=alt.value('')  # Suppress default tooltip by setting to an empty string
+        )
+
+        from_point = alt.Chart(from_city_df).mark_circle(
+            color='#9C27B0',
+            size=200
+        ).project(
+            'mercator',
+            scale=projection_params['scale'],
+            center=projection_params['center'],
+            rotate=[5, 0, 0]
+        ).encode(
             longitude='longitude:Q',
             latitude='latitude:Q',
             tooltip=['city:N']
         )
 
         if 'Plane_CO2_kg' in to_city_data and not pd.isna(to_city_data['Plane_CO2_kg']):
-            to_point_plane = alt.Chart(to_city_df).mark_circle(color='red', size=plane_co2*10).encode(
+            to_point_plane = alt.Chart(to_city_df).mark_circle(
+                color='red',
+                size=plane_co2*10
+            ).project(
+                'mercator',
+                scale=projection_params['scale'],
+                center=projection_params['center'],
+                rotate=[5, 0, 0]
+            ).encode(
                 longitude='longitude:Q',
                 latitude='latitude:Q',
                 tooltip=['city:N', 'Plane_CO2_kg:Q']
@@ -219,7 +218,15 @@ with col2:
         else:
             to_point_plane = alt.Chart(pd.DataFrame()).mark_circle(size=0)  #Invisible point to handle missing data
 
-        to_point_train = alt.Chart(to_city_df).mark_circle(color='green', size=train_co2*10).encode(
+        to_point_train = alt.Chart(to_city_df).mark_circle(
+            color='green',
+            size=train_co2*10
+        ).project(
+            'mercator',
+            scale=projection_params['scale'],
+            center=projection_params['center'],
+            rotate=[5, 0, 0]
+        ).encode(
             longitude='longitude:Q',
             latitude='latitude:Q',
             tooltip=['city:N', 'Train_CO2_kg:Q']
@@ -230,6 +237,11 @@ with col2:
                 fill=None,
                 stroke='blue',
                 strokeWidth=1
+            ).project(
+                'mercator',
+                scale=projection_params['scale'],
+                center=projection_params['center'],
+                rotate=[5, 0, 0]
             ).encode(
                 tooltip=alt.value(f"Train: {from_city} to {to_city}")
             )
@@ -240,10 +252,15 @@ with col2:
             route_layer = create_route_layer(geojson_data)
 
         # Combine the map with highlighted cities
-        map_with_cities += from_point + to_point_plane + to_point_train + route_layer
+        map_with_selected_cities = base + from_point + to_point_plane + to_point_train + route_layer
 
-    # Display the map
-    st.altair_chart(map_with_cities, use_container_width=True)
+        # Display the map
+        st.altair_chart(map_with_selected_cities, use_container_width=True)
+
+expander = st.expander("How emissions are calculated?")
+expander.write('''
+    Note on methodology, calculations, limitations
+''')
 
 # with tab2:
 #     # Create two columns for layout
