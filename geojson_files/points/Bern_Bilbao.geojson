@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4358671,
+                    46.9481334
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Bilbao",
+                "stop_name": "Bern",
+                "latitude": 46.9481334,
+                "longitude": 7.4358671
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1430196,
+                    46.210553
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Bilbao",
+                "stop_name": "Geneva",
+                "latitude": 46.210553,
+                "longitude": 6.1430196
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3743833,
+                    48.8453388
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Bilbao",
+                "stop_name": "Paris, France",
+                "latitude": 48.8453388,
+                "longitude": 2.3743833
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.0503418,
+                    43.7206135
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Bilbao",
+                "stop_name": "Gare de Dax",
+                "latitude": 43.7206135,
+                "longitude": -1.0503418
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7818973,
+                    43.3531913
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Bilbao",
+                "stop_name": "Hendaye",
+                "latitude": 43.3531913,
+                "longitude": -1.7818973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.9816357,
+                    43.3131496
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Bilbao",
+                "stop_name": "Saint-S\u00e9bastien-Donostia",
+                "latitude": 43.3131496,
+                "longitude": -1.9816357
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.922064,
+                    43.2599931
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Bilbao",
+                "stop_name": "Zazpikaleak Casco Viejo",
+                "latitude": 43.2599931,
+                "longitude": -2.922064
+            }
+        }
+    ]
+}

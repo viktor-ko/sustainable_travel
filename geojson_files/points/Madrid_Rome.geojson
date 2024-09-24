@@ -1,0 +1,73 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.6883126,
+                    40.4050269
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Rome",
+                "stop_name": "Madrid",
+                "latitude": 40.4050269,
+                "longitude": -3.6883126
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.141704,
+                    41.38092
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Rome",
+                "stop_name": "Sants Estaci\u00f3",
+                "latitude": 41.38092,
+                "longitude": 2.141704
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.7838485,
+                    42.0991926
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Rome",
+                "stop_name": "Civitavecchia, Italy",
+                "latitude": 42.0991926,
+                "longitude": 11.7838485
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.49427,
+                    41.89056
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Rome",
+                "stop_name": "Rome",
+                "latitude": 41.89056,
+                "longitude": 12.49427
+            }
+        }
+    ]
+}

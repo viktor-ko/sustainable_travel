@@ -1,0 +1,56 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.7314191,
+                    51.0405029
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Munich",
+                "stop_name": "Dresden",
+                "latitude": 51.0405029,
+                "longitude": 13.7314191
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.3820639,
+                    51.3454712
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Munich",
+                "stop_name": "Leipzig",
+                "latitude": 51.3454712,
+                "longitude": 12.3820639
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.58022,
+                    48.13913
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Munich",
+                "stop_name": "Munich",
+                "latitude": 48.13913,
+                "longitude": 11.58022
+            }
+        }
+    ]
+}

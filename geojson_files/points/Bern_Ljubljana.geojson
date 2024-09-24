@@ -1,0 +1,107 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4354662,
+                    46.9483506
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Ljubljana",
+                "stop_name": "Bern",
+                "latitude": 46.9483506,
+                "longitude": 7.4354662
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5368921,
+                    47.3785973
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Ljubljana",
+                "stop_name": "Zurich, Switzerland",
+                "latitude": 47.3785973,
+                "longitude": 8.5368921
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.1542696,
+                    47.3187696
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Ljubljana",
+                "stop_name": "Schwarzach-St. Veit",
+                "latitude": 47.3187696,
+                "longitude": 13.1542696
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.8486717,
+                    46.6182386
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Ljubljana",
+                "stop_name": "Villach Hbf",
+                "latitude": 46.6182386,
+                "longitude": 13.8486717
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.0548417,
+                    46.4363972
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Ljubljana",
+                "stop_name": "Jesenice",
+                "latitude": 46.4363972,
+                "longitude": 14.0548417
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.50597,
+                    46.05143
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Ljubljana",
+                "stop_name": "Ljubljana",
+                "latitude": 46.05143,
+                "longitude": 14.50597
+            }
+        }
+    ]
+}

@@ -1,0 +1,175 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.90573,
+                    43.247
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Copenhagen",
+                "stop_name": "Bilbao",
+                "latitude": 43.247,
+                "longitude": -2.90573
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1711852,
+                    43.2843033
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Copenhagen",
+                "stop_name": "Zarautz",
+                "latitude": 43.2843033,
+                "longitude": -2.1711852
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.0005996,
+                    43.302408
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Copenhagen",
+                "stop_name": "LUGARITZ DONOSTIA",
+                "latitude": 43.302408,
+                "longitude": -2.0005996
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7818973,
+                    43.3531913
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Copenhagen",
+                "stop_name": "Hendaye",
+                "latitude": 43.3531913,
+                "longitude": -1.7818973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.5564074,
+                    44.8254453
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Copenhagen",
+                "stop_name": "Saint-Jean",
+                "latitude": 44.8254453,
+                "longitude": -0.5564074
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.32439,
+                    48.84392
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Copenhagen",
+                "stop_name": "Montparnasse - Bienven\u00fce",
+                "latitude": 48.84392,
+                "longitude": 2.32439
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3591978,
+                    48.8768146
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Copenhagen",
+                "stop_name": "Gare de l'Est",
+                "latitude": 48.8768146,
+                "longitude": 2.3591978
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.46982,
+                    49.4797015
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Copenhagen",
+                "stop_name": "Mannheim",
+                "latitude": 49.4797015,
+                "longitude": 8.46982
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.0066369,
+                    53.552993
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Copenhagen",
+                "stop_name": "Hamburg Central Station",
+                "latitude": 53.552993,
+                "longitude": 10.0066369
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.56902,
+                    55.67576
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Copenhagen",
+                "stop_name": "Copenhagen",
+                "latitude": 55.67576,
+                "longitude": 12.56902
+            }
+        }
+    ]
+}

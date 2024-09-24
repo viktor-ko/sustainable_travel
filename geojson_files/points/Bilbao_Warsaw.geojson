@@ -1,0 +1,226 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.90573,
+                    43.247
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Warsaw",
+                "stop_name": "Bilbao",
+                "latitude": 43.247,
+                "longitude": -2.90573
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.00686,
+                    43.27896
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Warsaw",
+                "stop_name": "Errekalde Donostia",
+                "latitude": 43.27896,
+                "longitude": -2.00686
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7818973,
+                    43.3531913
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Warsaw",
+                "stop_name": "Hendaye",
+                "latitude": 43.3531913,
+                "longitude": -1.7818973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.5564074,
+                    44.8254453
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Warsaw",
+                "stop_name": "Saint-Jean",
+                "latitude": 44.8254453,
+                "longitude": -0.5564074
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.32439,
+                    48.84392
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Warsaw",
+                "stop_name": "Montparnasse - Bienven\u00fce",
+                "latitude": 48.84392,
+                "longitude": 2.32439
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3591978,
+                    48.8768146
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Warsaw",
+                "stop_name": "Gare de l'Est",
+                "latitude": 48.8768146,
+                "longitude": 2.3591978
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.46982,
+                    49.4797015
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Warsaw",
+                "stop_name": "Mannheim",
+                "latitude": 49.4797015,
+                "longitude": 8.46982
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.663789,
+                    50.107145
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Warsaw",
+                "stop_name": "Frankfurt Central Station",
+                "latitude": 50.107145,
+                "longitude": 8.663789
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.3820639,
+                    51.3454712
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Warsaw",
+                "stop_name": "Leipzig",
+                "latitude": 51.3454712,
+                "longitude": 12.3820639
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.741028,
+                    51.0655758
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Warsaw",
+                "stop_name": "Dresden-Neustadt",
+                "latitude": 51.0655758,
+                "longitude": 13.741028
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.0025991,
+                    51.1403858
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Warsaw",
+                "stop_name": "Zgorzelec",
+                "latitude": 51.1403858,
+                "longitude": 15.0025991
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.03709,
+                    51.09808
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Warsaw",
+                "stop_name": "Wroclaw Main",
+                "latitude": 51.09808,
+                "longitude": 17.03709
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.00849,
+                    52.23498
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Warsaw",
+                "stop_name": "Warsaw",
+                "latitude": 52.23498,
+                "longitude": 21.00849
+            }
+        }
+    ]
+}

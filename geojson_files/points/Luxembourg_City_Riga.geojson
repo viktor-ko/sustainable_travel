@@ -1,0 +1,192 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1316732,
+                    49.6116301
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Riga",
+                "stop_name": "Luxembourg City",
+                "latitude": 49.6116301,
+                "longitude": 6.1316732
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.652453,
+                    49.756846
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Riga",
+                "stop_name": "Trier",
+                "latitude": 49.756846,
+                "longitude": 6.652453
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.99094,
+                    49.24104
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Riga",
+                "stop_name": "Saarbr\u00fccken Hbf",
+                "latitude": 49.24104,
+                "longitude": 6.99094
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.663789,
+                    50.107145
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Riga",
+                "stop_name": "Frankfurt Central Station",
+                "latitude": 50.107145,
+                "longitude": 8.663789
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369444,
+                    52.525556
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Riga",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.525556,
+                "longitude": 13.369444
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.965145,
+                    52.220208
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Riga",
+                "stop_name": "Warsaw West",
+                "latitude": 52.220208,
+                "longitude": 20.965145
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.1365,
+                    53.1343
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Riga",
+                "stop_name": "Bialystok",
+                "latitude": 53.1343,
+                "longitude": 23.1365
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    22.9453599,
+                    54.1059177
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Riga",
+                "stop_name": "Suwalki, Poland",
+                "latitude": 54.1059177,
+                "longitude": 22.9453599
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.9275747,
+                    54.8896417
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Riga",
+                "stop_name": "Kaunas, Lithuania",
+                "latitude": 54.8896417,
+                "longitude": 23.9275747
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.46133,
+                    54.86319
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Riga",
+                "stop_name": "Kaisiadorys Train Station",
+                "latitude": 54.86319,
+                "longitude": 24.46133
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.10425,
+                    56.94625
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Riga",
+                "stop_name": "Riga",
+                "latitude": 56.94625,
+                "longitude": 24.10425
+            }
+        }
+    ]
+}

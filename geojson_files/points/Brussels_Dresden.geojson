@@ -1,0 +1,73 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3570964,
+                    50.845504
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Dresden",
+                "stop_name": "Brussels",
+                "latitude": 50.845504,
+                "longitude": 4.3570964
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.663789,
+                    50.107145
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Dresden",
+                "stop_name": "Frankfurt Central Station",
+                "latitude": 50.107145,
+                "longitude": 8.663789
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.3820639,
+                    51.3454712
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Dresden",
+                "stop_name": "Leipzig",
+                "latitude": 51.3454712,
+                "longitude": 12.3820639
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.73363,
+                    51.05099
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Dresden",
+                "stop_name": "Dresden",
+                "latitude": 51.05099,
+                "longitude": 13.73363
+            }
+        }
+    ]
+}

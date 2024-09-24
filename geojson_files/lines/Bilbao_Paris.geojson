@@ -1,0 +1,41 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -2.90573,
+                        43.247
+                    ],
+                    [
+                        -2.92182,
+                        43.26012
+                    ],
+                    [
+                        -2.00686,
+                        43.27896
+                    ],
+                    [
+                        -1.7818973,
+                        43.3531913
+                    ],
+                    [
+                        -1.4704408,
+                        43.4967821
+                    ],
+                    [
+                        2.35085,
+                        48.85689
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Paris"
+            }
+        }
+    ]
+}

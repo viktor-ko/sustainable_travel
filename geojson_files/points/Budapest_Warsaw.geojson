@@ -1,0 +1,73 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0577611,
+                    47.510468
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Warsaw",
+                "stop_name": "Budapest",
+                "latitude": 47.510468,
+                "longitude": 19.0577611
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.8927703,
+                    48.7539316
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Warsaw",
+                "stop_name": "Breclav",
+                "latitude": 48.7539316,
+                "longitude": 16.8927703
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.6769,
+                    50.30104
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Warsaw",
+                "stop_name": "Gliwice",
+                "latitude": 50.30104,
+                "longitude": 18.6769
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.00849,
+                    52.23498
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Warsaw",
+                "stop_name": "Warsaw",
+                "latitude": 52.23498,
+                "longitude": 21.00849
+            }
+        }
+    ]
+}

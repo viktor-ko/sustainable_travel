@@ -1,0 +1,141 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.564617,
+                    55.672722
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Madrid",
+                "stop_name": "Copenhagen",
+                "latitude": 55.672722,
+                "longitude": 12.564617
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.0066369,
+                    53.552993
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Madrid",
+                "stop_name": "Hamburg Central Station",
+                "latitude": 53.552993,
+                "longitude": 10.0066369
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.807821,
+                    51.678078
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Madrid",
+                "stop_name": "Hamm (Westf)",
+                "latitude": 51.678078,
+                "longitude": 7.807821
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9586017,
+                    50.9432141
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Madrid",
+                "stop_name": "Cologne Central Station",
+                "latitude": 50.9432141,
+                "longitude": 6.9586017
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3354547,
+                    50.8360867
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Madrid",
+                "stop_name": "Brussels South/Midi Train Station",
+                "latitude": 50.8360867,
+                "longitude": 4.3354547
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.8611177,
+                    45.7605474
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Madrid",
+                "stop_name": "Lyon Part-Dieu",
+                "latitude": 45.7605474,
+                "longitude": 4.8611177
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.139889,
+                    41.3789192
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Madrid",
+                "stop_name": "Barcelona-Sants",
+                "latitude": 41.3789192,
+                "longitude": 2.139889
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.70035,
+                    40.41669
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Madrid",
+                "stop_name": "Madrid",
+                "latitude": 40.41669,
+                "longitude": -3.70035
+            }
+        }
+    ]
+}

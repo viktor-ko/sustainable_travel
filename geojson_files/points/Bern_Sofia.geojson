@@ -1,0 +1,141 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4354662,
+                    46.9483506
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Sofia",
+                "stop_name": "Bern",
+                "latitude": 46.9483506,
+                "longitude": 7.4354662
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.3684992,
+                    47.4230453
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Sofia",
+                "stop_name": "St. Gallen",
+                "latitude": 47.4230453,
+                "longitude": 9.3684992
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.6390472,
+                    47.4532548
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Sofia",
+                "stop_name": "St. Margrethen",
+                "latitude": 47.4532548,
+                "longitude": 9.6390472
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.6038151,
+                    47.2410906
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Sofia",
+                "stop_name": "Feldkirch",
+                "latitude": 47.2410906,
+                "longitude": 9.6038151
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Sofia",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Sofia",
+                "stop_name": "B\u00fckre\u015fti Nord",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.316502,
+                    42.72677
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Sofia",
+                "stop_name": "Sofia Sever",
+                "latitude": 42.72677,
+                "longitude": 23.316502
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.361373,
+                    42.699124
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Sofia",
+                "stop_name": "Pl. Pirdop",
+                "latitude": 42.699124,
+                "longitude": 23.361373
+            }
+        }
+    ]
+}

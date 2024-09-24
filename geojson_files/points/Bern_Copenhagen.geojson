@@ -1,0 +1,175 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4358441,
+                    46.9481634
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Copenhagen",
+                "stop_name": "Bern",
+                "latitude": 46.9481634,
+                "longitude": 7.4358441
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.5913435,
+                    47.5463242
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Copenhagen",
+                "stop_name": "Basel, Switzerland",
+                "latitude": 47.5463242,
+                "longitude": 7.5913435
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.1909286,
+                    48.7895347
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Copenhagen",
+                "stop_name": "Bahnhof, Baden-Baden",
+                "latitude": 48.7895347,
+                "longitude": 8.1909286
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.215285,
+                    48.8608249
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Copenhagen",
+                "stop_name": "Rastatt Railway Station",
+                "latitude": 48.8608249,
+                "longitude": 8.215285
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.0066369,
+                    53.552993
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Copenhagen",
+                "stop_name": "Hamburg Central Station",
+                "latitude": 53.552993,
+                "longitude": 10.0066369
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.9347942,
+                    53.5521355
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Copenhagen",
+                "stop_name": "Hamburg-Altona",
+                "latitude": 53.5521355,
+                "longitude": 9.9347942
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.9806218,
+                    54.0762359
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Copenhagen",
+                "stop_name": "Neum\u00fcnster",
+                "latitude": 54.0762359,
+                "longitude": 9.9806218
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.4367621,
+                    54.7746859
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Copenhagen",
+                "stop_name": "Flensburg",
+                "latitude": 54.7746859,
+                "longitude": 9.4367621
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.739996,
+                    55.568302
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Copenhagen",
+                "stop_name": "Fredericia",
+                "latitude": 55.568302,
+                "longitude": 9.739996
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.56902,
+                    55.67576
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Copenhagen",
+                "stop_name": "Copenhagen",
+                "latitude": 55.67576,
+                "longitude": 12.56902
+            }
+        }
+    ]
+}

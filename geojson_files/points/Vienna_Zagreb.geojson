@@ -1,0 +1,56 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3354,
+                    48.1752143
+                ]
+            },
+            "properties": {
+                "Start": "Vienna",
+                "End": "Zagreb",
+                "stop_name": "Vienna",
+                "latitude": 48.1752143,
+                "longitude": 16.3354
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4162709,
+                    47.0727515
+                ]
+            },
+            "properties": {
+                "Start": "Vienna",
+                "End": "Zagreb",
+                "stop_name": "Graz Main Station",
+                "latitude": 47.0727515,
+                "longitude": 15.4162709
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.97851,
+                    45.81491
+                ]
+            },
+            "properties": {
+                "Start": "Vienna",
+                "End": "Zagreb",
+                "stop_name": "Zagreb",
+                "latitude": 45.81491,
+                "longitude": 15.97851
+            }
+        }
+    ]
+}

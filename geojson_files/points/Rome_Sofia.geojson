@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.49427,
+                    41.89056
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Sofia",
+                "stop_name": "Rome",
+                "latitude": 41.89056,
+                "longitude": 12.49427
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.2317662,
+                    45.482465
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Sofia",
+                "stop_name": "Venice Mestre",
+                "latitude": 45.482465,
+                "longitude": 12.2317662
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.2344131,
+                    47.8116027
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Sofia",
+                "stop_name": "Wiener Neustadt",
+                "latitude": 47.8116027,
+                "longitude": 16.2344131
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.58673,
+                    47.677904
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Sofia",
+                "stop_name": "Sopron",
+                "latitude": 47.677904,
+                "longitude": 16.58673
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Sofia",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Sofia",
+                "stop_name": "Bucharest",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.3201447,
+                    42.7108787
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Sofia",
+                "stop_name": "Sofia Central Railway Station",
+                "latitude": 42.7108787,
+                "longitude": 23.3201447
+            }
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.9004673,
+                    52.3787651
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Sofia",
+                "stop_name": "Amsterdam",
+                "latitude": 52.3787651,
+                "longitude": 4.9004673
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.082989,
+                    49.445616
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Sofia",
+                "stop_name": "N\u00fcrnberg Hbf",
+                "latitude": 49.445616,
+                "longitude": 11.082989
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6246829,
+                    48.2082733
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Sofia",
+                "stop_name": "St. P\u00f6lten",
+                "latitude": 48.2082733,
+                "longitude": 15.6246829
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0845997,
+                    47.5004568
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Sofia",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004568,
+                "longitude": 19.0845997
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.074412,
+                    44.44677
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Sofia",
+                "stop_name": "B\u00fckre\u015fti Nord",
+                "latitude": 44.44677,
+                "longitude": 26.074412
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.3201447,
+                    42.7108787
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Sofia",
+                "stop_name": "Central Railway Station",
+                "latitude": 42.7108787,
+                "longitude": 23.3201447
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.36495,
+                    42.699358
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Sofia",
+                "stop_name": "Bl.4 ZH.K. Suhata Reka",
+                "latitude": 42.699358,
+                "longitude": 23.36495
+            }
+        }
+    ]
+}

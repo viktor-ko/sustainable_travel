@@ -1,0 +1,107 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.894896,
+                    41.039273
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Prague",
+                "stop_name": "Istanbul",
+                "latitude": 41.039273,
+                "longitude": 28.894896
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.951576,
+                    41.005213
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Prague",
+                "stop_name": "Yen\u0131kap\u0131",
+                "latitude": 41.005213,
+                "longitude": 28.951576
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.7679118,
+                    41.0188916
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Prague",
+                "stop_name": "Halkal\u0131",
+                "latitude": 41.0188916,
+                "longitude": 28.7679118
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Prague",
+                "stop_name": "B\u00fckre\u015fti Nord",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.083296,
+                    47.5011361
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Prague",
+                "stop_name": "Budapest, Hungary",
+                "latitude": 47.5011361,
+                "longitude": 19.083296
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.42046,
+                    50.08781
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Prague",
+                "stop_name": "Prague",
+                "latitude": 50.08781,
+                "longitude": 14.42046
+            }
+        }
+    ]
+}

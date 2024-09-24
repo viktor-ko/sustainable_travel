@@ -1,0 +1,192 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.8911635,
+                    41.0365642
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Riga",
+                "stop_name": "Istanbul, T\u00fcrkiye",
+                "latitude": 41.0365642,
+                "longitude": 28.8911635
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.951576,
+                    41.005213
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Riga",
+                "stop_name": "Yen\u0131kap\u0131",
+                "latitude": 41.005213,
+                "longitude": 28.951576
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.7679118,
+                    41.0188916
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Riga",
+                "stop_name": "Halkal\u0131",
+                "latitude": 41.0188916,
+                "longitude": 28.7679118
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Riga",
+                "stop_name": "B\u00fckre\u015fti Nord",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Riga",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3765973,
+                    48.1851873
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Riga",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.1851873,
+                "longitude": 16.3765973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.6769,
+                    50.30104
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Riga",
+                "stop_name": "Gliwice",
+                "latitude": 50.30104,
+                "longitude": 18.6769
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.2316667,
+                    51.3586667
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Riga",
+                "stop_name": "Opoczno Poludnie",
+                "latitude": 51.3586667,
+                "longitude": 20.2316667
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.2842932,
+                    54.6703567
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Riga",
+                "stop_name": "Vilnius Central Train Station",
+                "latitude": 54.6703567,
+                "longitude": 25.2842932
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.315468,
+                    55.9228685
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Riga",
+                "stop_name": "Siauliai, Lithuania",
+                "latitude": 55.9228685,
+                "longitude": 23.315468
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.111648,
+                    56.9437543
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Riga",
+                "stop_name": "Riga, Latvia",
+                "latitude": 56.9437543,
+                "longitude": 24.111648
+            }
+        }
+    ]
+}

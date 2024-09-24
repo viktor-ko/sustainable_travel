@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.7314191,
+                    51.0405029
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Ljubljana",
+                "stop_name": "Dresden",
+                "latitude": 51.0405029,
+                "longitude": 13.7314191
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.3820639,
+                    51.3454712
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Ljubljana",
+                "stop_name": "Leipzig",
+                "latitude": 51.3454712,
+                "longitude": 12.3820639
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.554814,
+                    48.13993
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Ljubljana",
+                "stop_name": "M\u00fcnchen Hbf Gl.5-10",
+                "latitude": 48.13993,
+                "longitude": 11.554814
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.0450707,
+                    47.8130704
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Ljubljana",
+                "stop_name": "Salzburg",
+                "latitude": 47.8130704,
+                "longitude": 13.0450707
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.8486717,
+                    46.6182386
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Ljubljana",
+                "stop_name": "Villach Hbf",
+                "latitude": 46.6182386,
+                "longitude": 13.8486717
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.0548417,
+                    46.4363972
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Ljubljana",
+                "stop_name": "Jesenice",
+                "latitude": 46.4363972,
+                "longitude": 14.0548417
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.50597,
+                    46.05143
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Ljubljana",
+                "stop_name": "Ljubljana",
+                "latitude": 46.05143,
+                "longitude": 14.50597
+            }
+        }
+    ]
+}

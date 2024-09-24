@@ -1,0 +1,90 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.12624,
+                    51.50015
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Warsaw",
+                "stop_name": "London",
+                "latitude": 51.50015,
+                "longitude": -0.12624
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3354547,
+                    50.8360867
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Warsaw",
+                "stop_name": "Brussels South/Midi Train Station",
+                "latitude": 50.8360867,
+                "longitude": 4.3354547
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.900632,
+                    52.37908
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Warsaw",
+                "stop_name": "Amsterdam Centraal",
+                "latitude": 52.37908,
+                "longitude": 4.900632
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.4360449,
+                    52.5098959
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Warsaw",
+                "stop_name": "Berlin",
+                "latitude": 52.5098959,
+                "longitude": 13.4360449
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.00849,
+                    52.23498
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Warsaw",
+                "stop_name": "Warsaw",
+                "latitude": 52.23498,
+                "longitude": 21.00849
+            }
+        }
+    ]
+}

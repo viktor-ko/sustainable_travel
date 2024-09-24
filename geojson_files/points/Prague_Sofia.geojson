@@ -1,0 +1,107 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.4353058,
+                    50.0832088
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Sofia",
+                "stop_name": "Prague",
+                "latitude": 50.0832088,
+                "longitude": 14.4353058
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3765973,
+                    48.1851873
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Sofia",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.1851873,
+                "longitude": 16.3765973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Sofia",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Sofia",
+                "stop_name": "B\u00fckre\u015fti Nord",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.316502,
+                    42.72677
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Sofia",
+                "stop_name": "Sofia Sever",
+                "latitude": 42.72677,
+                "longitude": 23.316502
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.361373,
+                    42.699124
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Sofia",
+                "stop_name": "Pl. Pirdop",
+                "latitude": 42.699124,
+                "longitude": 23.361373
+            }
+        }
+    ]
+}

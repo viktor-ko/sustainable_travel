@@ -1,0 +1,141 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.359688,
+                    42.703184
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Ljubljana",
+                "stop_name": "Sofia",
+                "latitude": 42.703184,
+                "longitude": 23.359688
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.074412,
+                    44.44677
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Ljubljana",
+                "stop_name": "B\u00fckre\u015fti Nord",
+                "latitude": 44.44677,
+                "longitude": 26.074412
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.2375,
+                    46.4322222
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Ljubljana",
+                "stop_name": "L\u0151k\u00f6sh\u00e1za",
+                "latitude": 46.4322222,
+                "longitude": 21.2375
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.085071,
+                    47.500383
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Ljubljana",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.500383,
+                "longitude": 19.085071
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.377113,
+                    48.185101
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Ljubljana",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.185101,
+                "longitude": 16.377113
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.848449,
+                    46.6186144
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Ljubljana",
+                "stop_name": "Villach Hbf",
+                "latitude": 46.6186144,
+                "longitude": 13.848449
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.0548417,
+                    46.4363972
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Ljubljana",
+                "stop_name": "Jesenice",
+                "latitude": 46.4363972,
+                "longitude": 14.0548417
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.50597,
+                    46.05143
+                ]
+            },
+            "properties": {
+                "Start": "Sofia",
+                "End": "Ljubljana",
+                "stop_name": "Ljubljana",
+                "latitude": 46.05143,
+                "longitude": 14.50597
+            }
+        }
+    ]
+}

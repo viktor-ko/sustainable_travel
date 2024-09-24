@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.8911635,
+                    41.0365642
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Sofia",
+                "stop_name": "Istanbul, T\u00fcrkiye",
+                "latitude": 41.0365642,
+                "longitude": 28.8911635
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.951576,
+                    41.005213
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Sofia",
+                "stop_name": "Yen\u0131kap\u0131",
+                "latitude": 41.005213,
+                "longitude": 28.951576
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.766155,
+                    41.018512
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Sofia",
+                "stop_name": "Halkal\u0131",
+                "latitude": 41.018512,
+                "longitude": 28.766155
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.593589,
+                    42.054896
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Sofia",
+                "stop_name": "Dimitrovgrad",
+                "latitude": 42.054896,
+                "longitude": 25.593589
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.818593,
+                    42.093293
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Sofia",
+                "stop_name": "Krumovo",
+                "latitude": 42.093293,
+                "longitude": 24.818593
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.741403,
+                    42.134363
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Sofia",
+                "stop_name": "Plovdiv",
+                "latitude": 42.134363,
+                "longitude": 24.741403
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.3558273,
+                    42.6968117
+                ]
+            },
+            "properties": {
+                "Start": "Istanbul",
+                "End": "Sofia",
+                "stop_name": "Gara Poduyane",
+                "latitude": 42.6968117,
+                "longitude": 23.3558273
+            }
+        }
+    ]
+}

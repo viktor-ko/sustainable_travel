@@ -1,0 +1,141 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.10589,
+                    56.96782
+                ]
+            },
+            "properties": {
+                "Start": "Riga",
+                "End": "Stockholm",
+                "stop_name": "Riga",
+                "latitude": 56.96782,
+                "longitude": 24.10589
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.5055122,
+                    58.3860617
+                ]
+            },
+            "properties": {
+                "Start": "Riga",
+                "End": "Stockholm",
+                "stop_name": "P\u00e4rnu bussijaam",
+                "latitude": 58.3860617,
+                "longitude": 24.5055122
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.6309467,
+                    59.356031
+                ]
+            },
+            "properties": {
+                "Start": "Riga",
+                "End": "Stockholm",
+                "stop_name": "Tallinn, Estonia",
+                "latitude": 59.356031,
+                "longitude": 24.6309467
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.0617455,
+                    59.3444029
+                ]
+            },
+            "properties": {
+                "Start": "Riga",
+                "End": "Stockholm",
+                "stop_name": "L\u00e4\u00e4ne-Harju vald, Estonia",
+                "latitude": 59.3444029,
+                "longitude": 24.0617455
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0658555,
+                    59.7220814
+                ]
+            },
+            "properties": {
+                "Start": "Riga",
+                "End": "Stockholm",
+                "stop_name": "Stockholm Metropolitan Area, Sweden",
+                "latitude": 59.7220814,
+                "longitude": 19.0658555
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.6998,
+                    59.75963
+                ]
+            },
+            "properties": {
+                "Start": "Riga",
+                "End": "Stockholm",
+                "stop_name": "Norrt\u00e4lje busstation",
+                "latitude": 59.75963,
+                "longitude": 18.6998
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.0371526,
+                    59.3980767
+                ]
+            },
+            "properties": {
+                "Start": "Riga",
+                "End": "Stockholm",
+                "stop_name": "Stockholm Metropolitan Area, Sweden",
+                "latitude": 59.3980767,
+                "longitude": 18.0371526
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.0596706,
+                    59.3310867
+                ]
+            },
+            "properties": {
+                "Start": "Riga",
+                "End": "Stockholm",
+                "stop_name": "Stockholm Metropolitan Area, Sweden",
+                "latitude": 59.3310867,
+                "longitude": 18.0596706
+            }
+        }
+    ]
+}

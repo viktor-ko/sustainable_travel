@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4358671,
+                    46.9481334
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Dresden",
+                "stop_name": "Bern",
+                "latitude": 46.9481334,
+                "longitude": 7.4358671
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5368921,
+                    47.3785973
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Dresden",
+                "stop_name": "Zurich, Switzerland",
+                "latitude": 47.3785973,
+                "longitude": 8.5368921
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.723821,
+                    47.500334
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Dresden",
+                "stop_name": "Winterthur",
+                "latitude": 47.500334,
+                "longitude": 8.723821
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.7031547,
+                    47.552663
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Dresden",
+                "stop_name": "Lindau-Reutin",
+                "latitude": 47.552663,
+                "longitude": 9.7031547
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.8862436,
+                    48.3656946
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Dresden",
+                "stop_name": "Augsburg Hbf",
+                "latitude": 48.3656946,
+                "longitude": 10.8862436
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.3820639,
+                    51.3454712
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Dresden",
+                "stop_name": "Leipzig",
+                "latitude": 51.3454712,
+                "longitude": 12.3820639
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.73363,
+                    51.05099
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Dresden",
+                "stop_name": "Dresden",
+                "latitude": 51.05099,
+                "longitude": 13.73363
+            }
+        }
+    ]
+}

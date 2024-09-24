@@ -1,0 +1,141 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1465422,
+                    48.1716107
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Madrid",
+                "stop_name": "Bratislava",
+                "latitude": 48.1716107,
+                "longitude": 17.1465422
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.14702,
+                    47.913506
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Madrid",
+                "stop_name": "Hegyeshalom",
+                "latitude": 47.913506,
+                "longitude": 17.14702
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.6385794,
+                    47.453209
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Madrid",
+                "stop_name": "St. Margrethen",
+                "latitude": 47.453209,
+                "longitude": 9.6385794
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.3689063,
+                    47.4227719
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Madrid",
+                "stop_name": "St. Gallen",
+                "latitude": 47.4227719,
+                "longitude": 9.3689063
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1430196,
+                    46.210553
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Madrid",
+                "stop_name": "Geneva",
+                "latitude": 46.210553,
+                "longitude": 6.1430196
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.8611177,
+                    45.7605474
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Madrid",
+                "stop_name": "Lyon Part-Dieu",
+                "latitude": 45.7605474,
+                "longitude": 4.8611177
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.139889,
+                    41.3789192
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Madrid",
+                "stop_name": "Barcelona-Sants",
+                "latitude": 41.3789192,
+                "longitude": 2.139889
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.70035,
+                    40.41669
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Madrid",
+                "stop_name": "Madrid",
+                "latitude": 40.41669,
+                "longitude": -3.70035
+            }
+        }
+    ]
+}

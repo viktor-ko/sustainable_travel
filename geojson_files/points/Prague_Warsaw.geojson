@@ -1,0 +1,39 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.4353058,
+                    50.0832088
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Warsaw",
+                "stop_name": "Prague",
+                "latitude": 50.0832088,
+                "longitude": 14.4353058
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.99303,
+                    52.25924
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Warsaw",
+                "stop_name": "Warszawa Gda\u0144ska",
+                "latitude": 52.25924,
+                "longitude": 20.99303
+            }
+        }
+    ]
+}

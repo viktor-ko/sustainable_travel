@@ -1,0 +1,73 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1320023,
+                    49.6114429
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "London",
+                "stop_name": "Luxembourg City",
+                "latitude": 49.6114429,
+                "longitude": 6.1320023
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.566698,
+                    50.624551
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "London",
+                "stop_name": "Liege-Guillemins",
+                "latitude": 50.624551,
+                "longitude": 5.566698
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3354547,
+                    50.8360867
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "London",
+                "stop_name": "Brussels South/Midi Train Station",
+                "latitude": 50.8360867,
+                "longitude": 4.3354547
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.12624,
+                    51.50015
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "London",
+                "stop_name": "London",
+                "latitude": 51.50015,
+                "longitude": -0.12624
+            }
+        }
+    ]
+}

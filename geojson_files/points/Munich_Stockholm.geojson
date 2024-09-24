@@ -1,0 +1,90 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.558335,
+                    48.140232
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Stockholm",
+                "stop_name": "Munich",
+                "latitude": 48.140232,
+                "longitude": 11.558335
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.08194,
+                    49.44639
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Stockholm",
+                "stop_name": "N\u00fcrnberg Hbf",
+                "latitude": 49.44639,
+                "longitude": 11.08194
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.0066369,
+                    53.552993
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Stockholm",
+                "stop_name": "Hamburg Central Station",
+                "latitude": 53.552993,
+                "longitude": 10.0066369
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.9999228,
+                    55.6090669
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Stockholm",
+                "stop_name": "Malm\u00f6 Centralstation",
+                "latitude": 55.6090669,
+                "longitude": 12.9999228
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.06449,
+                    59.33279
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Stockholm",
+                "stop_name": "Stockholm",
+                "latitude": 59.33279,
+                "longitude": 18.06449
+            }
+        }
+    ]
+}

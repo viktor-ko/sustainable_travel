@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.7314191,
+                    51.0405029
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "London",
+                "stop_name": "Dresden",
+                "latitude": 51.0405029,
+                "longitude": 13.7314191
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "London",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9586017,
+                    50.9432141
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "London",
+                "stop_name": "Cologne Central Station",
+                "latitude": 50.9432141,
+                "longitude": 6.9586017
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.0907987,
+                    50.7681629
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "London",
+                "stop_name": "Aachen Hbf",
+                "latitude": 50.7681629,
+                "longitude": 6.0907987
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.566483,
+                    50.624358
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "London",
+                "stop_name": "Liege-Guillemins",
+                "latitude": 50.624358,
+                "longitude": 5.566483
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3354547,
+                    50.8360867
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "London",
+                "stop_name": "Brussels South/Midi Train Station",
+                "latitude": 50.8360867,
+                "longitude": 4.3354547
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.12624,
+                    51.50015
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "London",
+                "stop_name": "London",
+                "latitude": 51.50015,
+                "longitude": -0.12624
+            }
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1062057,
+                    48.1586781
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Dresden",
+                "stop_name": "Bratislava",
+                "latitude": 48.1586781,
+                "longitude": 17.1062057
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.4353058,
+                    50.0832088
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Dresden",
+                "stop_name": "Prague Main Station",
+                "latitude": 50.0832088,
+                "longitude": 14.4353058
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.73363,
+                    51.05099
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Dresden",
+                "stop_name": "Dresden",
+                "latitude": 51.05099,
+                "longitude": 13.73363
+            }
+        }
+    ]
+}

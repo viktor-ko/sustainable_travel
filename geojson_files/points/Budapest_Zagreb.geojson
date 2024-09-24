@@ -1,0 +1,56 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0216485,
+                    47.4651712
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Zagreb",
+                "stop_name": "Budapest",
+                "latitude": 47.4651712,
+                "longitude": 19.0216485
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.05542,
+                    46.907891
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Zagreb",
+                "stop_name": "Si\u00f3fok (Bus station)",
+                "latitude": 46.907891,
+                "longitude": 18.05542
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.97851,
+                    45.81491
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Zagreb",
+                "stop_name": "Zagreb",
+                "latitude": 45.81491,
+                "longitude": 15.97851
+            }
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.8709111,
+                    52.3386782
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Vilnius",
+                "stop_name": "Amsterdam",
+                "latitude": 52.3386782,
+                "longitude": 4.8709111
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.3705978,
+                    52.1534281
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Vilnius",
+                "stop_name": "Amersfoort Central Train Station",
+                "latitude": 52.1534281,
+                "longitude": 5.3705978
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.7936,
+                    52.26215
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Vilnius",
+                "stop_name": "Hengelo",
+                "latitude": 52.26215,
+                "longitude": 6.7936
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.060916,
+                    52.272761
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Vilnius",
+                "stop_name": "Osnabr\u00fcck",
+                "latitude": 52.272761,
+                "longitude": 8.060916
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Vilnius",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.469105,
+                    52.503037
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Vilnius",
+                "stop_name": "Ostkreuz",
+                "latitude": 52.503037,
+                "longitude": 13.469105
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.6449248,
+                    52.5913563
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Vilnius",
+                "stop_name": "Kostrzy\u0144 nad Odr\u0105, Poland",
+                "latitude": 52.5913563,
+                "longitude": 14.6449248
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.9655106,
+                    52.2194795
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Vilnius",
+                "stop_name": "Warsaw West",
+                "latitude": 52.2194795,
+                "longitude": 20.9655106
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.27986,
+                    54.68946
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Vilnius",
+                "stop_name": "Vilnius",
+                "latitude": 54.68946,
+                "longitude": 25.27986
+            }
+        }
+    ]
+}

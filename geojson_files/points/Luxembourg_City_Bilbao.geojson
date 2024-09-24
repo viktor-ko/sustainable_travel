@@ -1,0 +1,141 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1316732,
+                    49.6116301
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bilbao",
+                "stop_name": "Luxembourg City",
+                "latitude": 49.6116301,
+                "longitude": 6.1316732
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.10111,
+                    49.51611
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bilbao",
+                "stop_name": "Bettembourg",
+                "latitude": 49.51611,
+                "longitude": 6.10111
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.17705,
+                    49.10947
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bilbao",
+                "stop_name": "Gare de Metz",
+                "latitude": 49.10947,
+                "longitude": 6.17705
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35798,
+                    48.87608
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bilbao",
+                "stop_name": "Gare de l'Est",
+                "latitude": 48.87608,
+                "longitude": 2.35798
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.0498,
+                    43.72047
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bilbao",
+                "stop_name": "Gare de Dax",
+                "latitude": 43.72047,
+                "longitude": -1.0498
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.78223,
+                    43.35245
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bilbao",
+                "stop_name": "Hendaye",
+                "latitude": 43.35245,
+                "longitude": -1.78223
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.98148,
+                    43.31286
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bilbao",
+                "stop_name": "Saint-S\u00e9bastien-Donostia",
+                "latitude": 43.31286,
+                "longitude": -1.98148
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.92071,
+                    43.25968
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bilbao",
+                "stop_name": "Zazpikaleak Casco Viejo",
+                "latitude": 43.25968,
+                "longitude": -2.92071
+            }
+        }
+    ]
+}

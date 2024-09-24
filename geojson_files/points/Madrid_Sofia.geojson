@@ -1,0 +1,192 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.6883126,
+                    40.4050269
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Sofia",
+                "stop_name": "Madrid",
+                "latitude": 40.4050269,
+                "longitude": -3.6883126
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.139889,
+                    41.3789192
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Sofia",
+                "stop_name": "Barcelona-Sants",
+                "latitude": 41.3789192,
+                "longitude": 2.139889
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.8611177,
+                    45.7605474
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Sofia",
+                "stop_name": "Lyon Part-Dieu",
+                "latitude": 45.7605474,
+                "longitude": 4.8611177
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.37313,
+                    48.84576
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Sofia",
+                "stop_name": "Gare de Lyon",
+                "latitude": 48.84576,
+                "longitude": 2.37313
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.46982,
+                    49.4797015
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Sofia",
+                "stop_name": "Mannheim",
+                "latitude": 49.4797015,
+                "longitude": 8.46982
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5599976,
+                    48.1402903
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Sofia",
+                "stop_name": "M\u00fcnchen Hbf Gl.5-10",
+                "latitude": 48.1402903,
+                "longitude": 11.5599976
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3765973,
+                    48.1851873
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Sofia",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.1851873,
+                "longitude": 16.3765973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Sofia",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Sofia",
+                "stop_name": "B\u00fckre\u015fti Nord",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.316502,
+                    42.72677
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Sofia",
+                "stop_name": "Sofia Sever",
+                "latitude": 42.72677,
+                "longitude": 23.316502
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.361373,
+                    42.699124
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Sofia",
+                "stop_name": "Pl. Pirdop",
+                "latitude": 42.699124,
+                "longitude": 23.361373
+            }
+        }
+    ]
+}

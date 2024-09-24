@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.9285378,
+                    43.2599664
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Lisbon",
+                "stop_name": "Bilbao",
+                "latitude": 43.2599664,
+                "longitude": -2.9285378
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.7269042,
+                    41.642055
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Lisbon",
+                "stop_name": "Valladolid Campo Grande",
+                "latitude": 41.642055,
+                "longitude": -4.7269042
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.6488233,
+                    40.9724666
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Lisbon",
+                "stop_name": "Salamanca, Spain",
+                "latitude": 40.9724666,
+                "longitude": -5.6488233
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.829114,
+                    40.606173
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Lisbon",
+                "stop_name": "Vilar Formoso",
+                "latitude": 40.606173,
+                "longitude": -6.829114
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.239816,
+                    40.552532
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Lisbon",
+                "stop_name": "Guarda",
+                "latitude": 40.552532,
+                "longitude": -7.239816
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.44047,
+                    40.22436
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Lisbon",
+                "stop_name": "Coimbra-B",
+                "latitude": 40.22436,
+                "longitude": -8.44047
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13564,
+                    38.70701
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Lisbon",
+                "stop_name": "Lisbon",
+                "latitude": 38.70701,
+                "longitude": -9.13564
+            }
+        }
+    ]
+}

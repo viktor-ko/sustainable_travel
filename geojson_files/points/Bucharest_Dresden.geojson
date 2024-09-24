@@ -1,0 +1,107 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Dresden",
+                "stop_name": "Bucharest",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.175698,
+                    47.179558
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Dresden",
+                "stop_name": "Szolnok",
+                "latitude": 47.179558,
+                "longitude": 20.175698
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.8065824,
+                    47.1821509
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Dresden",
+                "stop_name": "Cegled",
+                "latitude": 47.1821509,
+                "longitude": 19.8065824
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0577611,
+                    47.510468
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Dresden",
+                "stop_name": "Nyugati pu",
+                "latitude": 47.510468,
+                "longitude": 19.0577611
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.4353058,
+                    50.0832088
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Dresden",
+                "stop_name": "Prague Main Station",
+                "latitude": 50.0832088,
+                "longitude": 14.4353058
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.73363,
+                    51.05099
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Dresden",
+                "stop_name": "Dresden",
+                "latitude": 51.05099,
+                "longitude": 13.73363
+            }
+        }
+    ]
+}

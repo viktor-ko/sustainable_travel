@@ -1,0 +1,41 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        18.10236,
+                        59.3574
+                    ],
+                    [
+                        18.1021904,
+                        59.3479089
+                    ],
+                    [
+                        18.115221,
+                        59.351048
+                    ],
+                    [
+                        24.7692625,
+                        59.4437217
+                    ],
+                    [
+                        24.7600937,
+                        59.4394514
+                    ],
+                    [
+                        24.7532,
+                        59.44269
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Stockholm",
+                "End": "Tallinn"
+            }
+        }
+    ]
+}

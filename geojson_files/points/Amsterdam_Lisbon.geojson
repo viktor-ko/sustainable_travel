@@ -1,0 +1,175 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.9016565,
+                    52.3788903
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Lisbon",
+                "stop_name": "Amsterdam",
+                "latitude": 52.3788903,
+                "longitude": 4.9016565
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35677,
+                    48.87951
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Lisbon",
+                "stop_name": "Gare du Nord",
+                "latitude": 48.87951,
+                "longitude": 2.35677
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.32003,
+                    48.84087
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Lisbon",
+                "stop_name": "Gare Montparnasse",
+                "latitude": 48.84087,
+                "longitude": 2.32003
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7818973,
+                    43.3531913
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Lisbon",
+                "stop_name": "Hendaye, France",
+                "latitude": 43.3531913,
+                "longitude": -1.7818973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.976704,
+                    43.317669
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Lisbon",
+                "stop_name": "San Sebasti\u00e1n",
+                "latitude": 43.317669,
+                "longitude": -1.976704
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.68247,
+                    40.4721
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Lisbon",
+                "stop_name": "Madrid Chamartin Train Station",
+                "latitude": 40.4721,
+                "longitude": -3.68247
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.7103284,
+                    42.2345913
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Lisbon",
+                "stop_name": "Vigo, Spain",
+                "latitude": 42.2345913,
+                "longitude": -8.7103284
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.426252,
+                    41.554077
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Lisbon",
+                "stop_name": "Carmo (Mercado)",
+                "latitude": 41.554077,
+                "longitude": -8.426252
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.5854509,
+                    41.1488193
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Lisbon",
+                "stop_name": "Campanha",
+                "latitude": 41.1488193,
+                "longitude": -8.5854509
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13564,
+                    38.70701
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Lisbon",
+                "stop_name": "Lisbon",
+                "latitude": 38.70701,
+                "longitude": -9.13564
+            }
+        }
+    ]
+}

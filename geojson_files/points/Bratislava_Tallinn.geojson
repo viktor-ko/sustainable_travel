@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1062057,
+                    48.1586781
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Tallinn",
+                "stop_name": "Bratislava",
+                "latitude": 48.1586781,
+                "longitude": 17.1062057
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.8927703,
+                    48.7539316
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Tallinn",
+                "stop_name": "Breclav",
+                "latitude": 48.7539316,
+                "longitude": 16.8927703
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.6769,
+                    50.30104
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Tallinn",
+                "stop_name": "Gliwice",
+                "latitude": 50.30104,
+                "longitude": 18.6769
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.00327,
+                    52.22884
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Tallinn",
+                "stop_name": "Warsaw Central",
+                "latitude": 52.22884,
+                "longitude": 21.00327
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.2841954,
+                    54.6704574
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Tallinn",
+                "stop_name": "Vilnius, Lithuania",
+                "latitude": 54.6704574,
+                "longitude": 25.2841954
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.630569,
+                    59.3551964
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Tallinn",
+                "stop_name": "Tallinn, Estonia",
+                "latitude": 59.3551964,
+                "longitude": 24.630569
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7532,
+                    59.44269
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Tallinn",
+                "stop_name": "Tallinn",
+                "latitude": 59.44269,
+                "longitude": 24.7532
+            }
+        }
+    ]
+}

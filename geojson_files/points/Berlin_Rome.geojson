@@ -1,0 +1,73 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Rome",
+                "stop_name": "Berlin",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5599976,
+                    48.1402903
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Rome",
+                "stop_name": "M\u00fcnchen Hbf Gl.5-10",
+                "latitude": 48.1402903,
+                "longitude": 11.5599976
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.8804541,
+                    45.4173498
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Rome",
+                "stop_name": "Padova",
+                "latitude": 45.4173498,
+                "longitude": 11.8804541
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.49427,
+                    41.89056
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Rome",
+                "stop_name": "Rome",
+                "latitude": 41.89056,
+                "longitude": 12.49427
+            }
+        }
+    ]
+}

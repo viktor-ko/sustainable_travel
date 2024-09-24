@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.7524574,
+                    59.911096
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Tallinn",
+                "stop_name": "Oslo",
+                "latitude": 59.911096,
+                "longitude": 10.7524574
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.0582377,
+                    59.3301476
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Tallinn",
+                "stop_name": "Stockholm Metropolitan Area, Sweden",
+                "latitude": 59.3301476,
+                "longitude": 18.0582377
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.04238,
+                    59.39107
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Tallinn",
+                "stop_name": "Danderyds sjukhus",
+                "latitude": 59.39107,
+                "longitude": 18.04238
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.6993,
+                    59.75966
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Tallinn",
+                "stop_name": "Norrt\u00e4lje busstation",
+                "latitude": 59.75966,
+                "longitude": 18.6993
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0622435,
+                    59.7205038
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Tallinn",
+                "stop_name": "Stockholm Metropolitan Area, Sweden",
+                "latitude": 59.7205038,
+                "longitude": 19.0622435
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.0431188,
+                    59.3550339
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Tallinn",
+                "stop_name": "L\u00e4\u00e4ne-Harju vald, Estonia",
+                "latitude": 59.3550339,
+                "longitude": 24.0431188
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7532,
+                    59.44269
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Tallinn",
+                "stop_name": "Tallinn",
+                "latitude": 59.44269,
+                "longitude": 24.7532
+            }
+        }
+    ]
+}

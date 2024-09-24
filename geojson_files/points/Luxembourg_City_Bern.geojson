@@ -1,0 +1,107 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1316732,
+                    49.6116301
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bern",
+                "stop_name": "Luxembourg City",
+                "latitude": 49.6116301,
+                "longitude": 6.1316732
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.10111,
+                    49.51611
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bern",
+                "stop_name": "Bettembourg",
+                "latitude": 49.51611,
+                "longitude": 6.10111
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.17705,
+                    49.10947
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bern",
+                "stop_name": "Gare de Metz",
+                "latitude": 49.10947,
+                "longitude": 6.17705
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.73388,
+                    48.58511
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bern",
+                "stop_name": "Strasbourg",
+                "latitude": 48.58511,
+                "longitude": 7.73388
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.589551,
+                    47.547405
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bern",
+                "stop_name": "Basel SBB",
+                "latitude": 47.547405,
+                "longitude": 7.589551
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.44813,
+                    46.948
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bern",
+                "stop_name": "Bern",
+                "latitude": 46.948,
+                "longitude": 7.44813
+            }
+        }
+    ]
+}

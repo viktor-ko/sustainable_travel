@@ -1,0 +1,226 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.564617,
+                    55.672722
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Lisbon",
+                "stop_name": "Copenhagen",
+                "latitude": 55.672722,
+                "longitude": 12.564617
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.0066369,
+                    53.552993
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Lisbon",
+                "stop_name": "Hamburg Central Station",
+                "latitude": 53.552993,
+                "longitude": 10.0066369
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.807821,
+                    51.678078
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Lisbon",
+                "stop_name": "Hamm (Westf)",
+                "latitude": 51.678078,
+                "longitude": 7.807821
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9586017,
+                    50.9432141
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Lisbon",
+                "stop_name": "Cologne Central Station",
+                "latitude": 50.9432141,
+                "longitude": 6.9586017
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3354547,
+                    50.8360867
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Lisbon",
+                "stop_name": "Brussels South/Midi Train Station",
+                "latitude": 50.8360867,
+                "longitude": 4.3354547
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.8611177,
+                    45.7605474
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Lisbon",
+                "stop_name": "Lyon Part-Dieu",
+                "latitude": 45.7605474,
+                "longitude": 4.8611177
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.139889,
+                    41.3789192
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Lisbon",
+                "stop_name": "Barcelona-Sants",
+                "latitude": 41.3789192,
+                "longitude": 2.139889
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.6883126,
+                    40.4050269
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Lisbon",
+                "stop_name": "Estaci\u00f3n Madrid - Puerta de Atocha",
+                "latitude": 40.4050269,
+                "longitude": -3.6883126
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.68247,
+                    40.4721
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Lisbon",
+                "stop_name": "Madrid Chamartin Train Station",
+                "latitude": 40.4721,
+                "longitude": -3.68247
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.7103284,
+                    42.2345913
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Lisbon",
+                "stop_name": "Vigo, Spain",
+                "latitude": 42.2345913,
+                "longitude": -8.7103284
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.642622,
+                    42.0227346
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Lisbon",
+                "stop_name": "Valen\u00e7a, Portugal",
+                "latitude": 42.0227346,
+                "longitude": -8.642622
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.5854509,
+                    41.1488193
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Lisbon",
+                "stop_name": "Campanha",
+                "latitude": 41.1488193,
+                "longitude": -8.5854509
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13564,
+                    38.70701
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Lisbon",
+                "stop_name": "Lisbon",
+                "latitude": 38.70701,
+                "longitude": -9.13564
+            }
+        }
+    ]
+}

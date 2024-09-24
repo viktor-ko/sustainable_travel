@@ -1,0 +1,39 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.9016565,
+                    52.3788903
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Brussels",
+                "stop_name": "Amsterdam",
+                "latitude": 52.3788903,
+                "longitude": 4.9016565
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.33653,
+                    50.83571
+                ]
+            },
+            "properties": {
+                "Start": "Amsterdam",
+                "End": "Brussels",
+                "stop_name": "Brussels South/Midi Train Station",
+                "latitude": 50.83571,
+                "longitude": 4.33653
+            }
+        }
+    ]
+}

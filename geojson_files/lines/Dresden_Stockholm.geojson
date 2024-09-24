@@ -1,0 +1,41 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.7314191,
+                        51.0405029
+                    ],
+                    [
+                        12.3820639,
+                        51.3454712
+                    ],
+                    [
+                        9.7410473,
+                        52.376548
+                    ],
+                    [
+                        10.0066369,
+                        53.552993
+                    ],
+                    [
+                        12.9999228,
+                        55.6090669
+                    ],
+                    [
+                        18.06449,
+                        59.33279
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Stockholm"
+            }
+        }
+    ]
+}

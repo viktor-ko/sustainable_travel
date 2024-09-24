@@ -1,0 +1,175 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.4358671,
+                    46.9481334
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Budapest",
+                "stop_name": "Bern",
+                "latitude": 46.9481334,
+                "longitude": 7.4358671
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5368921,
+                    47.3785973
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Budapest",
+                "stop_name": "Zurich, Switzerland",
+                "latitude": 47.3785973,
+                "longitude": 8.5368921
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7237062,
+                    47.5006518
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Budapest",
+                "stop_name": "Winterthur",
+                "latitude": 47.5006518,
+                "longitude": 8.7237062
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.7400237,
+                    47.5028199
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Budapest",
+                "stop_name": "Bregenz",
+                "latitude": 47.5028199,
+                "longitude": 9.7400237
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.6038151,
+                    47.2410906
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Budapest",
+                "stop_name": "Feldkirch",
+                "latitude": 47.2410906,
+                "longitude": 9.6038151
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3765973,
+                    48.1851873
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Budapest",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.1851873,
+                "longitude": 16.3765973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.870972,
+                    47.986945
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Budapest",
+                "stop_name": "Parndorf",
+                "latitude": 47.986945,
+                "longitude": 16.870972
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.14702,
+                    47.913506
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Budapest",
+                "stop_name": "Hegyeshalom",
+                "latitude": 47.913506,
+                "longitude": 17.14702
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.2488889,
+                    47.6019444
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Budapest",
+                "stop_name": "Csorna",
+                "latitude": 47.6019444,
+                "longitude": 17.2488889
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.04055,
+                    47.49814
+                ]
+            },
+            "properties": {
+                "Start": "Bern",
+                "End": "Budapest",
+                "stop_name": "Budapest",
+                "latitude": 47.49814,
+                "longitude": 19.04055
+            }
+        }
+    ]
+}

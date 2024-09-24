@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1258659,
+                    51.5311162
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Stockholm",
+                "stop_name": "London",
+                "latitude": 51.5311162,
+                "longitude": -0.1258659
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3354547,
+                    50.8360867
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Stockholm",
+                "stop_name": "Brussels South/Midi Train Station",
+                "latitude": 50.8360867,
+                "longitude": 4.3354547
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9586017,
+                    50.9432141
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Stockholm",
+                "stop_name": "Cologne Central Station",
+                "latitude": 50.9432141,
+                "longitude": 6.9586017
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.0066369,
+                    53.552993
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Stockholm",
+                "stop_name": "Hamburg Central Station",
+                "latitude": 53.552993,
+                "longitude": 10.0066369
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.5648118,
+                    55.6727679
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Stockholm",
+                "stop_name": "K\u00f6benhavn H",
+                "latitude": 55.6727679,
+                "longitude": 12.5648118
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.1869731,
+                    55.7067651
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Stockholm",
+                "stop_name": "Lund C",
+                "latitude": 55.7067651,
+                "longitude": 13.1869731
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.06449,
+                    59.33279
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Stockholm",
+                "stop_name": "Stockholm",
+                "latitude": 59.33279,
+                "longitude": 18.06449
+            }
+        }
+    ]
+}

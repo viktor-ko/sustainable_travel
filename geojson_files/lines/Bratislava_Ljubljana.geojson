@@ -1,0 +1,41 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        17.1062057,
+                        48.1586781
+                    ],
+                    [
+                        16.918833,
+                        48.2494275
+                    ],
+                    [
+                        16.3765973,
+                        48.1851873
+                    ],
+                    [
+                        15.4162709,
+                        47.0727515
+                    ],
+                    [
+                        15.658011,
+                        46.562065
+                    ],
+                    [
+                        14.50597,
+                        46.05143
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Ljubljana"
+            }
+        }
+    ]
+}

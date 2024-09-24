@@ -1,0 +1,90 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.564617,
+                    55.672722
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Rome",
+                "stop_name": "Copenhagen",
+                "latitude": 55.672722,
+                "longitude": 12.564617
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.0066369,
+                    53.552993
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Rome",
+                "stop_name": "Hamburg Central Station",
+                "latitude": 53.552993,
+                "longitude": 10.0066369
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5599976,
+                    48.1402903
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Rome",
+                "stop_name": "M\u00fcnchen Hbf Gl.5-10",
+                "latitude": 48.1402903,
+                "longitude": 11.5599976
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.3433694,
+                    44.5059073
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Rome",
+                "stop_name": "Bologna Centrale",
+                "latitude": 44.5059073,
+                "longitude": 11.3433694
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.49427,
+                    41.89056
+                ]
+            },
+            "properties": {
+                "Start": "Copenhagen",
+                "End": "Rome",
+                "stop_name": "Rome",
+                "latitude": 41.89056,
+                "longitude": 12.49427
+            }
+        }
+    ]
+}

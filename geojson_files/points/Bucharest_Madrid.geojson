@@ -1,0 +1,260 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.073892,
+                    44.446634
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Madrid",
+                "stop_name": "Bucharest",
+                "latitude": 44.446634,
+                "longitude": 26.073892
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Madrid",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.3765973,
+                    48.1851873
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Madrid",
+                "stop_name": "Vienna Central T",
+                "latitude": 48.1851873,
+                "longitude": 16.3765973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.6038151,
+                    47.2410906
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Madrid",
+                "stop_name": "Feldkirch",
+                "latitude": 47.2410906,
+                "longitude": 9.6038151
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.721313,
+                    47.492908
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Madrid",
+                "stop_name": "Riedenburg",
+                "latitude": 47.492908,
+                "longitude": 9.721313
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.6385794,
+                    47.453209
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Madrid",
+                "stop_name": "St. Margrethen",
+                "latitude": 47.453209,
+                "longitude": 9.6385794
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.368999,
+                    47.4230238
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Madrid",
+                "stop_name": "St. Gallen",
+                "latitude": 47.4230238,
+                "longitude": 9.368999
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5369094,
+                    47.3789706
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Madrid",
+                "stop_name": "Zurich HB",
+                "latitude": 47.3789706,
+                "longitude": 8.5369094
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.5897064,
+                    47.5475873
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Madrid",
+                "stop_name": "Basel SBB",
+                "latitude": 47.5475873,
+                "longitude": 7.5897064
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.3428351,
+                    47.742426
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Madrid",
+                "stop_name": "Mulhouse Ville",
+                "latitude": 47.742426,
+                "longitude": 7.3428351
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3662292,
+                    43.832453
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Madrid",
+                "stop_name": "N\u00eemes Station",
+                "latitude": 43.832453,
+                "longitude": 4.3662292
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.00567,
+                    43.19062
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Madrid",
+                "stop_name": "Narbonne",
+                "latitude": 43.19062,
+                "longitude": 3.00567
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.157858,
+                    42.424494
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Madrid",
+                "stop_name": "Portbou",
+                "latitude": 42.424494,
+                "longitude": 3.157858
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.8169214,
+                    41.9793477
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Madrid",
+                "stop_name": "Girona",
+                "latitude": 41.9793477,
+                "longitude": 2.8169214
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.70035,
+                    40.41669
+                ]
+            },
+            "properties": {
+                "Start": "Bucharest",
+                "End": "Madrid",
+                "stop_name": "Madrid",
+                "latitude": 40.41669,
+                "longitude": -3.70035
+            }
+        }
+    ]
+}

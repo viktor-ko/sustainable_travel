@@ -1,0 +1,29 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        24.1203279,
+                        56.9467445
+                    ],
+                    [
+                        26.0529163,
+                        57.7746798
+                    ],
+                    [
+                        24.7532,
+                        59.44269
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Riga",
+                "End": "Tallinn"
+            }
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3570964,
+                    50.845504
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Vilnius",
+                "stop_name": "Brussels",
+                "latitude": 50.845504,
+                "longitude": 4.3570964
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.5698462,
+                    50.0528675
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Vilnius",
+                "stop_name": "Frankfurt (Main) Airport Fernbahnhof",
+                "latitude": 50.0528675,
+                "longitude": 8.5698462
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Vilnius",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.00327,
+                    52.22884
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Vilnius",
+                "stop_name": "Warsaw Central",
+                "latitude": 52.22884,
+                "longitude": 21.00327
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.1351217,
+                    53.1341886
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Vilnius",
+                "stop_name": "Bialystok, Poland",
+                "latitude": 53.1341886,
+                "longitude": 23.1351217
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.2484794,
+                    54.6739261
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Vilnius",
+                "stop_name": "Savanori\u0173 prospektas 176",
+                "latitude": 54.6739261,
+                "longitude": 25.2484794
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        14.5122127,
+                        46.05823
+                    ],
+                    [
+                        15.658011,
+                        46.562065
+                    ],
+                    [
+                        16.3765973,
+                        48.1851873
+                    ],
+                    [
+                        16.8927703,
+                        48.7539316
+                    ],
+                    [
+                        19.0050819,
+                        49.9148543
+                    ],
+                    [
+                        21.00849,
+                        52.23498
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Warsaw"
+            }
+        }
+    ]
+}

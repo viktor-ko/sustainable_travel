@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.2796406,
+                    54.6871315
+                ]
+            },
+            "properties": {
+                "Start": "Vilnius",
+                "End": "Zagreb",
+                "stop_name": "Vilnius",
+                "latitude": 54.6871315,
+                "longitude": 25.2796406
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.135443,
+                    53.1330197
+                ]
+            },
+            "properties": {
+                "Start": "Vilnius",
+                "End": "Zagreb",
+                "stop_name": "Bialystok, Poland",
+                "latitude": 53.1330197,
+                "longitude": 23.135443
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.00327,
+                    52.22884
+                ]
+            },
+            "properties": {
+                "Start": "Vilnius",
+                "End": "Zagreb",
+                "stop_name": "Warsaw Central",
+                "latitude": 52.22884,
+                "longitude": 21.00327
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.8927703,
+                    48.7539316
+                ]
+            },
+            "properties": {
+                "Start": "Vilnius",
+                "End": "Zagreb",
+                "stop_name": "Breclav",
+                "latitude": 48.7539316,
+                "longitude": 16.8927703
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4162709,
+                    47.0727515
+                ]
+            },
+            "properties": {
+                "Start": "Vilnius",
+                "End": "Zagreb",
+                "stop_name": "Graz Main Station",
+                "latitude": 47.0727515,
+                "longitude": 15.4162709
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.6575422,
+                    46.5622649
+                ]
+            },
+            "properties": {
+                "Start": "Vilnius",
+                "End": "Zagreb",
+                "stop_name": "Maribor, Slovenia",
+                "latitude": 46.5622649,
+                "longitude": 15.6575422
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.97851,
+                    45.81491
+                ]
+            },
+            "properties": {
+                "Start": "Vilnius",
+                "End": "Zagreb",
+                "stop_name": "Zagreb",
+                "latitude": 45.81491,
+                "longitude": 15.97851
+            }
+        }
+    ]
+}

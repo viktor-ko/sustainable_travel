@@ -1,0 +1,90 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Bucharest",
+                "stop_name": "Berlin",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0577611,
+                    47.510468
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Bucharest",
+                "stop_name": "Nyugati pu",
+                "latitude": 47.510468,
+                "longitude": 19.0577611
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.175698,
+                    47.179558
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Bucharest",
+                "stop_name": "Szolnok",
+                "latitude": 47.179558,
+                "longitude": 20.175698
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.325147,
+                    46.1896347
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Bucharest",
+                "stop_name": "Arad station",
+                "latitude": 46.1896347,
+                "longitude": 21.325147
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.10222,
+                    44.43558
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Bucharest",
+                "stop_name": "Bucharest",
+                "latitude": 44.43558,
+                "longitude": 26.10222
+            }
+        }
+    ]
+}

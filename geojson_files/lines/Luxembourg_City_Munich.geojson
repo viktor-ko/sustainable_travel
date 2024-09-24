@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        6.134396,
+                        49.599714
+                    ],
+                    [
+                        6.652453,
+                        49.756846
+                    ],
+                    [
+                        6.991021,
+                        49.241065
+                    ],
+                    [
+                        11.58022,
+                        48.13913
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Munich"
+            }
+        }
+    ]
+}

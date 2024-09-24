@@ -1,0 +1,37 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.369402,
+                        52.5250839
+                    ],
+                    [
+                        11.08194,
+                        49.44639
+                    ],
+                    [
+                        11.556708,
+                        48.141529
+                    ],
+                    [
+                        8.5635871,
+                        47.4501322
+                    ],
+                    [
+                        7.44813,
+                        46.948
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Berlin",
+                "End": "Bern"
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        17.1062057,
+                        48.1586781
+                    ],
+                    [
+                        19.0577611,
+                        47.510468
+                    ],
+                    [
+                        19.1492484,
+                        47.4634574
+                    ],
+                    [
+                        20.175698,
+                        47.179558
+                    ],
+                    [
+                        26.10222,
+                        44.43558
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Bucharest"
+            }
+        }
+    ]
+}

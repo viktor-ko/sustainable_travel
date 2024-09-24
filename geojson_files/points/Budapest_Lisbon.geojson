@@ -1,0 +1,209 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0839882,
+                    47.5004423
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Lisbon",
+                "stop_name": "Budapest",
+                "latitude": 47.5004423,
+                "longitude": 19.0839882
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.6385794,
+                    47.453209
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Lisbon",
+                "stop_name": "St. Margrethen",
+                "latitude": 47.453209,
+                "longitude": 9.6385794
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.3689063,
+                    47.4227719
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Lisbon",
+                "stop_name": "St. Gallen",
+                "latitude": 47.4227719,
+                "longitude": 9.3689063
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1430196,
+                    46.210553
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Lisbon",
+                "stop_name": "Geneva",
+                "latitude": 46.210553,
+                "longitude": 6.1430196
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.8611177,
+                    45.7605474
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Lisbon",
+                "stop_name": "Lyon Part-Dieu",
+                "latitude": 45.7605474,
+                "longitude": 4.8611177
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.139889,
+                    41.3789192
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Lisbon",
+                "stop_name": "Barcelona-Sants",
+                "latitude": 41.3789192,
+                "longitude": 2.139889
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.6883126,
+                    40.4050269
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Lisbon",
+                "stop_name": "Estaci\u00f3n Madrid - Puerta de Atocha",
+                "latitude": 40.4050269,
+                "longitude": -3.6883126
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.68247,
+                    40.4721
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Lisbon",
+                "stop_name": "Madrid Chamartin Train Station",
+                "latitude": 40.4721,
+                "longitude": -3.68247
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.7103284,
+                    42.2345913
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Lisbon",
+                "stop_name": "Vigo, Spain",
+                "latitude": 42.2345913,
+                "longitude": -8.7103284
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.642622,
+                    42.0227346
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Lisbon",
+                "stop_name": "Valen\u00e7a, Portugal",
+                "latitude": 42.0227346,
+                "longitude": -8.642622
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.5854509,
+                    41.1488193
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Lisbon",
+                "stop_name": "Campanha",
+                "latitude": 41.1488193,
+                "longitude": -8.5854509
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13564,
+                    38.70701
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Lisbon",
+                "stop_name": "Lisbon",
+                "latitude": 38.70701,
+                "longitude": -9.13564
+            }
+        }
+    ]
+}

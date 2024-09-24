@@ -1,0 +1,209 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1316732,
+                    49.6116301
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Lisbon",
+                "stop_name": "Luxembourg City",
+                "latitude": 49.6116301,
+                "longitude": 6.1316732
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.10111,
+                    49.51611
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Lisbon",
+                "stop_name": "Bettembourg",
+                "latitude": 49.51611,
+                "longitude": 6.10111
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.17705,
+                    49.10947
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Lisbon",
+                "stop_name": "Gare de Metz",
+                "latitude": 49.10947,
+                "longitude": 6.17705
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35775,
+                    48.87628
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Lisbon",
+                "stop_name": "Gare de l'Est",
+                "latitude": 48.87628,
+                "longitude": 2.35775
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.32051,
+                    48.84117
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Lisbon",
+                "stop_name": "Gare Montparnasse",
+                "latitude": 48.84117,
+                "longitude": 2.32051
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.78223,
+                    43.35245
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Lisbon",
+                "stop_name": "Hendaye",
+                "latitude": 43.35245,
+                "longitude": -1.78223
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.98148,
+                    43.31286
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Lisbon",
+                "stop_name": "San Sebasti\u00e1n, Spain",
+                "latitude": 43.31286,
+                "longitude": -1.98148
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.910071,
+                    41.317459
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Lisbon",
+                "stop_name": "Estaci\u00f3n de tren Medina del Campo",
+                "latitude": 41.317459,
+                "longitude": -4.910071
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.544697,
+                    42.870842
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Lisbon",
+                "stop_name": "Santiago de Compostela",
+                "latitude": 42.870842,
+                "longitude": -8.544697
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.7103284,
+                    42.2345913
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Lisbon",
+                "stop_name": "Vigo, Spain",
+                "latitude": 42.2345913,
+                "longitude": -8.7103284
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.54431,
+                    41.45474
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Lisbon",
+                "stop_name": "Nine",
+                "latitude": 41.45474,
+                "longitude": -8.54431
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13564,
+                    38.70701
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Lisbon",
+                "stop_name": "Lisbon",
+                "latitude": 38.70701,
+                "longitude": -9.13564
+            }
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3570964,
+                    50.845504
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Rome",
+                "stop_name": "Brussels",
+                "latitude": 50.845504,
+                "longitude": 4.3570964
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3549322,
+                    48.8800585
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Rome",
+                "stop_name": "Paris, France",
+                "latitude": 48.8800585,
+                "longitude": 2.3549322
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.73388,
+                    48.58511
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Rome",
+                "stop_name": "Strasbourg",
+                "latitude": 48.58511,
+                "longitude": 7.73388
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.5898437,
+                    47.5466396
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Rome",
+                "stop_name": "Basel SBB",
+                "latitude": 47.5466396,
+                "longitude": 7.5898437
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0303151,
+                    46.1955962
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Rome",
+                "stop_name": "Bellinzona",
+                "latitude": 46.1955962,
+                "longitude": 9.0303151
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.0317809,
+                    45.8321647
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Rome",
+                "stop_name": "Chiasso",
+                "latitude": 45.8321647,
+                "longitude": 9.0317809
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.204822,
+                    45.487137
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Rome",
+                "stop_name": "Milano Centrale Railway Station",
+                "latitude": 45.487137,
+                "longitude": 9.204822
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.49427,
+                    41.89056
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Rome",
+                "stop_name": "Rome",
+                "latitude": 41.89056,
+                "longitude": 12.49427
+            }
+        }
+    ]
+}

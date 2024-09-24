@@ -1,0 +1,45 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        6.134396,
+                        49.599714
+                    ],
+                    [
+                        6.652453,
+                        49.756846
+                    ],
+                    [
+                        6.991021,
+                        49.241065
+                    ],
+                    [
+                        9.181635,
+                        48.784084
+                    ],
+                    [
+                        13.045559,
+                        47.812822
+                    ],
+                    [
+                        17.1455556,
+                        47.9138889
+                    ],
+                    [
+                        19.04055,
+                        47.49814
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Budapest"
+            }
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        10.7524574,
+                        59.911096
+                    ],
+                    [
+                        11.9733033,
+                        57.7085866
+                    ],
+                    [
+                        12.9999228,
+                        55.6090669
+                    ],
+                    [
+                        10.0066369,
+                        53.552993
+                    ],
+                    [
+                        16.37278,
+                        48.20921
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Vienna"
+            }
+        }
+    ]
+}

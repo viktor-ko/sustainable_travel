@@ -1,0 +1,192 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.134396,
+                    49.599714
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Tallinn",
+                "stop_name": "Luxembourg City",
+                "latitude": 49.599714,
+                "longitude": 6.134396
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.5892709,
+                    50.3507762
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Tallinn",
+                "stop_name": "Koblenz Hbf",
+                "latitude": 50.3507762,
+                "longitude": 7.5892709
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.25872,
+                    50.001117
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Tallinn",
+                "stop_name": "Mainz",
+                "latitude": 50.001117,
+                "longitude": 8.25872
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.741021,
+                    52.376761
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Tallinn",
+                "stop_name": "Hannover",
+                "latitude": 52.376761,
+                "longitude": 9.741021
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.4360449,
+                    52.5098959
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Tallinn",
+                "stop_name": "Berlin",
+                "latitude": 52.5098959,
+                "longitude": 13.4360449
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.00327,
+                    52.22884
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Tallinn",
+                "stop_name": "Warsaw Central",
+                "latitude": 52.22884,
+                "longitude": 21.00327
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.1351217,
+                    53.1341886
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Tallinn",
+                "stop_name": "Bialystok, Poland",
+                "latitude": 53.1341886,
+                "longitude": 23.1351217
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.928025,
+                    54.889395
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Tallinn",
+                "stop_name": "Kaunas, Bus Station",
+                "latitude": 54.889395,
+                "longitude": 23.928025
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.1117552,
+                    56.9437308
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Tallinn",
+                "stop_name": "Riga, Latvia",
+                "latitude": 56.9437308,
+                "longitude": 24.1117552
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.0529163,
+                    57.7746798
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Tallinn",
+                "stop_name": "Valga",
+                "latitude": 57.7746798,
+                "longitude": 26.0529163
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7532,
+                    59.44269
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Tallinn",
+                "stop_name": "Tallinn",
+                "latitude": 59.44269,
+                "longitude": 24.7532
+            }
+        }
+    ]
+}

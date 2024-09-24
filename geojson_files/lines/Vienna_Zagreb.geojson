@@ -1,0 +1,29 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.3354,
+                        48.1752143
+                    ],
+                    [
+                        15.4162709,
+                        47.0727515
+                    ],
+                    [
+                        15.97851,
+                        45.81491
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Vienna",
+                "End": "Zagreb"
+            }
+        }
+    ]
+}

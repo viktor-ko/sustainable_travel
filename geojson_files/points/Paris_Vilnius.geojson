@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3591978,
+                    48.8768146
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Vilnius",
+                "stop_name": "Paris",
+                "latitude": 48.8768146,
+                "longitude": 2.3591978
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.46982,
+                    49.4797015
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Vilnius",
+                "stop_name": "Mannheim",
+                "latitude": 49.4797015,
+                "longitude": 8.46982
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.44712,
+                    51.31311
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Vilnius",
+                "stop_name": "Wilhelmsh\u00f6he",
+                "latitude": 51.31311,
+                "longitude": 9.44712
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Vilnius",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.9655106,
+                    52.2194795
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Vilnius",
+                "stop_name": "Warsaw West",
+                "latitude": 52.2194795,
+                "longitude": 20.9655106
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.1351217,
+                    53.1341886
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Vilnius",
+                "stop_name": "Bialystok, Poland",
+                "latitude": 53.1341886,
+                "longitude": 23.1351217
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.2484794,
+                    54.6739261
+                ]
+            },
+            "properties": {
+                "Start": "Paris",
+                "End": "Vilnius",
+                "stop_name": "Savanori\u0173 prospektas 176",
+                "latitude": 54.6739261,
+                "longitude": 25.2484794
+            }
+        }
+    ]
+}

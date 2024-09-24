@@ -1,0 +1,41 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.1258659,
+                        51.5311162
+                    ],
+                    [
+                        2.3549322,
+                        48.8800585
+                    ],
+                    [
+                        2.35669,
+                        48.88231
+                    ],
+                    [
+                        2.5709029,
+                        49.0045699
+                    ],
+                    [
+                        5.31723,
+                        43.455268
+                    ],
+                    [
+                        -3.70035,
+                        40.41669
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "London",
+                "End": "Madrid"
+            }
+        }
+    ]
+}

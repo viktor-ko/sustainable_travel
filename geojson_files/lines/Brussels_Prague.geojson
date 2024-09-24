@@ -1,0 +1,37 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        4.3570964,
+                        50.845504
+                    ],
+                    [
+                        4.3608795,
+                        50.8603166
+                    ],
+                    [
+                        6.958729,
+                        50.94303
+                    ],
+                    [
+                        13.369545,
+                        52.525592
+                    ],
+                    [
+                        14.42046,
+                        50.08781
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Brussels",
+                "End": "Prague"
+            }
+        }
+    ]
+}

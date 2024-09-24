@@ -1,0 +1,107 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0216485,
+                    47.4651712
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Ljubljana",
+                "stop_name": "Budapest",
+                "latitude": 47.4651712,
+                "longitude": 19.0216485
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.58673,
+                    47.677904
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Ljubljana",
+                "stop_name": "Sopron",
+                "latitude": 47.677904,
+                "longitude": 16.58673
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.2344131,
+                    47.8116027
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Ljubljana",
+                "stop_name": "Wiener Neustadt",
+                "latitude": 47.8116027,
+                "longitude": 16.2344131
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.4162709,
+                    47.0727515
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Ljubljana",
+                "stop_name": "Graz Main Station",
+                "latitude": 47.0727515,
+                "longitude": 15.4162709
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.658011,
+                    46.562065
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Ljubljana",
+                "stop_name": "\u017delezni\u0161ka postaja Maribor",
+                "latitude": 46.562065,
+                "longitude": 15.658011
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.50597,
+                    46.05143
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Ljubljana",
+                "stop_name": "Ljubljana",
+                "latitude": 46.05143,
+                "longitude": 14.50597
+            }
+        }
+    ]
+}

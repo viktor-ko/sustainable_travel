@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.502618,
+                    50.101152
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Tallinn",
+                "stop_name": "Prague",
+                "latitude": 50.101152,
+                "longitude": 14.502618
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.7423241,
+                    49.5652667
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Tallinn",
+                "stop_name": "Hranice na M., \u017est.",
+                "latitude": 49.5652667,
+                "longitude": 17.7423241
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.6769,
+                    50.30104
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Tallinn",
+                "stop_name": "Gliwice",
+                "latitude": 50.30104,
+                "longitude": 18.6769
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.2316667,
+                    51.3586667
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Tallinn",
+                "stop_name": "Opoczno Poludnie",
+                "latitude": 51.3586667,
+                "longitude": 20.2316667
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.2841954,
+                    54.6704574
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Tallinn",
+                "stop_name": "Vilnius, Lithuania",
+                "latitude": 54.6704574,
+                "longitude": 25.2841954
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.630569,
+                    59.3551964
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Tallinn",
+                "stop_name": "Tallinn, Estonia",
+                "latitude": 59.3551964,
+                "longitude": 24.630569
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7532,
+                    59.44269
+                ]
+            },
+            "properties": {
+                "Start": "Prague",
+                "End": "Tallinn",
+                "stop_name": "Tallinn",
+                "latitude": 59.44269,
+                "longitude": 24.7532
+            }
+        }
+    ]
+}

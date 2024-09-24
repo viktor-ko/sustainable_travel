@@ -1,0 +1,141 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.134396,
+                    49.599714
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bucharest",
+                "stop_name": "Luxembourg City",
+                "latitude": 49.599714,
+                "longitude": 6.134396
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.652453,
+                    49.756846
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bucharest",
+                "stop_name": "Trier",
+                "latitude": 49.756846,
+                "longitude": 6.652453
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.991021,
+                    49.241065
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bucharest",
+                "stop_name": "Saarbr\u00fccken Hbf",
+                "latitude": 49.241065,
+                "longitude": 6.991021
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.181635,
+                    48.784084
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bucharest",
+                "stop_name": "Stuttgart Hbf",
+                "latitude": 48.784084,
+                "longitude": 9.181635
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.045559,
+                    47.812822
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bucharest",
+                "stop_name": "Salzburg",
+                "latitude": 47.812822,
+                "longitude": 13.045559
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.0845997,
+                    47.5004568
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bucharest",
+                "stop_name": "Budapest-Keleti",
+                "latitude": 47.5004568,
+                "longitude": 19.0845997
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.325546,
+                    46.189565
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bucharest",
+                "stop_name": "Arad station",
+                "latitude": 46.189565,
+                "longitude": 21.325546
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    26.10222,
+                    44.43558
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Bucharest",
+                "stop_name": "Bucharest",
+                "latitude": 44.43558,
+                "longitude": 26.10222
+            }
+        }
+    ]
+}

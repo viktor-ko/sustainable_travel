@@ -1,0 +1,73 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5599976,
+                    48.1402903
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Rome",
+                "stop_name": "Munich",
+                "latitude": 48.1402903,
+                "longitude": 11.5599976
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.9824979,
+                    45.4290202
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Rome",
+                "stop_name": "Verona Porta Nuova",
+                "latitude": 45.4290202,
+                "longitude": 10.9824979
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.3433694,
+                    44.5059073
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Rome",
+                "stop_name": "Bologna Centrale",
+                "latitude": 44.5059073,
+                "longitude": 11.3433694
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.49427,
+                    41.89056
+                ]
+            },
+            "properties": {
+                "Start": "Munich",
+                "End": "Rome",
+                "stop_name": "Rome",
+                "latitude": 41.89056,
+                "longitude": 12.49427
+            }
+        }
+    ]
+}

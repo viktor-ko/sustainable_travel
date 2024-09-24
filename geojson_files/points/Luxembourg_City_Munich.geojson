@@ -1,0 +1,73 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.134396,
+                    49.599714
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Munich",
+                "stop_name": "Luxembourg City",
+                "latitude": 49.599714,
+                "longitude": 6.134396
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.652453,
+                    49.756846
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Munich",
+                "stop_name": "Trier",
+                "latitude": 49.756846,
+                "longitude": 6.652453
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.991021,
+                    49.241065
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Munich",
+                "stop_name": "Saarbr\u00fccken Hbf",
+                "latitude": 49.241065,
+                "longitude": 6.991021
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.58022,
+                    48.13913
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Munich",
+                "stop_name": "Munich",
+                "latitude": 48.13913,
+                "longitude": 11.58022
+            }
+        }
+    ]
+}

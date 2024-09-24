@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.1316732,
+                    49.6116301
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Madrid",
+                "stop_name": "Luxembourg City",
+                "latitude": 49.6116301,
+                "longitude": 6.1316732
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.10111,
+                    49.51611
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Madrid",
+                "stop_name": "Bettembourg",
+                "latitude": 49.51611,
+                "longitude": 6.10111
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.17705,
+                    49.10947
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Madrid",
+                "stop_name": "Gare de Metz",
+                "latitude": 49.10947,
+                "longitude": 6.17705
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35798,
+                    48.87608
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Madrid",
+                "stop_name": "Gare de l'Est",
+                "latitude": 48.87608,
+                "longitude": 2.35798
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.45362,
+                    43.61121
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Madrid",
+                "stop_name": "Toulouse Matabiau",
+                "latitude": 43.61121,
+                "longitude": 1.45362
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.005716,
+                    43.190253
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Madrid",
+                "stop_name": "Narbonne",
+                "latitude": 43.190253,
+                "longitude": 3.005716
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.70035,
+                    40.41669
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Madrid",
+                "stop_name": "Madrid",
+                "latitude": 40.41669,
+                "longitude": -3.70035
+            }
+        }
+    ]
+}

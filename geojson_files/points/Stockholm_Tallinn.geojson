@@ -1,0 +1,39 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.10236,
+                    59.3574
+                ]
+            },
+            "properties": {
+                "Start": "Stockholm",
+                "End": "Tallinn",
+                "stop_name": "Stockholm",
+                "latitude": 59.3574,
+                "longitude": 18.10236
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.7692625,
+                    59.4437217
+                ]
+            },
+            "properties": {
+                "Start": "Stockholm",
+                "End": "Tallinn",
+                "stop_name": "Tallinn, Estonia",
+                "latitude": 59.4437217,
+                "longitude": 24.7692625
+            }
+        }
+    ]
+}

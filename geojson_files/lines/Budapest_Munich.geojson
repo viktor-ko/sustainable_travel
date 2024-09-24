@@ -1,0 +1,29 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        19.0216485,
+                        47.4651712
+                    ],
+                    [
+                        16.3354,
+                        48.1752143
+                    ],
+                    [
+                        11.58022,
+                        48.13913
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Budapest",
+                "End": "Munich"
+            }
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.12235,
+                    38.71436
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Madrid",
+                "stop_name": "Lisbon",
+                "latitude": 38.71436,
+                "longitude": -9.12235
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.0993449,
+                    38.7678423
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Madrid",
+                "stop_name": "Lisboa Oriente",
+                "latitude": 38.7678423,
+                "longitude": -9.0993449
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.5854509,
+                    41.1488193
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Madrid",
+                "stop_name": "Campanha",
+                "latitude": 41.1488193,
+                "longitude": -8.5854509
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.712034,
+                    42.2392617
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Madrid",
+                "stop_name": "Estaci\u00f3n de tren Vigo Guixar",
+                "latitude": 42.2392617,
+                "longitude": -8.712034
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.5447196,
+                    42.8707911
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Madrid",
+                "stop_name": "Santiago de Compostela",
+                "latitude": 42.8707911,
+                "longitude": -8.5447196
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.70035,
+                    40.41669
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Madrid",
+                "stop_name": "Madrid",
+                "latitude": 40.41669,
+                "longitude": -3.70035
+            }
+        }
+    ]
+}

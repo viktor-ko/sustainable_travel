@@ -1,0 +1,260 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.7314191,
+                    51.0405029
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Lisbon",
+                "stop_name": "Dresden",
+                "latitude": 51.0405029,
+                "longitude": 13.7314191
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369402,
+                    52.5250839
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Lisbon",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.5250839,
+                "longitude": 13.369402
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.9586017,
+                    50.9432141
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Lisbon",
+                "stop_name": "Cologne Central Station",
+                "latitude": 50.9432141,
+                "longitude": 6.9586017
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.0907987,
+                    50.7681629
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Lisbon",
+                "stop_name": "Aachen Hbf",
+                "latitude": 50.7681629,
+                "longitude": 6.0907987
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    5.566483,
+                    50.624358
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Lisbon",
+                "stop_name": "Liege-Guillemins",
+                "latitude": 50.624358,
+                "longitude": 5.566483
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3354547,
+                    50.8360867
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Lisbon",
+                "stop_name": "Brussels South/Midi Train Station",
+                "latitude": 50.8360867,
+                "longitude": 4.3354547
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35677,
+                    48.87951
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Lisbon",
+                "stop_name": "Gare du Nord",
+                "latitude": 48.87951,
+                "longitude": 2.35677
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.32003,
+                    48.84087
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Lisbon",
+                "stop_name": "Gare Montparnasse",
+                "latitude": 48.84087,
+                "longitude": 2.32003
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7818973,
+                    43.3531913
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Lisbon",
+                "stop_name": "Hendaye",
+                "latitude": 43.3531913,
+                "longitude": -1.7818973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.7269042,
+                    41.642055
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Lisbon",
+                "stop_name": "Valladolid Campo Grande",
+                "latitude": 41.642055,
+                "longitude": -4.7269042
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.6488233,
+                    40.9724666
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Lisbon",
+                "stop_name": "Salamanca, Spain",
+                "latitude": 40.9724666,
+                "longitude": -5.6488233
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.829114,
+                    40.606173
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Lisbon",
+                "stop_name": "Vilar Formoso",
+                "latitude": 40.606173,
+                "longitude": -6.829114
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.239816,
+                    40.552532
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Lisbon",
+                "stop_name": "Guarda",
+                "latitude": 40.552532,
+                "longitude": -7.239816
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.44047,
+                    40.22436
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Lisbon",
+                "stop_name": "Coimbra-B",
+                "latitude": 40.22436,
+                "longitude": -8.44047
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.13564,
+                    38.70701
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Lisbon",
+                "stop_name": "Lisbon",
+                "latitude": 38.70701,
+                "longitude": -9.13564
+            }
+        }
+    ]
+}

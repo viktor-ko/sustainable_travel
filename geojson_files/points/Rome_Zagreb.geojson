@@ -1,0 +1,90 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.5015756,
+                    41.9012873
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Zagreb",
+                "stop_name": "Rome",
+                "latitude": 41.9012873,
+                "longitude": 12.5015756
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.3433694,
+                    44.5059073
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Zagreb",
+                "stop_name": "Bologna Centrale",
+                "latitude": 44.5059073,
+                "longitude": 11.3433694
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5048979,
+                    47.0024202
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Zagreb",
+                "stop_name": "Brenner",
+                "latitude": 47.0024202,
+                "longitude": 11.5048979
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.4009422,
+                    47.2633269
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Zagreb",
+                "stop_name": "Innsbruck",
+                "latitude": 47.2633269,
+                "longitude": 11.4009422
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.97851,
+                    45.81491
+                ]
+            },
+            "properties": {
+                "Start": "Rome",
+                "End": "Zagreb",
+                "stop_name": "Zagreb",
+                "latitude": 45.81491,
+                "longitude": 15.97851
+            }
+        }
+    ]
+}

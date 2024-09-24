@@ -1,0 +1,90 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.0684604,
+                    59.3292754
+                ]
+            },
+            "properties": {
+                "Start": "Stockholm",
+                "End": "Vilnius",
+                "stop_name": "Stockholm",
+                "latitude": 59.3292754,
+                "longitude": 18.0684604
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.95088,
+                    58.90102
+                ]
+            },
+            "properties": {
+                "Start": "Stockholm",
+                "End": "Vilnius",
+                "stop_name": "Stockholm Metropolitan Area, Sweden",
+                "latitude": 58.90102,
+                "longitude": 17.95088
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.5693043,
+                    57.3983415
+                ]
+            },
+            "properties": {
+                "Start": "Stockholm",
+                "End": "Vilnius",
+                "stop_name": "Ventspils, Latvia",
+                "latitude": 57.3983415,
+                "longitude": 21.5693043
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.1113764,
+                    56.9437221
+                ]
+            },
+            "properties": {
+                "Start": "Stockholm",
+                "End": "Vilnius",
+                "stop_name": "Riga, Latvia",
+                "latitude": 56.9437221,
+                "longitude": 24.1113764
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.27986,
+                    54.68946
+                ]
+            },
+            "properties": {
+                "Start": "Stockholm",
+                "End": "Vilnius",
+                "stop_name": "Vilnius",
+                "latitude": 54.68946,
+                "longitude": 25.27986
+            }
+        }
+    ]
+}

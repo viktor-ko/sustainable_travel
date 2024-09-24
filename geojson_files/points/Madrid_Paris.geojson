@@ -1,0 +1,73 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.6824687,
+                    40.4720993
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Paris",
+                "stop_name": "Madrid",
+                "latitude": 40.4720993,
+                "longitude": -3.6824687
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.977384,
+                    43.3161464
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Paris",
+                "stop_name": "San Sebasti\u00e1n",
+                "latitude": 43.3161464,
+                "longitude": -1.977384
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.4791764,
+                    43.4977348
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Paris",
+                "stop_name": "Bayonne, France",
+                "latitude": 43.4977348,
+                "longitude": -1.4791764
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.32439,
+                    48.84392
+                ]
+            },
+            "properties": {
+                "Start": "Madrid",
+                "End": "Paris",
+                "stop_name": "Montparnasse - Bienven\u00fce",
+                "latitude": 48.84392,
+                "longitude": 2.32439
+            }
+        }
+    ]
+}

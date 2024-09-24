@@ -1,0 +1,90 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.7524574,
+                    59.911096
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Riga",
+                "stop_name": "Oslo",
+                "latitude": 59.911096,
+                "longitude": 10.7524574
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.0582377,
+                    59.3301476
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Riga",
+                "stop_name": "Stockholm Metropolitan Area, Sweden",
+                "latitude": 59.3301476,
+                "longitude": 18.0582377
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.95108,
+                    58.90092
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Riga",
+                "stop_name": "Stockholm Metropolitan Area, Sweden",
+                "latitude": 58.90092,
+                "longitude": 17.95108
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.5693043,
+                    57.3983415
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Riga",
+                "stop_name": "Ventspils, Latvia",
+                "latitude": 57.3983415,
+                "longitude": 21.5693043
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.0892452,
+                    56.9184751
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Riga",
+                "stop_name": "Riga, Latvia",
+                "latitude": 56.9184751,
+                "longitude": 24.0892452
+            }
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        6.134396,
+                        49.599714
+                    ],
+                    [
+                        7.5892709,
+                        50.3507762
+                    ],
+                    [
+                        8.25872,
+                        50.001117
+                    ],
+                    [
+                        10.006909,
+                        53.552736
+                    ],
+                    [
+                        12.56491,
+                        55.67281
+                    ],
+                    [
+                        12.9999228,
+                        55.6090669
+                    ],
+                    [
+                        18.06449,
+                        59.33279
+                    ]
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Stockholm"
+            }
+        }
+    ]
+}

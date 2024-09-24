@@ -1,9 +1,10 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
+
 from utils import hide_page_links_style, cities, trip_data, coordinates_data, normalize_city_pair, double_duration, \
-    create_base_map, load_geojson_route, duration_to_str, duration_to_minutes, calculate_tick_values, \
-    get_projection_params
+    create_base_map, duration_to_str, duration_to_minutes, calculate_tick_values, get_projection_params, load_geojson_lines, \
+    load_geojson_points, generate_curved_arc, calculate_transfers
 
 # Set Streamlit page configuration to wide mode
 st.set_page_config(layout="wide")
@@ -80,10 +81,10 @@ with col2:
                 plane_co2 = 0
             else:
                 plane_duration = travel_info['Duration_plane_total']
-                plane_co2 = travel_info['Plane_CO2_kg']
+                plane_co2 = round(travel_info['Plane_CO2_kg'], 1)
 
             train_duration = travel_info['Duration_train']
-            train_co2 = travel_info['Train_CO2_kg']
+            train_co2 = round(travel_info['Train_CO2_kg'], 1)
 
             # Adjust CO2 emissions based on the number of people
             train_co2 *= num_people
@@ -124,7 +125,7 @@ with col2:
             # Create the duration bar chart
             duration_chart = alt.Chart(duration_data).mark_bar().encode(
                 y=alt.Y('Mode', title=None, axis=alt.Axis(labelFontSize=13)),
-                x=alt.X('Duration_minutes:Q', title='Duration (hours)',
+                x=alt.X('Duration_minutes:Q', title=None,
                         axis=alt.Axis(values=tick_values, labelExpr=labelExpr)),
                 color=alt.Color('Mode', legend=None).scale(scheme="redyellowgreen"),
                 tooltip=[alt.Tooltip('Duration', title='Duration'), alt.Tooltip('Mode', title='Mode')]
@@ -156,11 +157,11 @@ with col2:
             })
             # alt.ColorScheme('basic', ['#f00', '#0f0', '#00f', '#ff0', '#f0f', '#0ff'])
             emissions_chart = alt.Chart(emissions_data).mark_bar().encode(
-                x=alt.X('CO2_kg', title='CO2 (kg)'),
+                x=alt.X('CO2_kg', title=None),
                 y=alt.Y('Mode', title=None, axis=alt.Axis(labelFontSize=13)),
                 color=alt.Color('Mode', legend=None).scale(scheme="redyellowgreen")
             ).properties(
-                title='CO2 Emissions'
+                title='Carbon Emissions'
             )
 
             # Add data labels to the emissions chart
@@ -172,13 +173,29 @@ with col2:
             ).encode(
                 y=alt.Y('Mode', title=None),
                 x=alt.X('CO2_kg'),
-                text=alt.Text('CO2_kg:Q', format='.1f'),
+                # text=alt.Text('CO2_kg:Q', format='.1f'),
                 tooltip = alt.value('')
+            ).transform_calculate(
+                label="datum.CO2_kg + ' kg'" # Concatenate "kg" to the CO2 value
+            ).encode(
+                text=alt.Text('label:N')  # Use the calculated label field
             )
 
             # Combine bar chart with labels
             emissions_combined_chart = emissions_chart + emissions_labels
             st.altair_chart(emissions_combined_chart, use_container_width=True)
+
+            # Load the points GeoJSON data
+            geojson_data_points = load_geojson_points(from_city, to_city)
+
+            # Calculate the number of transfers
+            if geojson_data_points:
+                transfers = calculate_transfers(geojson_data_points)
+
+                # Display the number of transfers using st.metric
+                st.metric(label="Train Transfers:", value=transfers)
+            else:
+                st.metric(label="Train Transfers:", value=0)
 
         else:
             st.write(f"No travel data available for the route from {from_city} to {to_city}.")
@@ -200,8 +217,8 @@ with col1:
         to_city_data = filtered_points[filtered_points['city'] == to_city].iloc[0]
 
         # Add Plane_CO2_kg and Train_CO2_kg to to_city_data for the tooltip
-        to_city_data['Plane_CO2_kg'] = round(plane_co2)
-        to_city_data['Train_CO2_kg'] = round(train_co2)
+        to_city_data['Plane_CO2_kg'] = plane_co2
+        to_city_data['Train_CO2_kg'] = train_co2
 
         # Convert to_city_data to a DataFrame for Altair
         from_city_df = pd.DataFrame([from_city_data])
@@ -275,11 +292,12 @@ with col1:
             tooltip=['city:N', 'Train_CO2_kg:Q']
         )
         # draw train route on the map
-        def create_route_layer(geojson_data):
-            route_layer = alt.Chart(alt.Data(values=geojson_data['features'])).mark_geoshape(
+        def create_route_layer(geojson_lines_data):
+            route_layer = alt.Chart(alt.Data(values=geojson_lines_data['features'])).mark_geoshape(
                 fill=None,
-                stroke='blue',
-                strokeWidth=1
+                stroke='forestgreen',
+                strokeWidth=2,
+                opacity=0.8
             ).project(
                 'mercator',
                 scale=projection_params['scale'],
@@ -290,12 +308,56 @@ with col1:
             )
             return route_layer
 
-        geojson_data = load_geojson_route(from_city, to_city)
-        if geojson_data:
-            route_layer = create_route_layer(geojson_data)
 
-        # Combine the map with highlighted cities
-        map_with_selected_cities = base + from_point + to_point_plane + to_point_train + route_layer
+        def create_points_layer(geojson_points_data):
+            points_layer = alt.Chart(alt.Data(values=geojson_points_data['features'])).mark_circle(
+                color='mediumseagreen',
+                size=100,
+                opacity=0.9
+            ).project(
+                'mercator',
+                scale=projection_params['scale'],
+                center=projection_params['center'],
+                rotate=[5, 0, 0]
+            ).encode(
+                longitude='geometry.coordinates[0]:Q',
+                latitude='geometry.coordinates[1]:Q',
+                tooltip=alt.Tooltip('properties.stop_name:N')
+            )
+            return points_layer
+
+        # Load GeoJSON data for both lines and points
+        geojson_lines_data = load_geojson_lines(from_city, to_city)
+        geojson_points_data = load_geojson_points(from_city, to_city)
+
+        if geojson_lines_data and geojson_points_data:
+            train_route = create_route_layer(geojson_lines_data)
+            train_stops = create_points_layer(geojson_points_data)
+
+        # Generate the arc line for the plane route if plane data are available
+        if pd.isna(travel_info['Duration_plane_total']) or pd.isna(travel_info['Plane_CO2_kg']):
+            plane_route = alt.Chart(pd.DataFrame()).mark_geoshape()  # Empty placeholder if plane data is missing
+        else:
+            from_coords = [from_city_data['longitude'], from_city_data['latitude']]
+            to_coords = [to_city_data['longitude'], to_city_data['latitude']]
+            arc_points = generate_curved_arc(from_coords, to_coords)
+            arc_data = {'type': 'LineString', 'coordinates': arc_points}
+            plane_route = alt.Chart(alt.Data(values=[arc_data])).mark_geoshape(
+                fill=None,
+                stroke='indianred',
+                strokeWidth=2,
+                strokeDash=[13, 2]
+            ).project(
+                'mercator',
+                scale=projection_params['scale'],
+                center=projection_params['center'],
+                rotate=[5, 0, 0]
+            ).encode(
+                tooltip=alt.value(f"Plane: {from_city} to {to_city}")
+            )
+
+        # Combine the layers in the correct order
+        map_with_selected_cities = base + train_route + train_stops + plane_route + from_point + to_point_plane + to_point_train
 
         # Display the map
         st.altair_chart(map_with_selected_cities, use_container_width=True)

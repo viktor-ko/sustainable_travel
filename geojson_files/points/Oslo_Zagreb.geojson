@@ -1,0 +1,158 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.7524574,
+                    59.911096
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Zagreb",
+                "stop_name": "Oslo",
+                "latitude": 59.911096,
+                "longitude": 10.7524574
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.9733033,
+                    57.7085866
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Zagreb",
+                "stop_name": "Gothenburg Central Station",
+                "latitude": 57.7085866,
+                "longitude": 11.9733033
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    12.9999228,
+                    55.6090669
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Zagreb",
+                "stop_name": "Malm\u00f6 Centralstation",
+                "latitude": 55.6090669,
+                "longitude": 12.9999228
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.0066369,
+                    53.552993
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Zagreb",
+                "stop_name": "Hamburg Central Station",
+                "latitude": 53.552993,
+                "longitude": 10.0066369
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.93578,
+                    49.80155
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Zagreb",
+                "stop_name": "Wurzburg Hbf",
+                "latitude": 49.80155,
+                "longitude": 9.93578
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    11.5599976,
+                    48.1402903
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Zagreb",
+                "stop_name": "M\u00fcnchen Hbf Gl.5-10",
+                "latitude": 48.1402903,
+                "longitude": 11.5599976
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.8486717,
+                    46.6182386
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Zagreb",
+                "stop_name": "Villach Hbf",
+                "latitude": 46.6182386,
+                "longitude": 13.8486717
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.5130102,
+                    46.0586915
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Zagreb",
+                "stop_name": "Ljubljana, Slovenia",
+                "latitude": 46.0586915,
+                "longitude": 14.5130102
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.97851,
+                    45.81491
+                ]
+            },
+            "properties": {
+                "Start": "Oslo",
+                "End": "Zagreb",
+                "stop_name": "Zagreb",
+                "latitude": 45.81491,
+                "longitude": 15.97851
+            }
+        }
+    ]
+}

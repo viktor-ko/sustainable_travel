@@ -79,11 +79,26 @@ def get_projection_params(cities):
     lon_range = max(lons) - min(lons)
     lat_range = max(lats) - min(lats)
 
+    # print(f"Longitude range: {lon_range}, Latitude range: {lat_range}")
+
     # Factor in the latitude difference less because distances shrink closer to the poles
     weighted_lat_range = lat_range * math.cos(math.radians(center_lat))
 
     # Use the larger of the two ranges to determine the scale, adding a buffer to prevent extremes
     max_range = max(lon_range, weighted_lat_range)
+
+    # Define a threshold for large latitude differences (when cities are far apart north-south)
+    lat_threshold = 7  # cities > 7 degrees apart in latitude
+    lon_threshold = 10 # cities < 10 degrees apart in longitude
+
+    if lat_range > lat_threshold and lon_range < lon_threshold:
+        # Case for cities aligned mostly by longitude (far north-south)
+        default_scale = 700
+        default_center = [11, 49]
+        return {
+            'center': default_center,
+            'scale': default_scale
+        }
 
     # Adjust the scale based on the range; larger range -> smaller scale (zoom out)
     scale_factor = 300 / (max_range ** 0.7)
@@ -102,8 +117,8 @@ def get_projection_params(cities):
         'scale': final_scale
     }
 
-# Load GeoJSON route between cities for train
-def load_geojson_route(from_city, to_city):
+# Load GeoJSON route (lines) between cities for train
+def load_geojson_lines(from_city, to_city):
 
     # Replace spaces with underscores for city names
     from_city = from_city.replace(" ", "_")
@@ -112,7 +127,7 @@ def load_geojson_route(from_city, to_city):
     # Special case: always check if "Luxembourg_City" comes first
     if "Luxembourg_City" in [from_city, to_city]:
         luxembourg_first_file_name = f"Luxembourg_City_{from_city if from_city != 'Luxembourg_City' else to_city}.geojson"
-        luxembourg_first_file_path = os.path.join('geojson_files', luxembourg_first_file_name)
+        luxembourg_first_file_path = os.path.join('geojson_files/lines', luxembourg_first_file_name)
 
         if os.path.exists(luxembourg_first_file_path):
             with open(luxembourg_first_file_path, 'r') as f:
@@ -121,7 +136,7 @@ def load_geojson_route(from_city, to_city):
 
     sorted_cities = sorted([from_city, to_city])
     file_name = f"{sorted_cities[0]}_{sorted_cities[1]}.geojson"
-    file_path = os.path.join('geojson_files', file_name)
+    file_path = os.path.join('geojson_files/lines', file_name)
 
     # Load GeoJSON file
     if os.path.exists(file_path):
@@ -131,6 +146,62 @@ def load_geojson_route(from_city, to_city):
     else:
         st.warning(f"No GeoJSON route found for {from_city} to {to_city}")
         return None
+
+# Load GeoJSON route (points) between cities for train
+def load_geojson_points(from_city, to_city):
+
+    # Replace spaces with underscores for city names
+    from_city = from_city.replace(" ", "_")
+    to_city = to_city.replace(" ", "_")
+
+    # Special case: always check if "Luxembourg_City" comes first
+    if "Luxembourg_City" in [from_city, to_city]:
+        luxembourg_first_file_name = f"Luxembourg_City_{from_city if from_city != 'Luxembourg_City' else to_city}.geojson"
+        luxembourg_first_file_path = os.path.join('geojson_files/points', luxembourg_first_file_name)
+
+        if os.path.exists(luxembourg_first_file_path):
+            with open(luxembourg_first_file_path, 'r') as f:
+                geojson_data = json.load(f)
+            return geojson_data
+
+    sorted_cities = sorted([from_city, to_city])
+    file_name = f"{sorted_cities[0]}_{sorted_cities[1]}.geojson"
+    file_path = os.path.join('geojson_files/points', file_name)
+
+    # Load GeoJSON file
+    if os.path.exists(file_path):
+        with open(file_path, 'r') as f:
+            geojson_data = json.load(f)
+        return geojson_data
+    else:
+        st.warning(f"No GeoJSON route found for {from_city} to {to_city}")
+        return None
+
+def calculate_transfers(geojson_data_points):
+    num_points = len(geojson_data_points['features'])
+    transfers = max(0, num_points - 2)  # Subtract 2 for start and end points, ensure it's not negative
+    return transfers
+
+# Generate points for a curved arc
+def generate_curved_arc(from_coords, to_coords, num_points=100, curvature=0.02):
+    # Unpack coordinates
+    lon1, lat1 = np.radians(from_coords)
+    lon2, lat2 = np.radians(to_coords)
+
+    # Create a sequence of t values from 0 to 1
+    t_vals = np.linspace(0, 1, num_points)
+
+    # Calculate intermediate points along the great circle route
+    latitudes = lat1 + (lat2 - lat1) * t_vals
+    longitudes = lon1 + (lon2 - lon1) * t_vals + curvature * np.sin(np.pi * t_vals)  # Add curvature
+
+    # Convert back to degrees
+    latitudes_deg = np.degrees(latitudes)
+    longitudes_deg = np.degrees(longitudes)
+
+    # Combine into a list of coordinates
+    arc_points = [[lon, lat] for lon, lat in zip(longitudes_deg, latitudes_deg)]
+    return arc_points
 
 def double_duration(duration_str):
     hours, minutes = map(int, duration_str.split(':'))

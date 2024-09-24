@@ -1,0 +1,107 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.90573,
+                    43.247
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Brussels",
+                "stop_name": "Bilbao",
+                "latitude": 43.247,
+                "longitude": -2.90573
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.00686,
+                    43.27896
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Brussels",
+                "stop_name": "Errekalde Donostia",
+                "latitude": 43.27896,
+                "longitude": -2.00686
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7818973,
+                    43.3531913
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Brussels",
+                "stop_name": "Hendaye",
+                "latitude": 43.3531913,
+                "longitude": -1.7818973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.4704408,
+                    43.4967821
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Brussels",
+                "stop_name": "Bayonne",
+                "latitude": 43.4967821,
+                "longitude": -1.4704408
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3661971,
+                    48.8416387
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Brussels",
+                "stop_name": "Gare d'Austerlitz",
+                "latitude": 48.8416387,
+                "longitude": 2.3661971
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.33653,
+                    50.83571
+                ]
+            },
+            "properties": {
+                "Start": "Bilbao",
+                "End": "Brussels",
+                "stop_name": "Brussels South/Midi Train Station",
+                "latitude": 50.83571,
+                "longitude": 4.33653
+            }
+        }
+    ]
+}

@@ -1,0 +1,226 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.7314191,
+                    51.0405029
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Madrid",
+                "stop_name": "Dresden",
+                "latitude": 51.0405029,
+                "longitude": 13.7314191
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.663789,
+                    50.107145
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Madrid",
+                "stop_name": "Frankfurt Central Station",
+                "latitude": 50.107145,
+                "longitude": 8.663789
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.25872,
+                    50.00112
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Madrid",
+                "stop_name": "Mainz",
+                "latitude": 50.00112,
+                "longitude": 8.25872
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.991,
+                    49.241
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Madrid",
+                "stop_name": "Europabahnhof Saarbr\u00fccken",
+                "latitude": 49.241,
+                "longitude": 6.991
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.90132,
+                    49.18923
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Madrid",
+                "stop_name": "Forbach",
+                "latitude": 49.18923,
+                "longitude": 6.90132
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.177211,
+                    49.1098282
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Madrid",
+                "stop_name": "Gare de Metz",
+                "latitude": 49.1098282,
+                "longitude": 6.177211
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.35798,
+                    48.87608
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Madrid",
+                "stop_name": "Gare de l'Est",
+                "latitude": 48.87608,
+                "longitude": 2.35798
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.8611177,
+                    45.7605474
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Madrid",
+                "stop_name": "Lyon Part-Dieu",
+                "latitude": 45.7605474,
+                "longitude": 4.8611177
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    4.3662292,
+                    43.832453
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Madrid",
+                "stop_name": "N\u00eemes Station",
+                "latitude": 43.832453,
+                "longitude": 4.3662292
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.00567,
+                    43.19062
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Madrid",
+                "stop_name": "Narbonne",
+                "latitude": 43.19062,
+                "longitude": 3.00567
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    3.157858,
+                    42.424494
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Madrid",
+                "stop_name": "Portbou",
+                "latitude": 42.424494,
+                "longitude": 3.157858
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.8169214,
+                    41.9793477
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Madrid",
+                "stop_name": "Girona",
+                "latitude": 41.9793477,
+                "longitude": 2.8169214
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.70035,
+                    40.41669
+                ]
+            },
+            "properties": {
+                "Start": "Dresden",
+                "End": "Madrid",
+                "stop_name": "Madrid",
+                "latitude": 40.41669,
+                "longitude": -3.70035
+            }
+        }
+    ]
+}

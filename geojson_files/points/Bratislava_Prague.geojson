@@ -1,0 +1,39 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1062057,
+                    48.1586781
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Prague",
+                "stop_name": "Bratislava",
+                "latitude": 48.1586781,
+                "longitude": 17.1062057
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.42046,
+                    50.08781
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Prague",
+                "stop_name": "Prague",
+                "latitude": 50.08781,
+                "longitude": 14.42046
+            }
+        }
+    ]
+}

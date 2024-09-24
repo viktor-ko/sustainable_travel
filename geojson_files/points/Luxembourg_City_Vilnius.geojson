@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.134396,
+                    49.599714
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Vilnius",
+                "stop_name": "Luxembourg City",
+                "latitude": 49.599714,
+                "longitude": 6.134396
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    7.5892709,
+                    50.3507762
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Vilnius",
+                "stop_name": "Koblenz Hbf",
+                "latitude": 50.3507762,
+                "longitude": 7.5892709
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.570185,
+                    50.053167
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Vilnius",
+                "stop_name": "Frankfurt (Main) Airport Fernbahnhof",
+                "latitude": 50.053167,
+                "longitude": 8.570185
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.369444,
+                    52.525556
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Vilnius",
+                "stop_name": "Berlin Central Train Station",
+                "latitude": 52.525556,
+                "longitude": 13.369444
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.002728,
+                    52.228697
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Vilnius",
+                "stop_name": "Warsaw Central",
+                "latitude": 52.228697,
+                "longitude": 21.002728
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.1351217,
+                    53.1341886
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Vilnius",
+                "stop_name": "Bialystok, Poland",
+                "latitude": 53.1341886,
+                "longitude": 23.1351217
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.2484794,
+                    54.6739261
+                ]
+            },
+            "properties": {
+                "Start": "Luxembourg City",
+                "End": "Vilnius",
+                "stop_name": "Savanori\u0173 prospektas 176",
+                "latitude": 54.6739261,
+                "longitude": 25.2484794
+            }
+        }
+    ]
+}

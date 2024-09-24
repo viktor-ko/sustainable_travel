@@ -1,0 +1,107 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.5122127,
+                    46.05823
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Prague",
+                "stop_name": "Ljubljana",
+                "latitude": 46.05823,
+                "longitude": 14.5122127
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.0548417,
+                    46.4363972
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Prague",
+                "stop_name": "Jesenice",
+                "latitude": 46.4363972,
+                "longitude": 14.0548417
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.8486717,
+                    46.6182386
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Prague",
+                "stop_name": "Villach Hbf",
+                "latitude": 46.6182386,
+                "longitude": 13.8486717
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.2790682,
+                    47.4134197
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Prague",
+                "stop_name": "Bruck/Mur",
+                "latitude": 47.4134197,
+                "longitude": 15.2790682
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.8927703,
+                    48.7539316
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Prague",
+                "stop_name": "Breclav",
+                "latitude": 48.7539316,
+                "longitude": 16.8927703
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.4376443,
+                    50.1062626
+                ]
+            },
+            "properties": {
+                "Start": "Ljubljana",
+                "End": "Prague",
+                "stop_name": "Prague, Czechia",
+                "latitude": 50.1062626,
+                "longitude": 14.4376443
+            }
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1062057,
+                    48.1586781
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Riga",
+                "stop_name": "Bratislava",
+                "latitude": 48.1586781,
+                "longitude": 17.1062057
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.8927703,
+                    48.7539316
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Riga",
+                "stop_name": "Breclav",
+                "latitude": 48.7539316,
+                "longitude": 16.8927703
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.6769,
+                    50.30104
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Riga",
+                "stop_name": "Gliwice",
+                "latitude": 50.30104,
+                "longitude": 18.6769
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    20.2316667,
+                    51.3586667
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Riga",
+                "stop_name": "Opoczno Poludnie",
+                "latitude": 51.3586667,
+                "longitude": 20.2316667
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.2842932,
+                    54.6703567
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Riga",
+                "stop_name": "Vilnius Central Train Station",
+                "latitude": 54.6703567,
+                "longitude": 25.2842932
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    23.315468,
+                    55.9228685
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Riga",
+                "stop_name": "Siauliai, Lithuania",
+                "latitude": 55.9228685,
+                "longitude": 23.315468
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    24.111648,
+                    56.9437543
+                ]
+            },
+            "properties": {
+                "Start": "Bratislava",
+                "End": "Riga",
+                "stop_name": "Riga, Latvia",
+                "latitude": 56.9437543,
+                "longitude": 24.111648
+            }
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.12235,
+                    38.71436
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Paris",
+                "stop_name": "Lisbon",
+                "latitude": 38.71436,
+                "longitude": -9.12235
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -9.0993449,
+                    38.7678423
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Paris",
+                "stop_name": "Lisboa Oriente",
+                "latitude": 38.7678423,
+                "longitude": -9.0993449
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.5450912,
+                    41.4551132
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Paris",
+                "stop_name": "Nine",
+                "latitude": 41.4551132,
+                "longitude": -8.5450912
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.7118853,
+                    42.2391063
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Paris",
+                "stop_name": "Vigo, Spain",
+                "latitude": 42.2391063,
+                "longitude": -8.7118853
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.909923,
+                    41.317617
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Paris",
+                "stop_name": "Estaci\u00f3n de tren Medina del Campo",
+                "latitude": 41.317617,
+                "longitude": -4.909923
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.91784,
+                    43.31818
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Paris",
+                "stop_name": "Pasaia",
+                "latitude": 43.31818,
+                "longitude": -1.91784
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7818973,
+                    43.3531913
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Paris",
+                "stop_name": "Hendaye",
+                "latitude": 43.3531913,
+                "longitude": -1.7818973
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.32439,
+                    48.84392
+                ]
+            },
+            "properties": {
+                "Start": "Lisbon",
+                "End": "Paris",
+                "stop_name": "Montparnasse - Bienven\u00fce",
+                "latitude": 48.84392,
+                "longitude": 2.32439
+            }
+        }
+    ]
+}
