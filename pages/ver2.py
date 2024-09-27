@@ -126,8 +126,8 @@ with charts:
 
             # Create the duration bar chart
             duration_chart = alt.Chart(duration_data).mark_bar().encode(
-                y=alt.Y('Mode', title=None, axis=alt.Axis(labelFontSize=13)),
-                x=alt.X('Duration_minutes:Q', title=None,
+                x=alt.X('Mode', title=None, axis=alt.Axis(labelFontSize=15, labelAngle=0)),
+                y=alt.Y('Duration_minutes:Q', title=None,
                         axis=alt.Axis(values=tick_values, labelExpr=labelExpr)),
                 tooltip=[alt.Tooltip('Duration', title='Duration'), alt.Tooltip('Mode', title='Mode')],
                 color=alt.Color('Mode', legend=None).scale(range=colors),
@@ -137,28 +137,20 @@ with charts:
 
             # Add data labels to the duration chart
             duration_labels = alt.Chart(duration_data).mark_text(
-                align='right',
+                align='center',
                 baseline='middle',
-                color='black',
-                dx= -5
+                color='white',
+                size=14,
+                dy= 15
             ).encode(
-                y=alt.Y('Mode', title=None),
-                x=alt.X('Duration_minutes:Q'),
+                x=alt.X('Mode', title=None),
+                y=alt.Y('Duration_minutes:Q'),
                 text=alt.Text('Duration'),
                 tooltip = alt.value('')
             )
 
             # Combine bar chart with labels
             duration_combined_chart = duration_chart + duration_labels
-            st.altair_chart(duration_combined_chart, use_container_width=True)
-
-            # Add note below chart
-            note = "<p style='font-family: monospace; font-size: small;'>Plane duration includes +3h for getting to/from the airport, security check and boarding</p>"
-            note_round = "<p style='font-family: monospace; font-size: small;'>Plane duration includes +6h for getting to/from the airport, security check and boarding</p>"
-            if round_trip:
-                st.markdown(note_round, unsafe_allow_html=True)
-            else:
-                st.markdown(note, unsafe_allow_html=True)
 
             # Create emissions bar chart
             emissions_data = pd.DataFrame({
@@ -167,8 +159,8 @@ with charts:
             })
 
             emissions_chart = alt.Chart(emissions_data).mark_bar().encode(
-                x=alt.X('CO2_kg', title=None),
-                y=alt.Y('Mode', title=None, axis=alt.Axis(labelFontSize=13)),
+                y=alt.Y('CO2_kg', title=None, axis=alt.Axis(orient='right')),
+                x=alt.X('Mode', title=None, axis=alt.Axis(labelFontSize=15, labelAngle=0)),
                 color=alt.Color('Mode', legend=None).scale(
                     range=colors
                 )
@@ -178,13 +170,14 @@ with charts:
 
             # Add data labels to the emissions chart
             emissions_labels = alt.Chart(emissions_data).mark_text(
-                align='right',
+                align='center',
                 baseline='middle',
-                color='black',
-                dx= -5
+                color='white',
+                size=14,
+                dy=15
             ).encode(
-                y=alt.Y('Mode', title=None),
-                x=alt.X('CO2_kg'),
+                x=alt.X('Mode', title=None),
+                y=alt.Y('CO2_kg'),
                 tooltip = alt.value('')
             ).transform_calculate(
                 label="round(datum.CO2_kg) + ' kg'" # Concatenate "kg" to the CO2 value
@@ -194,7 +187,21 @@ with charts:
 
             # Combine bar chart with labels
             emissions_combined_chart = emissions_chart + emissions_labels
-            st.altair_chart(emissions_combined_chart, use_container_width=True)
+
+            #Display charts
+            col1, col2 = st.columns(2, gap='medium')
+            with col1:
+                st.altair_chart(duration_combined_chart, use_container_width=True)
+            with col2:
+                st.altair_chart(emissions_combined_chart, use_container_width=True)
+
+            # Add note below chart
+            note = "<p style='font-family: monospace; font-size: small;'>Plane duration includes +3h for getting to/from the airport, security check and boarding</p>"
+            note_round = "<p style='font-family: monospace; font-size: small;'>Plane duration includes +6h for getting to/from the airport, security check and boarding</p>"
+            if round_trip:
+                st.markdown(note_round, unsafe_allow_html=True)
+            else:
+                st.markdown(note, unsafe_allow_html=True)
 
         else:
             st.write(f"No travel data available for the route from {from_city} to {to_city}.")
@@ -356,9 +363,9 @@ with maps:
 expander = st.expander("Calculation Methodology and Data Sources")
 expander.write('''
 Emissions data for all travel routes was obtained using the [Travel CO2 API](https://travelco2.com/documentation). 
-According to their [methodology](https://travelco2.com/met/Methodology-Report-for-Travel-and-Climate-Version-4.pdf), CO2 emissions are estimated as follows:  
-- **Train**: **24** g CO2e per passenger-km  
-- **Plane**: **127** g CO2e per passenger-km (for an Economy scheduled flight, which is the default option).
+According to their [methodology](https://travelco2.com/met/Methodology-Report-for-Travel-and-Climate-Version-4.pdf), the following CO2 emission factors are used:  
+- **Train** - **24** g CO2e per passenger-km  
+- **Plane** - **127** g CO2e per passenger-km (Economy scheduled flight).
 
 Information about the average flight times between airports was collected from the [AeroDataBox API](https://aerodatabox.com/).
 

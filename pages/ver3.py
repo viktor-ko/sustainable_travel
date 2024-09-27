@@ -135,9 +135,10 @@ with charts:
             plane_tick = alt.Chart(new_duration_data).transform_filter(
                 alt.datum.Mode == 'Plane'
             ).mark_tick(
-                thickness=10,  # Adjust the thickness of the tick
-                size=40,  # Control the height of the tick
-                color='indianred'  # Set the color for the plane tick
+                thickness=7, #width
+                size=35, #height
+                opacity=1,
+                color='indianred'
             ).encode(
                 x=alt.X('Duration_minutes:Q', title=None),
                 tooltip=[alt.Tooltip('Duration', title='Plane Duration')]
@@ -324,7 +325,7 @@ with maps:
 
         # train route transfer points
         train_stops = alt.Chart(alt.Data(values=geojson_points_data['features'])).mark_circle(
-            color='mediumseagreen',
+            color='#728370',
             size=100,
             opacity=0.7
         ).project(
@@ -379,9 +380,9 @@ with maps:
 expander = st.expander("Calculation Methodology and Data Sources")
 expander.write('''
 Emissions data for all travel routes was obtained using the [Travel CO2 API](https://travelco2.com/documentation). 
-According to their [methodology](https://travelco2.com/met/Methodology-Report-for-Travel-and-Climate-Version-4.pdf), CO2 emissions are estimated as follows:  
-- **Train**: **24** g CO2e per passenger-km  
-- **Plane**: **127** g CO2e per passenger-km (for an Economy scheduled flight, which is the default option).
+According to their [methodology](https://travelco2.com/met/Methodology-Report-for-Travel-and-Climate-Version-4.pdf), the following CO2 emission factors are used:  
+- **Train** - **24** g CO2e per passenger-km  
+- **Plane** - **127** g CO2e per passenger-km (Economy scheduled flight).
 
 Information about the average flight times between airports was collected from the [AeroDataBox API](https://aerodatabox.com/).
 

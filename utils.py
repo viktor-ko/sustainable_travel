@@ -227,7 +227,7 @@ def duration_to_minutes(duration_str):
     hours, minutes = map(int, duration_str.split(':'))
     return hours * 60 + minutes
 
-# Determine dynamic tick intervals for bar charts
+# Custom tick intervals for duration bar charts based on travel time
 def calculate_tick_values(min_value, max_value):
     range_span = max_value - min_value
     if range_span <= 180:

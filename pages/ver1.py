@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 
-from utils import hide_page_links_style, cities, trip_data, coordinates_data, normalize_city_pair, double_duration, \
+from utils import cities, trip_data, coordinates_data, normalize_city_pair, double_duration, \
     create_base_map, duration_to_str, duration_to_minutes, calculate_tick_values, get_projection_params, load_geojson_lines, \
     load_geojson_points, generate_curved_arc, calculate_transfers
 
@@ -403,9 +403,9 @@ with maps:
 
         # train route transfer points
         train_stops = alt.Chart(alt.Data(values=geojson_points_data['features'])).mark_circle(
-            color='mediumseagreen',
+            color='#728370',
             size=100,
-            opacity=0.7
+            opacity=0.8
         ).project(
             'mercator',
             scale=projection_params['scale'],
@@ -458,9 +458,9 @@ with maps:
 expander = st.expander("Calculation Methodology and Data Sources")
 expander.write('''
 Emissions data for all travel routes was obtained using the [Travel CO2 API](https://travelco2.com/documentation). 
-According to their [methodology](https://travelco2.com/met/Methodology-Report-for-Travel-and-Climate-Version-4.pdf), CO2 emissions are estimated as follows:  
-- **Train**: **24** g CO2e per passenger-km  
-- **Plane**: **127** g CO2e per passenger-km (for an Economy scheduled flight, which is the default option).
+According to their [methodology](https://travelco2.com/met/Methodology-Report-for-Travel-and-Climate-Version-4.pdf), the following CO2 emission factors are used:  
+- **Train** - **24** g CO2e per passenger-km  
+- **Plane** - **127** g CO2e per passenger-km (Economy scheduled flight).
 
 Information about the average flight times between airports was collected from the [AeroDataBox API](https://aerodatabox.com/).
 
