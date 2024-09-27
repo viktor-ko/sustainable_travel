@@ -31,7 +31,7 @@ trip_data['route'] = trip_data.apply(lambda row: normalize_city_pair(row['City_1
 cities = coordinates_data['city'].unique()
 
 # Function to create the base map with all cities
-def create_base_map():
+def create_base_map(from_city, to_city):
     # Load TopoJSON of Europe
     europe = alt.topo_feature('https://dmws.hkvservices.nl/dataportal/data.asmx/read?database=vega&key=europe', 'europe')
     base = alt.Chart(europe).mark_geoshape(
@@ -50,7 +50,7 @@ def create_base_map():
     )
     # Add cities
     points = alt.Chart(coordinates_data).mark_circle(
-        color='#FF6F61',
+        # color='#FF6F61',
         size=150,
         opacity=0.9
     ).project(
@@ -61,7 +61,12 @@ def create_base_map():
     ).encode(
         longitude='longitude:Q',
         latitude='latitude:Q',
-        tooltip=['city:N']
+        tooltip=['city:N'],
+        color=alt.condition(
+            (alt.datum.city == from_city) | (alt.datum.city == to_city),
+            alt.value('#FF3421'),  # brighter color for selected cities
+            alt.value('#FFA9A0') # color for other cities
+        )
     )
     return base + points
 
@@ -149,6 +154,8 @@ def load_geojson_lines(from_city, to_city):
 
 # Load GeoJSON route (points) between cities for train
 def load_geojson_points(from_city, to_city):
+    if not from_city or not to_city:
+        return None
 
     # Replace spaces with underscores for city names
     from_city = from_city.replace(" ", "_")
@@ -192,8 +199,8 @@ def generate_curved_arc(from_coords, to_coords, num_points=100, curvature=0.02):
     t_vals = np.linspace(0, 1, num_points)
 
     # Calculate intermediate points along the great circle route
-    latitudes = lat1 + (lat2 - lat1) * t_vals
-    longitudes = lon1 + (lon2 - lon1) * t_vals + curvature * np.sin(np.pi * t_vals)  # Add curvature
+    latitudes = lat1 + (lat2 - lat1) * t_vals + curvature * np.sin(np.pi * t_vals) # Add curvature
+    longitudes = lon1 + (lon2 - lon1) * t_vals
 
     # Convert back to degrees
     latitudes_deg = np.degrees(latitudes)
