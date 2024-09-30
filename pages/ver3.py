@@ -238,7 +238,7 @@ with maps:
         projection_params = get_projection_params(cities)
 
         # create the route map with 2 cities
-        europe = alt.topo_feature('https://dmws.hkvservices.nl/dataportal/data.asmx/read?database=vega&key=europe', 'europe')
+        europe = alt.topo_feature('https://raw.githubusercontent.com/leakyMirror/map-of-europe/refs/heads/master/TopoJSON/europe.topojson', 'europe')
         base = alt.Chart(europe).mark_geoshape(
             fill='lightgray',
             stroke='white',

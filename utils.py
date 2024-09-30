@@ -33,7 +33,8 @@ cities = coordinates_data['city'].unique()
 # Function to create the base map with all cities
 def create_base_map(from_city, to_city):
     # Load TopoJSON of Europe
-    europe = alt.topo_feature('https://dmws.hkvservices.nl/dataportal/data.asmx/read?database=vega&key=europe', 'europe')
+    europe = alt.topo_feature('https://raw.githubusercontent.com/leakyMirror/map-of-europe/refs/heads/master/TopoJSON/europe.topojson','europe')
+
     base = alt.Chart(europe).mark_geoshape(
         fill='lightgray',
         stroke='white',
