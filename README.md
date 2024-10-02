@@ -43,8 +43,24 @@ Route planning is limited to 29 European cities:
 -	Zagreb
 
 ## Project Structure
-
+```sh
+└── sustainable_travel/
+    ├── data
+    │   ├── coordinates.csv
+    │   └── trips_data.csv
+    ├── geojson_files
+    │   ├── lines
+    │   └── points
+    ├── pages
+    │   ├── ver1.py
+    │   ├── ver2.py
+    │   └── ver3.py
+    ├── data_gathering.ipynb
+    ├── streamlit_app.py
+    └── utils.py
+```
 - `streamlit_app.py`: Main application file.
+- `pages/`:
 - `data_gathering.ipynb`: Jupyter notebook with scripts for data processing
 - `data/`: Directory containing the CSV files for trips and coordinates data.
 - `geojson_files/`: Directory containing GeoJSON files for routes between cities.
