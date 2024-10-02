@@ -1,17 +1,46 @@
 # Sustainable Travel Planner
 
-This project is a web application that helps users compare the CO2 emissions and travel duration between train and plane for their trips. The application is built using [Streamlit](https://streamlit.io/), data visualisations are made in [Vega-Altair](https://altair-viz.github.io/).
+This project is a web application that helps users compare the carbon emissions and travel duration between train and plane for their trips. The application is built using [Streamlit](https://streamlit.io/), data visualisations are made in [Vega-Altair](https://altair-viz.github.io/).
 
 ## Features
 
-- Compare CO2 emissions and travel duration between train and plane.
+- Compare carbon emissions and travel duration between train and plane.
 - Visualize travel routes on a map.
 - Support for round trips and multiple passengers.
 - Dynamic updates based on selected cities.
 
 ## Scope and Limitations
 
-- Route planning is limited to 29 cities in mainland Europe within the Schengen area (plus London and Istanbul), with an international airport and direct rail connection (without ferry crossing).
+Route planning is limited to 29 European cities:
+-	Amsterdam
+-	Berlin
+-	Bern
+-	Bilbao
+-	Bratislava
+-	Brussels
+-	Bucharest
+-	Budapest
+-	Copenhagen
+-	Dresden
+-	Istanbul
+-	Lisbon
+-	Ljubljana
+-	London
+-	Luxembourg City
+-	Madrid
+-	Munich
+-	Oslo
+-	Paris
+-	Prague
+-	Riga
+-	Rome
+-	Sofia
+-	Stockholm
+-	Tallinn
+-	Vienna
+-	Vilnius
+-	Warsaw
+-	Zagreb
 
 ## Project Structure
 
