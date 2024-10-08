@@ -1,6 +1,8 @@
 # Sustainable Travel Planner
+![image](https://github.com/user-attachments/assets/678ea5cc-c919-48bb-9972-441a826a0d94)
+This project is part of a [Cartography MSc.](https://cartographymaster.eu/) thesis "Maps for sustainable business travel advice", conducted by Viktor Kochkin at the University of Twente (October 2024).
 
-This project is a web application that helps users compare the carbon emissions and travel duration between train and plane for their trips. The application is built using [Streamlit](https://streamlit.io/), data visualisations are made in [Vega-Altair](https://altair-viz.github.io/).
+Sustainable Travel Planner helps users compare train and plane carbon emissions and travel duration. The application is built using [Streamlit](https://streamlit.io/), map and charts are created in [Vega-Altair](https://altair-viz.github.io/).
 
 ## Features
 
@@ -46,30 +48,19 @@ Route planning is limited to 29 European cities:
 ```sh
 └── sustainable_travel/
     ├── data
-    │   ├── coordinates.csv
-    │   └── trips_data.csv
+    │   ├── coordinates.csv #coordinates of 29 cities for the map
+    │   └── trips_data.csv  #plane and train travel time and emissions data for 406 city pairs
     ├── geojson_files
-    │   ├── lines
-    │   └── points
+    │   ├── lines #train routes lines
+    │   └── points #train routes transfer points
     ├── pages
-    │   ├── ver1.py
-    │   ├── ver2.py
-    │   └── ver3.py
-    ├── data_gathering.ipynb
-    ├── streamlit_app.py
-    └── utils.py
+    │   ├── ver1.py    #Prototype version 1
+    │   ├── ver2.py    #Prototype version 2
+    │   └── ver3.py    #Prototype version 3
+    ├── data_gathering.ipynb   # data processing scripts in jupyter notebook with
+    ├── streamlit_app.py    #Main streamlit page
+    └── utils.py        #Functions used across all prototype versions
 ```
-- `streamlit_app.py`: Main application file.
-- `pages/`:
-- `data_gathering.ipynb`: Jupyter notebook with scripts for data processing
-- `data/`: Directory containing the CSV files for trips and coordinates data.
-- `geojson_files/`: Directory containing GeoJSON files for routes between cities.
-
-## Data
-
-- `data/trips_data.csv`: Contains trip data, including city pairs, travel durations, and CO2 emissions.
-- `data/coordinates.csv`: Contains coordinates data for cities.
-
 ### Data Flow
 
 1. **Loading Data**:
