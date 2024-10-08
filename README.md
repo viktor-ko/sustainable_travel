@@ -4,12 +4,35 @@ This project is part of a [Cartography MSc.](https://cartographymaster.eu/) thes
 
 Sustainable Travel Planner helps users compare train and plane carbon emissions and travel duration. The application is built using [Streamlit](https://streamlit.io/), map and charts are created in [Vega-Altair](https://altair-viz.github.io/).
 
+For user testing, three versions of the sustainable travel planner were created with different data visualisations:
+- [Version 1](https://sustainable-travel.streamlit.app/ver1)
+- [Version 2](https://sustainable-travel.streamlit.app/ver2)
+- [Version 3](https://sustainable-travel.streamlit.app/ver3)
+
 ## Features
 
 - Compare carbon emissions and travel duration between train and plane.
 - Visualize travel routes on a map.
 - Support for round trips and multiple passengers.
 - Dynamic updates based on selected cities.
+
+## Project Structure
+```sh
+└── sustainable_travel/
+    ├── data
+    │   ├── coordinates.csv #Coordinates of 29 cities for the map
+    │   └── trips_data.csv  #Plane and train travel time and emissions data for 406 city pairs
+    ├── geojson_files
+    │   ├── lines #Train routes lines
+    │   └── points #Train routes transfer points
+    ├── pages
+    │   ├── ver1.py    #Prototype version 1
+    │   ├── ver2.py    #Prototype version 2
+    │   └── ver3.py    #Prototype version 3
+    ├── data_gathering.ipynb   #Data preparation scripts in jupyter notebook
+    ├── streamlit_app.py    #Main Streamlit page
+    └── utils.py        #Functions used across all prototype versions
+```
 
 ## Scope and Limitations
 
@@ -44,23 +67,6 @@ Route planning is limited to 29 European cities:
 -	Warsaw
 -	Zagreb
 
-## Project Structure
-```sh
-└── sustainable_travel/
-    ├── data
-    │   ├── coordinates.csv #coordinates of 29 cities for the map
-    │   └── trips_data.csv  #plane and train travel time and emissions data for 406 city pairs
-    ├── geojson_files
-    │   ├── lines #train routes lines
-    │   └── points #train routes transfer points
-    ├── pages
-    │   ├── ver1.py    #Prototype version 1
-    │   ├── ver2.py    #Prototype version 2
-    │   └── ver3.py    #Prototype version 3
-    ├── data_gathering.ipynb   # data processing scripts in jupyter notebook with
-    ├── streamlit_app.py    #Main streamlit page
-    └── utils.py        #Functions used across all prototype versions
-```
 ### Data Flow
 
 1. **Loading Data**:
