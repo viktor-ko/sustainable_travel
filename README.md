@@ -1,5 +1,4 @@
 # Sustainable Travel Planner
-![](https://github.com/viktor-ko/sustainable_travel/blob/master/data/prototype.gif)
 ![image](https://github.com/user-attachments/assets/678ea5cc-c919-48bb-9972-441a826a0d94)
 This project is part of a [Cartography MSc.](https://cartographymaster.eu/) thesis "Maps for sustainable business travel advice", conducted by Viktor Kochkin at the University of Twente (October 2024).
 
