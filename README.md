@@ -1,5 +1,6 @@
 # Sustainable Travel Planner
-![image](https://github.com/user-attachments/assets/678ea5cc-c919-48bb-9972-441a826a0d94)
+https://github.com/user-attachments/assets/63a85799-c62c-4095-b6a0-bca5c5cd7959
+
 This project is part of a [Cartography MSc.](https://cartographymaster.eu/) thesis "Maps for sustainable business travel advice", conducted by Viktor Kochkin at the University of Twente (October 2024).
 
 Sustainable Travel Planner helps users compare train and plane carbon emissions and travel duration. The application is built using [Streamlit](https://streamlit.io/), map and charts are created in [Vega-Altair](https://altair-viz.github.io/).
