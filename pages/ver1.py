@@ -1,6 +1,6 @@
 import streamlit as st
-import pandas as pd
 import altair as alt
+import pandas as pd
 
 from utils import cities, trip_data, coordinates_data, normalize_city_pair, double_duration, \
     create_base_map, duration_to_str, duration_to_minutes, calculate_tick_values, get_projection_params, load_geojson_lines, \
@@ -56,15 +56,7 @@ with search:
     # Button to trigger search
     search_clicked = st.button('Search')
 
-    # # Calculate the number of transfers based on points in GeoJSON data
-    # geojson_data_points = load_geojson_points(from_city, to_city)
-    #
-    # if search_clicked and geojson_data_points:
-    #     transfers = calculate_transfers(geojson_data_points)
-    #     st.metric(label="Train Transfers:", value=transfers)
-
 with charts:
-
     #Travel Data
     if search_clicked and from_city and to_city:
         route = normalize_city_pair(from_city, to_city)
@@ -152,47 +144,6 @@ with charts:
             duration_combined_chart = duration_chart + duration_labels
             st.altair_chart(duration_combined_chart, use_container_width=True)
 
-            # new_duration_data = pd.DataFrame({
-            #     'Mode': ['Train', 'Plane'],
-            #     'Duration_minutes': [duration_to_minutes(train_duration),
-            #                          duration_to_minutes(plane_duration) if plane_duration != "N/A" else 0],
-            #     'Duration': [train_duration, plane_duration]
-            # })
-            #
-            # # Create a bar chart for train travel time
-            # train_bar = alt.Chart(new_duration_data).transform_filter(
-            #     alt.datum.Mode == 'Train'
-            # ).mark_bar().encode(
-            #     y=alt.Y('Mode:N', title=None, axis=None),
-            #     x=alt.X('Duration_minutes:Q', title=None,
-            #             axis=alt.Axis(values=tick_values, labelExpr=labelExpr)),
-            #     tooltip=[alt.Tooltip('Duration', title='Train Duration')],
-            #     color=alt.value('forestgreen')  # Set the color for the train bar
-            # ).properties(
-            #     title='Train & Plane Duration'
-            # )
-            #
-            # # Create a thick tick for plane travel time
-            # plane_tick = alt.Chart(new_duration_data).transform_filter(
-            #     alt.datum.Mode == 'Plane'
-            # ).mark_tick(
-            #     thickness=10,  # Adjust the thickness of the tick
-            #     size=40,  # Control the height of the tick
-            #     color='indianred'  # Set the color for the plane tick
-            # ).encode(
-            #     x=alt.X('Duration_minutes:Q', title=None),
-            #     tooltip=[alt.Tooltip('Duration', title='Plane Duration')]
-            # )
-            #
-            # # Layer the train bar and plane tick
-            # new_chart = alt.layer(
-            #     train_bar,
-            #     plane_tick
-            # )
-            #
-            # # Display the chart in Streamlit
-            # st.altair_chart(new_chart, use_container_width=True)
-
             # Add note below chart
             note = "<p style='font-family: monospace; font-size: small;'>Plane duration includes +3h for getting to/from the airport, security check and boarding</p>"
             note_round = "<p style='font-family: monospace; font-size: small;'>Plane duration includes +6h for getting to/from the airport, security check and boarding</p>"
@@ -236,52 +187,6 @@ with charts:
             # Combine bar chart with labels
             emissions_combined_chart = emissions_chart + emissions_labels
             st.altair_chart(emissions_combined_chart, use_container_width=True)
-
-        #     # Sample data for circle chart
-        #     data = pd.DataFrame({
-        #         'Mode': ['🚂', '✈️'],
-        #         'CO2_kg': [train_co2, plane_co2]
-        #     })
-        #
-        #     # Create Altair chart with circle marks
-        #     circle_chart = alt.Chart(data).mark_circle().encode(
-        #         x=alt.X('Mode:N', title=None, axis=alt.Axis(labelAngle=0, labelFontSize=15)),
-        #         y=alt.value(50),
-        #         size=alt.Size('CO2_kg:Q', scale=alt.Scale(range=[0, 10000]), legend=None),
-        #         tooltip=['Mode:N', 'CO2_kg:Q'],
-        #         color=alt.Color('Mode', legend=None).scale(
-        #             range=colors
-        #         )
-        #     ).properties(
-        #         height=200,
-        #         title='Carbon Emissions'
-        # )
-        #     # Add data labels inside the circles
-        #     labels = alt.Chart(data).mark_text(
-        #         align='center',
-        #         baseline='middle',
-        #         color='white',
-        #         fontSize=20
-        #     ).transform_calculate(
-        #         label="round(datum.CO2_kg) + ' kg'"
-        #     ).encode(
-        #         x=alt.X('Mode:N', title=None),  # Same x-axis as circles
-        #         y=alt.value(50),  # Keep labels aligned horizontally, matching circle position
-        #         text=alt.Text('label:N'),
-        #         tooltip=alt.value('')  # Disable tooltip on the text layer
-        #     )
-        #
-        #     # Combine the circles and labels into a single chart
-        #     final_chart = (circle_chart + labels).properties(
-        #         height=200
-        #     ).configure_axis(
-        #         grid=False,
-        #         title=None  # Remove axis title
-        #     )
-        #
-        #     # Display chart in Streamlit
-        #     st.altair_chart(final_chart, use_container_width=True)
-
         else:
             st.write(f"No travel data available for the route from {from_city} to {to_city}.")
     elif search_clicked:

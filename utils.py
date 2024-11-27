@@ -1,6 +1,6 @@
 import streamlit as st
-import pandas as pd
 import altair as alt
+import pandas as pd
 import numpy as np
 import json
 import os
@@ -30,7 +30,7 @@ trip_data['route'] = trip_data.apply(lambda row: normalize_city_pair(row['City_1
 # Get unique cities for the select boxes
 cities = coordinates_data['city'].unique()
 
-# Function to create the base map with all cities
+#create the base map with all cities
 def create_base_map(from_city, to_city):
     # Load TopoJSON of Europe
     europe = alt.topo_feature('https://raw.githubusercontent.com/leakyMirror/map-of-europe/refs/heads/master/TopoJSON/europe.topojson', 'europe')
@@ -70,7 +70,7 @@ def create_base_map(from_city, to_city):
     )
     return base + points
 
-# calculate the center (mean lat/lon) and scale based on point spread
+# calculate the map center (mean lat/lon) and scale based on point spread
 def get_projection_params(cities):
     # Get longitude and latitude values
     lons = [city['lon'] for city in cities]

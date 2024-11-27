@@ -161,7 +161,7 @@ with charts:
             else:
                 st.markdown(note, unsafe_allow_html=True)
 
-            # Create emissions bar chart
+            # Create emissions area circle chart
             data = pd.DataFrame({
                 'Mode': ['🚂', '✈️'],
                 'CO2_kg': [train_co2, plane_co2]
