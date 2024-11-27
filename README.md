@@ -3,12 +3,12 @@ https://github.com/user-attachments/assets/63a85799-c62c-4095-b6a0-bca5c5cd7959
 
 This project is part of a [Cartography MSc.](https://cartographymaster.eu/) thesis "Maps for sustainable business travel advice", conducted by Viktor Kochkin at the University of Twente (October 2024).
 
-Sustainable Travel Planner helps users compare train and plane carbon emissions and travel duration. The application is built using [Streamlit](https://streamlit.io/), map and charts are created in [Vega-Altair](https://altair-viz.github.io/).
+[Sustainable Travel Planner](https://sustainable-travel.streamlit.app/) helps users compare train and plane carbon emissions and travel duration. The application is built using [Streamlit](https://streamlit.io/), map and charts are created in [Vega-Altair](https://altair-viz.github.io/).
 
 For user testing, three versions of the sustainable travel planner were created with different data visualisations:
-- [Version 1](https://sustainable-travel.streamlit.app/ver1)
-- [Version 2](https://sustainable-travel.streamlit.app/ver2)
-- [Version 3](https://sustainable-travel.streamlit.app/ver3)
+- [Version 1](https://sustainable-travel.streamlit.app/ver1): horizontal bar charts
+- [Version 2](https://sustainable-travel.streamlit.app/ver2): vertical bar charts
+- [Version 3](https://sustainable-travel.streamlit.app/ver3): bullet chart and proportion area circles
 
 ## Features
 
@@ -20,55 +20,60 @@ For user testing, three versions of the sustainable travel planner were created 
 ## Project Structure
 ```sh
 └── sustainable_travel/
+    ├── streamlit_app.py    #Streamlit app main script
+    ├── utils.py        #Functions for data loading, normalization, and map creation
+    ├── data_gathering.ipynb   #Data preparation scripts in jupyter notebook
     ├── data
     │   ├── coordinates.csv #Coordinates of 29 cities for the map
     │   └── trips_data.csv  #Plane and train travel time and emissions data for 406 city pairs
     ├── geojson_files
-    │   ├── lines #Train routes lines
+    │   ├── lines  #Train routes polylines
     │   └── points #Train routes transfer points
-    ├── pages
-    │   ├── ver1.py    #Prototype version 1
-    │   ├── ver2.py    #Prototype version 2
-    │   └── ver3.py    #Prototype version 3
-    ├── data_gathering.ipynb   #Data preparation scripts in jupyter notebook
-    ├── streamlit_app.py    #Main Streamlit page
-    └── utils.py        #Functions used across all prototype versions
+    └── pages # Different prototype versions for user testing
+        ├── ver1.py
+        ├── ver2.py
+        └── ver3.py
+
 ```
 
 ## Scope and Limitations
 
-Route planning is limited to 29 European cities:
--	Amsterdam
--	Berlin
--	Bern
--	Bilbao
--	Bratislava
--	Brussels
--	Bucharest
--	Budapest
--	Copenhagen
--	Dresden
--	Istanbul
--	Lisbon
--	Ljubljana
--	London
--	Luxembourg City
--	Madrid
--	Munich
--	Oslo
--	Paris
--	Prague
--	Riga
--	Rome
--	Sofia
--	Stockholm
--	Tallinn
--	Vienna
--	Vilnius
--	Warsaw
--	Zagreb
+<details>
+<summary>Route planning is limited to 29 European cities:</summary>
+-	Amsterdam <br>
+-	Bern <br>
+-	Bilbao <br>
+-	Bratislava <br>
+-	Brussels <br>
+-	Bucharest <br>
+-	Budapest <br>
+-	Copenhagen <br>
+-	Dresden <br>
+-	Istanbul <br>
+-	Lisbon <br>
+-	Ljubljana <br>
+-	London <br>
+-	Luxembourg City <br>
+-	Madrid <br>
+-	Munich <br>
+-	Oslo <br>
+-	Paris <br>
+-	Prague <br>
+-	Riga <br>
+-	Rome <br>
+-	Sofia <br>
+-	Stockholm <br>
+-	Tallinn <br>
+-	Vienna <br>
+-	Vilnius <br>
+-	Warsaw <br>
+-	Zagreb <br>
+</details>
 
-### Data Flow
+
+
+
+## Data Flow
 
 1. **Loading Data**:
    - The trip and coordinates data are loaded from CSV files into Pandas DataFrames.
