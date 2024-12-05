@@ -8,7 +8,7 @@ For user testing, three versions of the sustainable travel planner were created 
 - [Version 2](https://sustainable-travel.streamlit.app/ver2): vertical bar charts
 - [Version 3](https://sustainable-travel.streamlit.app/ver3): bullet chart and proportion area circles
 
-This project is part of a [Cartography MSc.](https://cartographymaster.eu/) thesis "Maps for sustainable business travel advice", conducted by Viktor Kochkin at the University of Twente (October 2024).
+This tool is part of a [Cartography MSc.](https://cartographymaster.eu/) thesis "[Maps for sustainable business travel advice](https://cartographymaster.eu/wp-content/theses/2024_Kochkin_Thesis.pdf)" ([Poster](https://cartographymaster.eu/wp-content/theses/2024_Kochkin_Poster.pdf), [Presentation](https://cartographymaster.eu/wp-content/theses/2024_Kochkin_Presentation.pdf)), conducted by Viktor Kochkin at the [ITC, University of Twente](https://www.itc.nl).
 
 ## Features
 
