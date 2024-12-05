@@ -3,7 +3,7 @@ https://github.com/user-attachments/assets/63a85799-c62c-4095-b6a0-bca5c5cd7959
 
 [Sustainable Travel Planner](https://sustainable-travel.streamlit.app/) helps users compare train and plane carbon emissions and travel duration. The application is built using [Streamlit](https://streamlit.io/), map and charts are created in [Vega-Altair](https://altair-viz.github.io/).
 
-For user testing, three versions of the sustainable travel planner were created with different data visualisations:
+Three versions of the sustainable travel planner with different data visualisations were created for user testing:
 - [Version 1](https://sustainable-travel.streamlit.app/ver1): horizontal bar charts
 - [Version 2](https://sustainable-travel.streamlit.app/ver2): vertical bar charts
 - [Version 3](https://sustainable-travel.streamlit.app/ver3): bullet chart and proportion area circles
@@ -33,7 +33,6 @@ This tool is part of a [Cartography MSc.](https://cartographymaster.eu/) thesis 
         ├── ver1.py
         ├── ver2.py
         └── ver3.py
-
 ```
 
 ## Scope and Limitations
